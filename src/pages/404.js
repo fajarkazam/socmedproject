@@ -42,7 +42,7 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<script async={false} place={"endOfHead"} rawKey={"6461999ed6a6c13598cb54e0"}>
+			<script async={true} place={"endOfHead"} rawKey={"6461999ed6a6c13598cb54e0"}>
 				{"<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-J8PVZ5GPK2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-J8PVZ5GPK2');\n</script>"}
 			</script>
 		</RawHtml>
