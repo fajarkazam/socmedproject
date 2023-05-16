@@ -4,6 +4,7 @@ import { Theme, Link, Text, Box, Image, Section, Icon, Button, Input } from "@qu
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
+import * as Components from "components";
 import { FaGalacticRepublic, FaHornbill, FaReact } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
@@ -718,6 +719,8 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Components.EmbedHTML />
+		<Components.EmbedJS />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -741,8 +744,11 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<script async={true} place={"endOfHead"} rawKey={"6461999ed6a6c13598cb54e0"}>
-				{"<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-J8PVZ5GPK2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-J8PVZ5GPK2');\n</script>"}
+			<script async={false} place={"endOfHead"} rawKey={"6461999ed6a6c13598cb54e0"}>
+				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"}
+			</script>
+			<script place={"endOfBody"} rawKey={"6463be38dcb31f0ec619609f"}>
+				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
 			</script>
 		</RawHtml>
 	</Theme>;
