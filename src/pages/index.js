@@ -233,7 +233,7 @@ export default (() => {
 				<Text
 					margin="0px 0px 24px 0px"
 					color="--dark"
-					font="--headline1"
+					font="--headline2"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 				>
@@ -384,7 +384,7 @@ export default (() => {
 				<Text
 					margin="0px 0px 24px 0px"
 					color="--dark"
-					font="--headline1"
+					font="--headline2"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 				>
@@ -415,7 +415,7 @@ export default (() => {
 				<Text
 					margin="0px 0px 24px 0px"
 					color="--dark"
-					font="--headline1"
+					font="--headline2"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					lg-width="100%"
@@ -539,7 +539,7 @@ export default (() => {
 				padding="0px 200px 0px 200px"
 				lg-padding="0px 0px 0px 0px"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+				<Text margin="0px 0px 16px 0px" font="--headline2" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
 					Harga
 				</Text>
 				<Text margin="0px 0px 0px 0px" color="--grey" text-align="center" font="--lead">
@@ -581,7 +581,7 @@ export default (() => {
 					<Text margin="0px 0px 8px 0px" font="--headline3" text-decoration-line="line-through" color="#ff0202">
 						Rp 99.000
 					</Text>
-					<Text margin="0px 0px 8px 0px" font="--headline1">
+					<Text margin="0px 0px 8px 0px" font="--headline2">
 						Rp 99.000
 					</Text>
 					<Text margin="0px 0px 48px 0px" color="--greyD2" text-align="center" font="--base">
@@ -607,7 +607,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="60px 0" sm-padding="40px 0" color="--dark">
-			<Text as="h1" font="--headline1" margin="0 0 24px 0">
+			<Text as="h1" font="--headline2" margin="0 0 24px 0">
 				FAQs
 			</Text>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
@@ -645,7 +645,7 @@ export default (() => {
 		</Section>
 		<Section padding="80px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
-			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
+			<Text as="h2" font="--headline2" md-font="--headline2" margin="20px 0 0 0">
 				About Us
 			</Text>
 			<Text as="p" font="--lead" margin="20px 0 20px 0" text-align="center">
@@ -736,13 +736,10 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<style place={"endOfHead"} rawKey={"6461957b820441001fb09aeb"}>
-				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
-			</style>
-			<script place={"endOfHead"} rawKey={"6461999ed6a6c13598cb54e0"}>
+			<script async={true} place={"endOfHead"} rawKey={"6461999ed6a6c13598cb54e0"}>
 				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"}
 			</script>
-			<script place={"endOfBody"} rawKey={"6461db050f22563350f49e1e"}>
+			<script async={true} place={"endOfBody"} rawKey={"6461db050f22563350f49e1e"}>
 				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
 			</script>
 		</RawHtml>
