@@ -48,7 +48,7 @@ export default (() => {
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-width="100%"
 				>
-					Notion Template Social Media Specialist Template
+					Notion Social Media Calendar Template
 				</Text>
 				<Text
 					margin="0px 0px 32px 0px"
