@@ -745,16 +745,13 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<script
-				async={true}
+				async={false}
 				type={""}
-				defer={true}
+				defer={false}
 				place={"endOfHead"}
 				rawKey={"6461999ed6a6c13598cb54e0"}
 			>
-				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"}
-			</script>
-			<script place={"endOfBody"} rawKey={"6463be38dcb31f0ec619609f"}>
-				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
+				{"<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-J8PVZ5GPK2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-J8PVZ5GPK2');\n</script>"}
 			</script>
 		</RawHtml>
 	</Theme>;
