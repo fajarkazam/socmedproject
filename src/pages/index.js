@@ -751,7 +751,10 @@ export default (() => {
 				place={"endOfHead"}
 				rawKey={"6461999ed6a6c13598cb54e0"}
 			>
-				{"<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-J8PVZ5GPK2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-J8PVZ5GPK2');\n</script>"}
+				{"<!-- AMP Analytics --><script async custom-element=\"amp-analytics\" src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\"></script>\n"}
+			</script>
+			<script place={"endOfBody"} rawKey={"646487f7c6dd23010c9101c9"}>
+				{"<!-- Google Tag Manager -->\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-MPGQQDQ&gtm.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>\n"}
 			</script>
 		</RawHtml>
 	</Theme>;
