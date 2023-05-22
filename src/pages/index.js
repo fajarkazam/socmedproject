@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Image, Section, Icon, Button, Input } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Image, Section, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -21,8 +21,16 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z"} />
 		</Helmet>
-		<Section padding="112px 0 0px 0" background="--color-light" md-padding="96px 0 0px 0" sm-padding="72px 0 0px 0">
+		<Section
+			padding="112px 0 0px 0"
+			background="--color-light"
+			md-padding="96px 0 0px 0"
+			sm-padding="72px 0 0px 0"
+			sm-min-width="100%"
+			sm-background="#ffffff"
+		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box min-width="100px" min-height="100px" sm-background="#ffffff" />
 			<Box
 				display="flex"
 				width="100%"
@@ -36,13 +44,14 @@ export default (() => {
 				margin="0px 0px 40px 0px"
 				padding="0px 0px 0px 0px"
 				sm-padding="0px 0px 0px 0px"
+				sm-background="#ffffff"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
 					color="#000000"
 					font="--headline1"
 					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="normal 900 48px/1.2 --fontFamily-sans"
 					text-align="center"
 					width="80%"
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
@@ -57,6 +66,8 @@ export default (() => {
 					lg-text-align="center"
 					text-align="center"
 					width="60%"
+					sm-display="block"
+					sm-width="fit-content"
 				>
 					Tools terlengkap untuk mempermudah pekerjaanmu sebagai social media dan konten kreator
 				</Text>
@@ -78,6 +89,14 @@ export default (() => {
 					Beli Sekarang
 				</Link>
 			</Box>
+			<Components.EmbedHTML />
+			<Image
+				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z"
+				display="block"
+				sm-width="100% border-box"
+				sm-min-width="100%"
+				sm-background="#ffffff"
+			/>
 			<Box
 				display="flex"
 				width="100%"
@@ -85,15 +104,8 @@ export default (() => {
 				overflow-y="hidden"
 				overflow-x="hidden"
 				lg-width="100%"
-			>
-				<Image
-					src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Component%209.png?v=2021-08-25T23:48:27.512Z"
-					max-width="100%"
-					transform="translateY(10px)"
-					transition="transform 0.5s ease-in-out 0s"
-					hover-transform="translateY(0px)"
-				/>
-			</Box>
+				sm-background="#ffffff"
+			/>
 		</Section>
 		<Section padding="80px 0 80px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
@@ -107,7 +119,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
 					85%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
@@ -124,7 +136,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
 					16%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
@@ -141,7 +153,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
 					45%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
@@ -158,7 +170,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
 					56%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
@@ -166,7 +178,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" sm-font="--headline2">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				width="50%"
@@ -241,7 +253,7 @@ export default (() => {
 					color="--dark"
 					font="--headline2"
 					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="normal 900 36px/1.2 --fontFamily-sans"
 				>
 					Penjadwalan Post Social Media Dengan Kalender
 				</Text>
@@ -392,9 +404,9 @@ export default (() => {
 					color="--dark"
 					font="--headline2"
 					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="normal 700 36px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 				>
-					See the world & spend less always
+					Penjadwalan Berbagai Channel Marketing
 				</Text>
 				<Text margin="0px 0px 0px 0px" color="--greyD3" font="--lead" lg-text-align="center">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -423,7 +435,7 @@ export default (() => {
 					color="--dark"
 					font="--headline2"
 					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="normal 700 36px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					lg-width="100%"
 				>
 					Making trip is fun. Travel with friends.
@@ -434,6 +446,7 @@ export default (() => {
 					font="--lead"
 					lg-text-align="center"
 					lg-width="100%"
+					sm-text-align="left"
 				>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 				</Text>
@@ -545,10 +558,16 @@ export default (() => {
 				padding="0px 200px 0px 200px"
 				lg-padding="0px 0px 0px 0px"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline2" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+				<Text margin="0px 0px 16px 0px" font="--headline2" text-align="center" sm-font="normal 700 36px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
 					Harga
 				</Text>
-				<Text margin="0px 0px 0px 0px" color="--grey" text-align="center" font="--lead">
+				<Text
+					margin="0px 0px 0px 0px"
+					color="--grey"
+					text-align="center"
+					font="--lead"
+					sm-text-align="left"
+				>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 				</Text>
 			</Box>
@@ -581,16 +600,22 @@ export default (() => {
 					flex-wrap="wrap"
 					align-content="center"
 				>
-					<Text margin="0px 0px 24px 0px" font="--headline3">
+					<Text margin="0px 0px 24px 0px" font="--headline3" sm-font="normal 700 28px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 						Startup
 					</Text>
 					<Text margin="0px 0px 8px 0px" font="--headline3" text-decoration-line="line-through" color="#ff0202">
 						Rp 99.000
 					</Text>
-					<Text margin="0px 0px 8px 0px" font="--headline2">
+					<Text margin="0px 0px 8px 0px" font="--headline2" sm-font="normal 900 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 						Rp 99.000
 					</Text>
-					<Text margin="0px 0px 48px 0px" color="--greyD2" text-align="center" font="--base">
+					<Text
+						margin="0px 0px 48px 0px"
+						color="--greyD2"
+						text-align="center"
+						font="--base"
+						sm-font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+					>
 						Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
 					</Text>
 					<Link
@@ -613,7 +638,13 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="60px 0" sm-padding="40px 0" color="--dark">
-			<Text as="h1" font="--headline2" margin="0 0 24px 0">
+			<Text
+				as="h1"
+				font="--headline2"
+				margin="0 0 24px 0"
+				sm-font="normal 900 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+				sm-text-align="center"
+			>
 				FAQs
 			</Text>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
@@ -622,7 +653,13 @@ export default (() => {
 						<Text as="h3" font="--headline3" margin="12px 0">
 							Is there life on Mars?
 						</Text>
-						<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+						<Text
+							as="p"
+							font="--base"
+							margin="12px 0"
+							color="--greyD2"
+							sm-font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						>
 							It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 						</Text>
 					</Box>
@@ -632,7 +669,13 @@ export default (() => {
 						<Text as="h3" font="--headline3" margin="12px 0">
 							Why is the sky blue?
 						</Text>
-						<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+						<Text
+							as="p"
+							font="--base"
+							margin="12px 0"
+							color="--greyD2"
+							sm-font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						>
 							It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 						</Text>
 					</Box>
@@ -642,7 +685,13 @@ export default (() => {
 						<Text as="h3" font="--headline3" margin="12px 0">
 							When will we get there?
 						</Text>
-						<Text as="p" font="--base" margin="12px 0" color="--greyD2">
+						<Text
+							as="p"
+							font="--base"
+							margin="12px 0"
+							color="--greyD2"
+							sm-font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						>
 							It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 						</Text>
 					</Box>
@@ -651,15 +700,24 @@ export default (() => {
 		</Section>
 		<Section padding="80px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
-			<Text as="h2" font="--headline2" md-font="--headline2" margin="20px 0 0 0">
+			<Text
+				as="h2"
+				font="--headline2"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				sm-font="normal 900 36px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+			>
 				About Us
 			</Text>
-			<Text as="p" font="--lead" margin="20px 0 20px 0" text-align="center">
+			<Text
+				as="p"
+				font="--lead"
+				margin="20px 0 20px 0"
+				text-align="center"
+				sm-text-align="left"
+			>
 				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
 			</Text>
-			<Button font="--lead" margin="20px">
-				Button
-			</Button>
 		</Section>
 		<Section background="--color-light" color="--dark" padding="64px 0 64px 0">
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
@@ -719,8 +777,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.EmbedHTML />
-		<Components.EmbedJS />
+		<Components.QuarklycommunityKitImageViewer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

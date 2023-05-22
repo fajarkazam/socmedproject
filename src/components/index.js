@@ -1,2 +1,2 @@
 export { default as EmbedHTML } from "./EmbedHTML"
-export { default as EmbedJS } from "./EmbedJS"
+export { default as QuarklycommunityKitImageViewer } from "./QuarklycommunityKitImageViewer"
