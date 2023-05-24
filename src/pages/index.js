@@ -72,7 +72,7 @@ export default (() => {
 					All-in-one template untuk manajemen social media dan konten
 				</Text>
 				<Link
-					href="#"
+					href="https://invoice.xendit.co/od/socmed"
 					padding="12px 24px 12px 24px"
 					color="--light"
 					background="--color-dark"
