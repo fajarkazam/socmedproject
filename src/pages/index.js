@@ -51,7 +51,7 @@ export default (() => {
 					color="#000000"
 					font="--headline1"
 					lg-text-align="center"
-					sm-font="normal 900 48px/1.2 --fontFamily-sans"
+					sm-font="normal 900 36px/1.2 --fontFamily-sans"
 					text-align="center"
 					width="80%"
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
@@ -69,7 +69,7 @@ export default (() => {
 					sm-display="block"
 					sm-width="fit-content"
 				>
-					Tools terlengkap untuk mempermudah pekerjaanmu sebagai social media dan konten kreator
+					All-in-one template untuk manajemen social media dan konten
 				</Text>
 				<Link
 					href="#"
@@ -89,7 +89,6 @@ export default (() => {
 					Beli Sekarang
 				</Link>
 			</Box>
-			<Components.EmbedHTML />
 			<Image
 				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z"
 				display="block"
@@ -112,6 +111,23 @@ export default (() => {
 			<Box
 				width="25%"
 				padding="15px 15px 15px 15px"
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				flex-direction="column"
+				lg-width="50%"
+				sm-width="100%"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="normal 900 32px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+					16%
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
+					Lorem ipsum dolor sit amet
+				</Text>
+			</Box>
+			<Box
+				width="25%"
+				padding="15px 15px 15px 15px"
 				align-items="center"
 				display="flex"
 				justify-content="center"
@@ -119,7 +135,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="normal 900 32px/1.2 --fontFamily-sans">
 					85%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
@@ -136,24 +152,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
-					16%
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
-					Lorem ipsum dolor sit amet
-				</Text>
-			</Box>
-			<Box
-				width="25%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				align-items="center"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
-			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="normal 900 32px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 					45%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
@@ -170,7 +169,7 @@ export default (() => {
 				lg-width="50%"
 				sm-width="100%"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="--headline2">
+				<Text margin="0px 0px 16px 0px" font="--headline1" color="--dark" sm-font="normal 900 32px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 					56%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--greyD2" text-align="center">
