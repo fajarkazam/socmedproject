@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Image, Box, Section, Icon, Button, Input } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Image, Box, Section, Hr, Icon, Button, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree, Menu } from "@quarkly/components";
@@ -51,10 +51,12 @@ export default (() => {
 					color="#000000"
 					font="--headline1"
 					lg-text-align="center"
-					sm-font="--headline3"
+					sm-font="normal 900 36px/120% --fontFamily-sans"
 					text-align="center"
 					width="80%"
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-width="100px"
+					sm-min-width="100%"
 				>
 					<Span
 						sm-font="--headline3"
@@ -67,8 +69,19 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						<Strong>
-							Supercharge Your Social Media Strategy with Notion's Ultimate Calendar Template{"\n\n"}
+						<Strong
+							sm-font="700 32px/33.6px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							font="--headline1"
+						>
+							Ultimate Social Media Calendar Template
 						</Strong>
 					</Span>
 				</Text>
@@ -119,29 +132,6 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			padding="60px 0"
-			sm-padding="25px 0 25px 0"
-			min-height="600px"
-			sm-min-height="auto"
-			background="--color-light"
-			display="flex"
-			flex-direction="column"
-			sm-background="#ffffff"
-			quarkly-title="Short Description"
-		>
-			<Text
-				as="h1"
-				margin="8px 0px 32px"
-				font="--headline1"
-				md-font="--headline2"
-				color="--dark"
-				max-width="850px"
-				sm-font="--lead"
-			>
-				Welcome to the Notion Social Media Calendar Template, the comprehensive solution for managing your social media presence with ease. Whether you're a digital marketer, content creator, or social media manager, our template will revolutionize your workflow and maximize your productivity.{"\n\n"}
-			</Text>
-		</Section>
-		<Section
 			padding="25px 0 25px 0"
 			sm-padding="25px 0 25px 0"
 			position="static"
@@ -149,6 +139,7 @@ export default (() => {
 			sm-text-align="center"
 			display="block"
 			quarkly-title="Features"
+			margin="50px 0 0 0"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -173,6 +164,7 @@ export default (() => {
 				sm-align-self="center"
 				sm-order="-1"
 				sm-display="block"
+				width="50%"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -180,68 +172,52 @@ export default (() => {
 					font="--headline3"
 					lg-text-align="center"
 					sm-font="--headline3"
+					align-self="flex-start"
 				>
 					Intuitive calendar view
 				</Text>
 				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
 					Plan and visualize your content schedule for different platforms at a glance.{"\n\n"}
 				</Text>
-				<Link
-					href="#"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 16px 0px 0px"
-					transition="background-color 0.2s ease-in-out 0s"
-					sm-margin="0px 0px 16px 0px"
-					sm-text-align="center"
-					background="--color-green"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-					hover-background="--color-primary"
-				>
-					Get Started
-				</Link>
-				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
-					object-fit="cover"
-					width="100%"
-					height="100%"
-					border-radius="24px"
-					transform="translateY(0px)"
-					transition="transform 0.2s ease-in-out 0s"
-					hover-transform="translateY(-10px)"
-					min-height="600px"
-					sm-max-width="375px"
-					sm-min-height="300px"
-					sm-margin="35px 0px 0px 0px"
-				/>
 			</Box>
+			<Image
+				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
+				object-fit="cover"
+				width="50px"
+				height="100%"
+				border-radius="24px"
+				transform="translateY(0px)"
+				transition="transform 0.2s ease-in-out 0s"
+				hover-transform="translateY(-10px)"
+				sm-max-width="375px"
+				sm-min-height="300px"
+				sm-margin="35px 0px 0px 0px"
+				flex="1 1 0%"
+				min-height="400px"
+			/>
 			<Box
 				display="flex"
-				width="50%"
 				flex-direction="column"
-				align-items="flex-start"
+				align-items="center"
 				lg-width="100%"
 				lg-align-items="center"
 				lg-margin="0px 0px 0px 0px"
 				sm-margin="0px 0px 0px 0px"
 				sm-padding="0px 0px 0px 0px"
-				padding="16px 16px 16px 0px"
+				padding="16px 16px 16px 16px"
 				justify-content="center"
 				lg-order="1"
 				flex-wrap="no-wrap"
-				align-content="flex-start"
+				align-content="center"
 				position="relative"
-				left="50px"
+				flex="0 1 auto"
+				align-self="center"
+				sm-flex-wrap="no-wrap"
 				sm-flex-direction="column"
-				sm-position="static"
-				sm-align-content="center"
-				sm-align-items="center"
-				sm-flex-wrap="wrap"
 				sm-align-self="center"
-				sm-order="1"
+				sm-order="-1"
+				sm-display="block"
+				width="50%"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -249,49 +225,141 @@ export default (() => {
 					font="--headline3"
 					lg-text-align="center"
 					sm-font="--headline3"
-					sm-align-self="center"
+					align-self="flex-start"
 				>
-					Content categorization
+					Content categorization{"\n\n"}
+				</Text>
+				<Text
+					margin="0px 0px 40px 0px"
+					color="--greyD3"
+					font="--lead"
+					lg-text-align="center"
+					align-self="flex-start"
+				>
+					Easily organize and label your posts by topic, campaign, or format.{"\n\n\n\n"}
+				</Text>
+			</Box>
+			<Image
+				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
+				object-fit="cover"
+				width="50px"
+				height="100%"
+				border-radius="24px"
+				transform="translateY(0px)"
+				transition="transform 0.2s ease-in-out 0s"
+				hover-transform="translateY(-10px)"
+				sm-max-width="375px"
+				sm-min-height="300px"
+				sm-margin="35px 0px 0px 0px"
+				flex="1 1 0%"
+				min-height="400px"
+			/>
+			<Box
+				display="flex"
+				flex-direction="column"
+				align-items="center"
+				lg-width="100%"
+				lg-align-items="center"
+				lg-margin="0px 0px 0px 0px"
+				sm-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="16px 16px 16px 16px"
+				justify-content="center"
+				lg-order="1"
+				flex-wrap="no-wrap"
+				align-content="center"
+				position="relative"
+				flex="0 1 auto"
+				align-self="center"
+				sm-flex-wrap="no-wrap"
+				sm-flex-direction="column"
+				sm-align-self="center"
+				sm-order="-1"
+				sm-display="block"
+				width="50%"
+			>
+				<Text
+					margin="0px 0px 24px 0px"
+					color="--dark"
+					font="--headline3"
+					lg-text-align="center"
+					sm-font="--headline3"
+					align-self="flex-start"
+				>
+					Customizable templates{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
-					Easily organize and label your posts by topic, campaign, or format.{"\n\n"}
+					Tailor the calendar to match your branding and specific social media needs.{"\n\n\n\n"}
 				</Text>
-				<Link
-					href="#"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 16px 0px 0px"
-					transition="background-color 0.2s ease-in-out 0s"
-					sm-margin="0px 0px 25px 0px"
-					sm-text-align="center"
-					background="--color-green"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-					hover-background="--color-primary"
-				>
-					Get Started
-				</Link>
-				<Image
-					src="https://images.unsplash.com/photo-1538681105587-85640961bf8b?auto=format&fit=crop&w=800&q=80"
-					object-fit="cover"
-					width="100%"
-					height="100%"
-					border-radius="24px"
-					transform="translateY(0px)"
-					transition="transform 0.2s ease-in-out 0s"
-					hover-transform="translateY(-10px)"
-					min-height="600px"
-					max-width="480px"
-					position="relative"
-					left="75px"
-					sm-align-self="center"
-					sm-order="1"
-					sm-display="block"
-					sm-position="static"
-				/>
 			</Box>
+			<Image
+				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
+				object-fit="cover"
+				width="50px"
+				height="100%"
+				border-radius="24px"
+				transform="translateY(0px)"
+				transition="transform 0.2s ease-in-out 0s"
+				hover-transform="translateY(-10px)"
+				sm-max-width="375px"
+				sm-min-height="300px"
+				sm-margin="35px 0px 0px 0px"
+				flex="1 1 0%"
+				min-height="400px"
+			/>
+			<Box
+				display="flex"
+				flex-direction="column"
+				align-items="center"
+				lg-width="100%"
+				lg-align-items="center"
+				lg-margin="0px 0px 0px 0px"
+				sm-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="16px 16px 16px 16px"
+				justify-content="center"
+				lg-order="1"
+				flex-wrap="no-wrap"
+				align-content="center"
+				position="relative"
+				flex="0 1 auto"
+				align-self="center"
+				sm-flex-wrap="no-wrap"
+				sm-flex-direction="column"
+				sm-align-self="center"
+				sm-order="-1"
+				sm-display="block"
+				width="50%"
+			>
+				<Text
+					margin="0px 0px 24px 0px"
+					color="--dark"
+					font="--headline3"
+					lg-text-align="center"
+					sm-font="--headline3"
+					align-self="flex-start"
+				>
+					Collaborative workspace{"\n\n"}
+				</Text>
+				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
+					Seamlessly collaborate with team members, assign tasks, and track progress.{"\n\n\n\n"}
+				</Text>
+			</Box>
+			<Image
+				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
+				object-fit="cover"
+				width="50px"
+				height="100%"
+				border-radius="24px"
+				transform="translateY(0px)"
+				transition="transform 0.2s ease-in-out 0s"
+				hover-transform="translateY(-10px)"
+				sm-max-width="375px"
+				sm-min-height="300px"
+				sm-margin="35px 0px 0px 0px"
+				flex="1 1 0%"
+				min-height="400px"
+			/>
 			<Box
 				display="flex"
 				width="50%"
@@ -304,231 +372,6 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 				lg-justify-content="center"
 			/>
-			<Box
-				display="flex"
-				width="50%"
-				flex-direction="column"
-				align-items="flex-start"
-				lg-width="100%"
-				lg-align-items="center"
-				lg-margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 0px 0px"
-				sm-padding="0px 0px 0px 0px"
-				padding="16px 16px 16px 0px"
-				justify-content="center"
-				lg-order="1"
-				flex-wrap="no-wrap"
-				align-content="flex-start"
-				position="relative"
-				left="50px"
-				sm-flex-direction="column"
-				sm-position="static"
-				sm-align-content="center"
-				sm-align-items="center"
-				sm-flex-wrap="wrap"
-				sm-align-self="center"
-				sm-order="1"
-			>
-				<Text
-					margin="0px 0px 24px 0px"
-					color="--dark"
-					font="--headline3"
-					lg-text-align="center"
-					sm-font="--headline3"
-					sm-align-self="center"
-					sm-margin="25px 0px 24px 0px"
-				>
-					Customizable templates
-				</Text>
-				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
-					Tailor the calendar to match your branding and specific social media needs.{"\n\n"}
-				</Text>
-				<Link
-					href="#"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 16px 0px 0px"
-					transition="background-color 0.2s ease-in-out 0s"
-					sm-margin="0px 0px 25px 0px"
-					sm-text-align="center"
-					background="--color-green"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-					hover-background="--color-primary"
-				>
-					Get Started
-				</Link>
-				<Image
-					src="https://images.unsplash.com/photo-1538681105587-85640961bf8b?auto=format&fit=crop&w=800&q=80"
-					object-fit="cover"
-					width="100%"
-					height="100%"
-					border-radius="24px"
-					transform="translateY(0px)"
-					transition="transform 0.2s ease-in-out 0s"
-					hover-transform="translateY(-10px)"
-					min-height="600px"
-					max-width="480px"
-					position="relative"
-					left="75px"
-					sm-align-self="center"
-					sm-order="1"
-					sm-display="block"
-					sm-position="static"
-				/>
-			</Box>
-			<Box
-				display="flex"
-				width="50%"
-				flex-direction="column"
-				align-items="flex-start"
-				lg-width="100%"
-				lg-align-items="center"
-				lg-margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 0px 0px"
-				sm-padding="0px 0px 0px 0px"
-				padding="16px 16px 16px 0px"
-				justify-content="center"
-				lg-order="1"
-				flex-wrap="no-wrap"
-				align-content="flex-start"
-				position="relative"
-				left="50px"
-				sm-flex-direction="column"
-				sm-position="static"
-				sm-align-content="center"
-				sm-align-items="center"
-				sm-flex-wrap="wrap"
-				sm-align-self="center"
-				sm-order="1"
-			>
-				<Text
-					margin="0px 0px 24px 0px"
-					color="--dark"
-					font="--headline3"
-					lg-text-align="center"
-					sm-font="--headline3"
-					sm-align-self="center"
-					sm-margin="25px 0px 24px 0px"
-				>
-					Customizable templates
-				</Text>
-				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
-					Tailor the calendar to match your branding and specific social media needs.{"\n\n"}
-				</Text>
-				<Link
-					href="#"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 16px 0px 0px"
-					transition="background-color 0.2s ease-in-out 0s"
-					sm-margin="0px 0px 25px 0px"
-					sm-text-align="center"
-					background="--color-green"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-					hover-background="--color-primary"
-				>
-					Get Started
-				</Link>
-				<Image
-					src="https://images.unsplash.com/photo-1538681105587-85640961bf8b?auto=format&fit=crop&w=800&q=80"
-					object-fit="cover"
-					width="100%"
-					height="100%"
-					border-radius="24px"
-					transform="translateY(0px)"
-					transition="transform 0.2s ease-in-out 0s"
-					hover-transform="translateY(-10px)"
-					min-height="600px"
-					max-width="480px"
-					position="relative"
-					left="75px"
-					sm-align-self="center"
-					sm-order="1"
-					sm-display="block"
-					sm-position="static"
-				/>
-			</Box>
-			<Box
-				display="flex"
-				width="50%"
-				flex-direction="column"
-				align-items="flex-start"
-				lg-width="100%"
-				lg-align-items="center"
-				lg-margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 0px 0px"
-				sm-padding="0px 0px 0px 0px"
-				padding="16px 16px 16px 0px"
-				justify-content="center"
-				lg-order="1"
-				flex-wrap="no-wrap"
-				align-content="flex-start"
-				position="relative"
-				left="50px"
-				sm-flex-direction="column"
-				sm-position="static"
-				sm-align-content="center"
-				sm-align-items="center"
-				sm-flex-wrap="wrap"
-				sm-align-self="center"
-				sm-order="1"
-			>
-				<Text
-					margin="0px 0px 24px 0px"
-					color="--dark"
-					font="--headline3"
-					lg-text-align="center"
-					sm-font="--headline3"
-					sm-align-self="center"
-					sm-margin="25px 0px 24px 0px"
-				>
-					Collaborative workspace
-				</Text>
-				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
-					Seamlessly collaborate with team members, assign tasks, and track progress.{"\n\n"}
-				</Text>
-				<Link
-					href="#"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 16px 0px 0px"
-					transition="background-color 0.2s ease-in-out 0s"
-					sm-margin="0px 0px 25px 0px"
-					sm-text-align="center"
-					background="--color-green"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-					hover-background="--color-primary"
-				>
-					Get Started
-				</Link>
-				<Image
-					src="https://images.unsplash.com/photo-1538681105587-85640961bf8b?auto=format&fit=crop&w=800&q=80"
-					object-fit="cover"
-					width="100%"
-					height="100%"
-					border-radius="24px"
-					transform="translateY(0px)"
-					transition="transform 0.2s ease-in-out 0s"
-					hover-transform="translateY(-10px)"
-					min-height="600px"
-					max-width="480px"
-					position="relative"
-					left="75px"
-					sm-align-self="center"
-					sm-order="1"
-					sm-display="block"
-					sm-position="static"
-				/>
-			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" quarkly-title="Reviews" sm-padding="25px 0 25px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
@@ -541,10 +384,11 @@ export default (() => {
 				width="100%"
 				sm-margin="0px 0px 30px 0px"
 			>
+				<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 				<Text
 					margin="0px 0px 16px 0px"
 					color="--dark"
-					font="--headline1"
+					font="--headline2"
 					text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 				>
@@ -809,7 +653,8 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 50px 0" sm-padding="25px 0 25px 0" quarkly-title="Target">
+		<Section padding="80px 0 50px 0" sm-padding="25px 0 15px 0" quarkly-title="Target">
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				margin="0px 0px 5px 0px"
 				color="--dark"
@@ -839,6 +684,7 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 						sm-font="--headline2"
+						font="--headline2"
 					>
 						Personalized Only For You
 					</Span>
@@ -862,6 +708,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
+						sm-font="--lead"
 					>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 					</Text>
@@ -883,6 +730,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
+						sm-font="--lead"
 					>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 					</Text>
@@ -904,21 +752,26 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
+						sm-font="--lead"
 					>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 					</Text>
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0" sm-padding="25px 0 25px 0">
+		<Section padding="80px 0" sm-padding="25px 0 5px 0">
 			<Override slot="SectionContent" align-items="center" />
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				as="h2"
-				font="--headline1"
+				font="--headline2"
 				md-font="--headline2"
 				margin="20px 0 0 0"
 				sm-align-self="center"
 				sm-text-align="center"
+				sm-font="--headline2"
+				align-self="center"
+				text-align="center"
 			>
 				Don't Miss Out - Get the Template Today!{"\n\n"}
 			</Text>
@@ -926,85 +779,68 @@ export default (() => {
 				Get started now and take your social media strategy to new heights.{"\n\n"}
 			</Text>
 			<Box
-				display="grid"
-				flex-wrap="wrap"
-				width="100%"
+				width="50%"
+				display="flex"
+				padding="48px 40px 48px 40px"
+				background="#ffffff"
+				border-radius="24px"
 				align-items="center"
 				justify-content="center"
-				grid-gap="30px"
-				grid-template-columns="repeat(2, 1fr)"
-				md-grid-template-columns="1fr"
-				sm-align-content="center"
-				sm-text-align="center"
-				sm-justify-items="center"
+				flex-direction="column"
+				border-width="2px"
+				border-style="solid"
+				border-color="--color-secondary"
+				lg-padding="48px 35px 56px 35px"
+				position="relative"
 				sm-width="372px"
+				sm-justify-self="center"
+				sm-align-self="center"
+				sm-display="block"
+				sm-padding="25px 0 25px 0"
+				justify-self="center"
 			>
-				<Box
-					width="100%"
-					display="flex"
-					padding="48px 40px 56px 40px"
-					background="#ffffff"
-					border-radius="24px"
-					align-items="center"
-					justify-content="center"
-					flex-direction="column"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					lg-padding="48px 35px 56px 35px"
-					position="relative"
-					sm-width="372px"
-					sm-justify-self="center"
-					sm-align-self="center"
-					sm-display="block"
-					sm-padding="48px 0 56px 0"
-				>
-					<Text margin="0px 0px 24px 0px" font="--headline3">
-						Freelancer Template
-					</Text>
-					<Text margin="0px 0px 8px 0px" font="--headline1" sm-font="--headline3">
-						<Strong>
-							Rp 149.000
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 48px 0px"
-						color="--greyD2"
-						text-align="center"
-						font="--base"
-						width="400px"
+				<Text margin="0px 0px 24px 0px" font="--headline3">
+					Social Media Calendar Template
+				</Text>
+				<Text margin="0px 0px 8px 0px" font="--headline1" sm-font="--headline3">
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
 					>
-						Social media template + CRM +{" "}
-					</Text>
-				</Box>
+						Rp 99.000
+					</Strong>
+				</Text>
+				<Text
+					margin="0px 0px 48px 0px"
+					color="--greyD2"
+					text-align="center"
+					font="--base"
+					width="400px"
+					sm-margin="15px 0px 25px 0px"
+				>
+					- Calendar planner
+					<br />
+					- Collaborative project
+					<br />
+					- Channel clustering
+					<br />
+					- Lifetime update
+				</Text>
 			</Box>
-			<Button font="--lead" margin="20px" sm-background="--color-dark">
+			<Button font="--lead" margin="20px" sm-background="--color-dark" background="--color-dark">
 				<Strong>
 					{"\n"}Get the Template{"\n\n"}
 				</Strong>
 			</Button>
 		</Section>
-		<Section
-			padding="80px 0 80px 0"
-			margin="0px 0px 0px 0px"
-			background="#ffffff"
-			sm-padding="25px 0 25px 0"
-			quarkly-title="Price"
-		>
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" background="#ffffff" />
-			<Box
-				display="flex"
-				align-items="center"
-				flex-direction="column"
-				justify-content="center"
-				margin="0px 0px 60px 0px"
-				width="100%"
-				sm-margin="0px 0px 30px 0px"
-				padding="0px 200px 0px 200px"
-				lg-padding="0px 0px 0px 0px"
-			/>
-		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark">
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				as="h1"
 				font="--headline3"
@@ -1035,6 +871,7 @@ export default (() => {
 						hyphens="manual"
 						user-select="auto"
 						pointer-events="auto"
+						font="--headline2"
 					>
 						F.A.Q.
 					</Strong>
