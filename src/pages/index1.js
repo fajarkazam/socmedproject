@@ -1,12 +1,14 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Strong, Span, Text, Box, Section, Hr, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Image, Box, Section, Hr, Icon, Button, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Formspree } from "@quarkly/components";
+import { RawHtml, Override, Formspree, Menu } from "@quarkly/components";
+import { BsPhone } from "react-icons/bs";
+import { FaRegFileImage, FaWarehouse } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"index"} />
+		<GlobalQuarklyPageStyles pageUrl={"index1"} />
 		<Helmet>
 			<title>
 				AB Digital Marketing
@@ -19,7 +21,6 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z"} />
 		</Helmet>
-		`
 		<Section
 			padding="112px 0 0px 0"
 			background="#ffffff"
@@ -46,18 +47,6 @@ export default (() => {
 				sm-padding="0px 0px 0px 0px"
 				sm-background="#ffffff"
 			>
-				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z"
-					display="block"
-					sm-width="50%"
-					sm-background="#ffffff"
-					max-width="100%"
-					overflow-x="visible"
-					overflow-y="visible"
-					position="static"
-					object-fit="contain"
-					srcSet="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z ,https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z "
-				/>
 				<Text
 					margin="0px 0px 24px 0px"
 					color="#000000"
@@ -93,7 +82,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--headline1"
 						>
-							Ultimate Digital Marketing Template
+							Notion Social Media Calendar Template
 						</Strong>
 					</Span>
 				</Text>
@@ -107,7 +96,7 @@ export default (() => {
 					sm-display="block"
 					sm-width="fit-content"
 				>
-					Supercharge your digital marketing to the next level
+					Streamline your content planning, scheduling, and collaboration effortlessly{"\n\n"}
 				</Text>
 				<Link
 					href="https://invoice.xendit.co/od/socmed"
@@ -125,9 +114,22 @@ export default (() => {
 					transition="background-color 0.2s linear 0s"
 				>
 					<Strong>
-						Explore the template
+						Get the template
 					</Strong>
 				</Link>
+				<Image
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z"
+					display="block"
+					sm-width="100% border-box"
+					sm-min-width="100%"
+					sm-background="#ffffff"
+					max-width="100%"
+					overflow-x="visible"
+					overflow-y="visible"
+					position="static"
+					object-fit="contain"
+					srcSet="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z ,https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z "
+				/>
 			</Box>
 		</Section>
 		<Section
@@ -172,7 +174,7 @@ export default (() => {
 					text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 				>
-					All-in-one Template
+					Why this template?
 				</Text>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -182,10 +184,10 @@ export default (() => {
 					sm-font="--headline3"
 					align-self="flex-start"
 				>
-					Social Media Calendar Template
+					Intuitive calendar view
 				</Text>
 				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
-					Plan and visualize your content schedule for different platforms at a glance.
+					Plan and visualize your content schedule for different platforms at a glance.{"\n\n"}
 				</Text>
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
@@ -196,7 +198,7 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="35px 0px 0px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-display="block"
@@ -206,35 +208,6 @@ export default (() => {
 					sm-max-width="max-content"
 					sm-min-height="100px"
 				/>
-				<Link
-					href="/index1"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					background="--color-dark"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 0px 0px 0px"
-					sm-margin="25px 0px 25px 0px"
-					sm-text-align="center"
-					hover-transition="background-color 0.2s linear 0s"
-					hover-background="--color-orange"
-					transition="background-color 0.2s linear 0s"
-					sm-padding="12px 24px 12px 24px"
-				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Get the template
-					</Strong>
-				</Link>
 			</Box>
 			<Box
 				display="flex"
@@ -243,7 +216,7 @@ export default (() => {
 				lg-width="100%"
 				lg-align-items="center"
 				lg-margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 25px 0px"
+				sm-margin="0px 0px 0px 0px"
 				sm-padding="0px 0px 0px 0px"
 				padding="16px 16px 16px 16px"
 				justify-content="center"
@@ -269,9 +242,8 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="--headline3"
 					align-self="flex-start"
-					sm-margin="50px 0px 24px 0px"
 				>
-					Search Engine Optimization Checklist
+					Content categorization{"\n\n"}
 				</Text>
 				<Text
 					margin="0px 0px 40px 0px"
@@ -281,7 +253,7 @@ export default (() => {
 					align-self="flex-start"
 					sm-margin="0px 0px 0 0px"
 				>
-					Easily organize and label your posts by topic, campaign, or format.
+					Easily organize and label your posts by topic, campaign, or format.{"\n\n\n\n"}
 				</Text>
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
@@ -294,31 +266,11 @@ export default (() => {
 					hover-transform="translateY(-10px)"
 					sm-max-width="375px"
 					sm-min-height="100px"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="35px 0px 0px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-min-width="100%"
 				/>
-				<Link
-					href="https://invoice.xendit.co/od/socmed"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					background="--color-dark"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 0px 0px 0px"
-					sm-margin="0px 0px 50px 0px"
-					sm-text-align="center"
-					hover-transition="background-color 0.2s linear 0s"
-					hover-background="--color-orange"
-					transition="background-color 0.2s linear 0s"
-					sm-border-radius="15px"
-				>
-					<Strong>
-						Get the template
-					</Strong>
-				</Link>
 			</Box>
 			<Box
 				display="flex"
@@ -351,9 +303,8 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="--headline3"
 					align-self="flex-start"
-					sm-margin="25px 0px 24px 0px"
 				>
-					Customer Relationship Management Template
+					Customizable templates{"\n\n"}
 				</Text>
 				<Text
 					margin="0px 0px 40px 0px"
@@ -362,7 +313,7 @@ export default (() => {
 					lg-text-align="center"
 					sm-margin="0px 0px 0 0px"
 				>
-					Tailor the calendar to match your branding and specific social media needs.
+					Tailor the calendar to match your branding and specific social media needs.{"\n\n\n\n"}
 				</Text>
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
@@ -374,40 +325,11 @@ export default (() => {
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100px"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="35px 0px 0px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-min-width="100%"
 				/>
-				<Link
-					href="https://invoice.xendit.co/od/socmed"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					background="--color-dark"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 0px 0px 0px"
-					sm-margin="0px 0px 25px 0px"
-					sm-text-align="center"
-					hover-transition="background-color 0.2s linear 0s"
-					hover-background="--color-orange"
-					transition="background-color 0.2s linear 0s"
-					sm-border-radius="15px"
-				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Get the template
-					</Strong>
-				</Link>
 			</Box>
 			<Box
 				display="flex"
@@ -440,9 +362,8 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="--headline3"
 					align-self="flex-start"
-					sm-margin="50px 0px 24px 0px"
 				>
-					User Persona Template
+					Collaborative workspace{"\n\n"}
 				</Text>
 				<Text
 					margin="0px 0px 40px 0px"
@@ -451,7 +372,7 @@ export default (() => {
 					lg-text-align="center"
 					sm-margin="0px 0px 0 0px"
 				>
-					Seamlessly collaborate with team members, assign tasks, and track progress.
+					Seamlessly collaborate with team members, assign tasks, and track progress.{"\n\n\n\n"}
 				</Text>
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
@@ -464,31 +385,11 @@ export default (() => {
 					hover-transform="translateY(-10px)"
 					sm-max-width="375px"
 					sm-min-height="100px"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="35px 0px 0px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-min-width="100%"
 				/>
-				<Link
-					href="https://invoice.xendit.co/od/socmed"
-					padding="12px 24px 12px 24px"
-					color="--light"
-					background="--color-dark"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 0px 0px 0px"
-					sm-margin="0px 0px 0px 0px"
-					sm-text-align="center"
-					hover-transition="background-color 0.2s linear 0s"
-					hover-background="--color-orange"
-					transition="background-color 0.2s linear 0s"
-					sm-border-radius="15px"
-				>
-					<Strong>
-						Get the template
-					</Strong>
-				</Link>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" quarkly-title="Reviews" sm-padding="25px 0 25px 0">
@@ -762,6 +663,295 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section padding="80px 0 50px 0" sm-padding="25px 0 15px 0" quarkly-title="Target">
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
+			<Text
+				margin="0px 0px 5px 0px"
+				color="--dark"
+				font="--headline3"
+				text-align="center"
+				sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+				padding="0px 0px 50px 0px"
+			>
+				<Span
+					font-size="36px"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+						sm-font="--headline2"
+						font="--headline2"
+					>
+						Personalized Only For You
+					</Span>
+				</Span>
+			</Text>
+			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
+				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
+					<Icon
+						category="bs"
+						icon={BsPhone}
+						margin="0px 0px 22px 0px"
+						color="--dark"
+						size="36px"
+						sm-display="block"
+						sm-align-self="center"
+						sm-order="-1"
+						sm-flex="0 1 auto"
+						sm-text-align="center"
+						sm-font="--headline1"
+					/>
+					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Social Media Specialist
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					</Text>
+				</Box>
+				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
+					<Icon
+						category="fa"
+						icon={FaRegFileImage}
+						margin="0px 0px 22px 0px"
+						color="--dark"
+						size="36px"
+						sm-font="normal 900 50px/1.2 --fontFamily-sans"
+					/>
+					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Content Creator
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					</Text>
+				</Box>
+				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
+					<Icon
+						category="fa"
+						icon={FaWarehouse}
+						margin="0px 0px 22px 0px"
+						color="--dark"
+						size="36px"
+						sm-font="50px sans-serif"
+					/>
+					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Online Shop Owner
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0" sm-padding="25px 0 5px 0">
+			<Override slot="SectionContent" align-items="center" />
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
+			<Text
+				as="h2"
+				font="--headline2"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				sm-align-self="center"
+				sm-text-align="center"
+				sm-font="--headline2"
+				align-self="center"
+				text-align="center"
+			>
+				Get the Template Today!{"\n\n"}
+			</Text>
+			<Text as="p" font="--lead" margin="20px 0 20px 0" text-align="center">
+				Get started now and take your social media strategy to new level.{"\n\n"}
+			</Text>
+			<Box
+				width="50%"
+				display="flex"
+				padding="48px 40px 48px 40px"
+				background="#ffffff"
+				border-radius="24px"
+				align-items="center"
+				justify-content="center"
+				flex-direction="column"
+				border-width="2px"
+				border-style="solid"
+				border-color="--color-secondary"
+				lg-padding="48px 35px 56px 35px"
+				position="relative"
+				sm-width="100%"
+				sm-justify-self="center"
+				sm-align-self="center"
+				sm-display="block"
+				sm-padding="25px 0 25px 0"
+				justify-self="center"
+				sm-border-color="--color-dark"
+			>
+				<Text margin="0px 0px 24px 0px" font="--headline3" sm-text-align="center">
+					Social Media Calendar Template
+				</Text>
+				<Text margin="0px 0px 8px 0px" font="--headline1" sm-font="--headline3">
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+						sm-text-align="center"
+						sm-display="block"
+					>
+						Rp 99.000
+					</Strong>
+				</Text>
+				<Text
+					margin="0px 0px 48px 0px"
+					color="--greyD2"
+					text-align="center"
+					font="--base"
+					width="400px"
+					sm-margin="15px 0px 25px 60px"
+					sm-text-align="left"
+					sm-width="250px"
+					sm-font="--lead"
+				>
+					- Calendar planner
+					<br />
+					- Collaborative project
+					<br />
+					- Channel clustering
+					<br />
+					- Lifetime update
+				</Text>
+			</Box>
+			<Button
+				font="--lead"
+				margin="20px"
+				sm-background="--color-dark"
+				background="--color-dark"
+				sm-border-radius="15px"
+			>
+				<Strong>
+					{"\n"}Get the Template{"\n\n"}
+				</Strong>
+			</Button>
+		</Section>
+		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark">
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
+			<Text
+				as="h1"
+				font="--headline3"
+				margin="0 0 24px 0"
+				sm-font="normal 900 30px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+				sm-text-align="center"
+				text-align="center"
+				padding="0px 0px 50px 0px"
+			>
+				<Span
+					font-size="36px"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Strong
+						sm-font="--headline2"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+						font="--headline2"
+					>
+						F.A.Q.
+					</Strong>
+				</Span>
+			</Text>
+			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap" sm-margin="-16px -0 -16px 0">
+				<Box display="flex" flex-direction="column">
+					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--headline3">
+						Is there life on Mars?
+					</Text>
+					<Text
+						as="p"
+						font="--base"
+						margin="12px 0"
+						color="--greyD2"
+						sm-font="--lead"
+					>
+						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column">
+					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--headline3">
+						Why is the sky blue?
+					</Text>
+					<Text
+						as="p"
+						font="--base"
+						margin="12px 0"
+						color="--greyD2"
+						sm-font="--lead"
+					>
+						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column">
+					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--headline3">
+						When will we get there?
+					</Text>
+					<Text
+						as="p"
+						font="--base"
+						margin="12px 0"
+						color="--greyD2"
+						sm-font="--lead"
+					>
+						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					</Text>
+				</Box>
+			</Box>
+		</Section>
 		<Section background="#ffffff" color="--dark" padding="64px 0 64px 0">
 			<Box>
 				<Text
@@ -839,6 +1029,45 @@ export default (() => {
 				</Formspree>
 			</Box>
 			<Box width="50%" padding="8px 8px 8px 8px" lg-width="100%" />
+		</Section>
+		<Section background-color="--dark" text-align="center" padding="32px 0">
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--lead"
+				font-weight="700"
+				margin="-6px 0 16px"
+				md-flex-direction="column"
+				md-align-items="center"
+			>
+				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px 0px" />
+				<Override slot="link-index" sm-color="--light">
+					AB Digital Marketing
+				</Override>
+			</Menu>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+				sm-color="--light"
+			>
+				digitalmastery.ads@gmail.com
+			</Link>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+				sm-margin="0 0px 0px 0px"
+				sm-color="--light"
+			>
+				All right reserved @2023
+			</Link>
 		</Section>
 		<Link
 			font={"--capture"}

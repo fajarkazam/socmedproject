@@ -6,7 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"6461957b820441001fb09af2",
-				"6461957b820441001fb09af5"
+				"6461957b820441001fb09af5",
+				"6474df74588b2d00195721ab"
 			]
 		},
 		"6461957b820441001fb09af2": {
@@ -16,8 +17,13 @@ export default {
 		},
 		"6461957b820441001fb09af5": {
 			"id": "6461957b820441001fb09af5",
-			"name": "index",
+			"name": "AB Digital Marketing",
 			"pageUrl": "index"
+		},
+		"6474df74588b2d00195721ab": {
+			"pageUrl": "index1",
+			"id": "6474df74588b2d00195721ab",
+			"name": "Social Media"
 		}
 	},
 	"mode": "production",
