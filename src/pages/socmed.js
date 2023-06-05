@@ -99,7 +99,13 @@ export default (() => {
 				>
 					Streamline your content planning, scheduling, and collaboration effortlessly
 				</Text>
-				<Button sm-background="--color-dark" sm-border-radius="15px" sm-padding="15px 24px 15px 24px" background="--color-dark">
+				<Button
+					sm-background="--color-dark"
+					sm-border-radius="15px"
+					sm-padding="15px 24px 15px 24px"
+					background="--color-dark"
+					sm-margin="0px 0px 15px 0px"
+				>
 					<Strong>
 						Get the Template
 					</Strong>
@@ -114,7 +120,6 @@ export default (() => {
 					overflow-y="visible"
 					position="static"
 					object-fit="contain"
-					srcSet="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z ,https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z "
 					sm-align-self="center"
 					sm-flex="0 1 auto"
 					sm-order="1"
@@ -870,6 +875,9 @@ export default (() => {
 			display="block"
 			quarkly-title="Subscribe"
 		>
+			<Box min-width="100px" min-height="100px">
+				<Components.EmbedHtml />
+			</Box>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
 					<Box>
