@@ -913,7 +913,7 @@ export default (() => {
 						border-width="2px"
 						border-color="--color-grey"
 					/>
-					<Button background="--color-dark" width="150px" border-radius="10px">
+					<Button background="--color-dark" width="150px" border-radius="10px" href="https://gmail.us11.list-manage.com/subscribe/post?u=d17f9f6f20439a03e39c023f0&amp;id=11c55fbc62&amp;f_id=00a5a8e0f0">
 						<Strong>
 							Button
 						</Strong>
