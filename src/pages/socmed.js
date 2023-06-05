@@ -888,29 +888,46 @@ export default (() => {
 					</Box>
 				</Box>
 				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
-					<Components.QuarklycommunityKitForm action="https://76b8bd26.sibforms.com/serve/MUIEADJaG-k3iA8_1RKL-4QknBEThkFR4BjmCuBfTFogC0XrREx7k09NLPdv9jZMkV5pqEnwmk59eCBhlcfUi33AaxCW7hxOo-FwnoGl9MebFlfaPcV1xvk3yJXnJfV_ae0dPPjeNoZ9tzn7oYrWxZFJjLfmdRspoMmVxcoQsmkbXj9Bv_YdORp8tW8vi9I7czEb3C3qRvR2cdj4" autoComplete="on" method="get" width="max-content">
+					<Components.QuarklycommunityKitForm
+						action="https://76b8bd26.sibforms.com/serve/MUIEADJaG-k3iA8_1RKL-4QknBEThkFR4BjmCuBfTFogC0XrREx7k09NLPdv9jZMkV5pqEnwmk59eCBhlcfUi33AaxCW7hxOo-FwnoGl9MebFlfaPcV1xvk3yJXnJfV_ae0dPPjeNoZ9tzn7oYrWxZFJjLfmdRspoMmVxcoQsmkbXj9Bv_YdORp8tW8vi9I7czEb3C3qRvR2cdj4"
+						autoComplete="on"
+						method="post"
+						width="max-content"
+						sm-width="100%"
+					>
 						<Input
 							display="block"
 							placeholder-color="LightGray"
 							background="white"
-							sm-margin="0px 0px 25px 10px"
+							sm-margin="0px 0px 25px 0"
 							margin="0px 0px 15px 0px"
 							min-height="100%"
 							position="static"
+							sm-width="80%"
+							name="Name"
+							type="text"
+							placeholder="Name"
+							required
 						/>
 						<Input
 							display="block"
 							placeholder-color="LightGray"
 							background="white"
-							sm-margin="0px 0px 25px 10px"
+							sm-margin="0px 0px 25px 0"
 							margin="0px 0px 15px 0px"
+							sm-width="80%"
+							name="Email"
+							type="email"
+							placeholder="Email"
+							required
 						/>
 						<Button
-							sm-margin="0px 0px 0px 10px"
+							sm-margin="0px 0px 0px 0"
 							sm-width="125px"
 							sm-border-radius="5px"
 							sm-background="--color-dark"
 							background="--color-dark"
+							user-select="none"
 						>
 							<Span
 								overflow-wrap="normal"
@@ -1053,6 +1070,7 @@ export default (() => {
 				All right reserved @2023
 			</Link>
 		</Section>
+		<Components.Form />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -1088,8 +1106,8 @@ export default (() => {
 			<script place={"endOfBody"} rawKey={"646487f7c6dd23010c9101c9"}>
 				{"<!-- Google Tag Manager -->\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-MPGQQDQ&gtm.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>\n"}
 			</script>
-			<script place={"endOfHead"} rawKey={"647d448520e0611490d54f0d"}>
-				{"<!-- MailerLite Universal -->\n<script>\n    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])\n    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,\n    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})\n    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');\n    ml('account', '465418');\n</script>\n<!-- End MailerLite Universal -->"}
+			<script place={"endOfHead"} rawKey={"647d7e4f20ba73b1a0b98bf5"}>
+				{"<!-- START - We recommend to place the below code in head tag of your website html  -->\n<style>\n  @font-face {\n    font-display: block;\n    font-family: Roboto;\n    src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format(\"woff2\"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format(\"woff\")\n  }\n\n  @font-face {\n    font-display: fallback;\n    font-family: Roboto;\n    font-weight: 600;\n    src: url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format(\"woff2\"), url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format(\"woff\")\n  }\n\n  @font-face {\n    font-display: fallback;\n    font-family: Roboto;\n    font-weight: 700;\n    src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format(\"woff2\"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format(\"woff\")\n  }\n\n  #sib-container input:-ms-input-placeholder {\n    text-align: left;\n    font-family: \"Helvetica\", sans-serif;\n    color: #c0ccda;\n  }\n\n  #sib-container input::placeholder {\n    text-align: left;\n    font-family: \"Helvetica\", sans-serif;\n    color: #c0ccda;\n  }\n\n  #sib-container textarea::placeholder {\n    text-align: left;\n    font-family: \"Helvetica\", sans-serif;\n    color: #c0ccda;\n  }\n</style>\n<link rel=\"stylesheet\" href=\"https://sibforms.com/forms/end-form/build/sib-styles.css\">\n<!--  END - We recommend to place the above code in head tag of your website html -->"}
 			</script>
 		</RawHtml>
 	</Theme>;
