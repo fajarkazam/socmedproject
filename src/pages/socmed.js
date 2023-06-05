@@ -884,42 +884,63 @@ export default (() => {
 			>
 				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
 					<Box>
-						<Text font="--headline2" max-width="500px" margin="10px 0 0 0" sm-margin="10px 0 15px 0">
+						<Text
+							font="--headline2"
+							max-width="500px"
+							margin="10px 0 15px 0"
+							sm-margin="10px 0 15px 0"
+							text-align="center"
+						>
 							Subscribe
 						</Text>
 						<Text
-							font="--base"
-							color="--grey"
+							font="--lead"
+							color="--dark"
 							letter-spacing="1px"
-							text-transform="uppercase"
-							margin="0"
+							margin="0 0 15px 0"
+							text-align="center"
 						>
-							SUBSCRIBE TO GET THE LATEST NEWS ABOUT DIGITAL MARKETING AND FREE TEMPLATE
+							Subscribe to get the latest news about digital marketing and free template
 						</Text>
 					</Box>
 				</Box>
-				<Components.QuarklycommunityKitMailChimp url="https://gmail.us11.list-manage.com/subscribe/post?u=d17f9f6f20439a03e39c023f0&amp;id=11c55fbc62&amp;f_id=00a5a8e0f0" align-self="center">
-					<Input
-						display="block"
-						placeholder-color="LightGray"
-						background="white"
-						name="email"
-						type="email"
-						placeholder="Email"
-						required
-						padding="6px 16px 10px 16px"
-						margin="0px 10px 0px 0px"
-						width="450px"
-						border-width="2px"
-						border-color="--color-grey"
-					/>
-					<Button background="--color-dark" width="150px" border-radius="10px" href="https://gmail.us11.list-manage.com/subscribe/post?u=d17f9f6f20439a03e39c023f0&amp;id=11c55fbc62&amp;f_id=00a5a8e0f0">
-						<Strong>
-							Button
-						</Strong>
-					</Button>
-				</Components.QuarklycommunityKitMailChimp>
 			</Box>
+			<Components.QuarklycommunityKitMailChimp url="https://gmail.us11.list-manage.com/subscribe/post?u=d17f9f6f20439a03e39c023f0&amp;id=11c55fbc62" align-self="center" width="50%">
+				<Input
+					display="block"
+					placeholder-color="LightGray"
+					background="white"
+					name="name"
+					type="text"
+					placeholder="Name"
+					required
+					padding="6px 16px 10px 16px"
+					margin="0px 10px 0px 0px"
+					width="450px"
+					border-width="2px"
+					border-color="--color-grey"
+					pointer-events="auto"
+				/>
+				<Input
+					display="block"
+					placeholder-color="LightGray"
+					background="white"
+					name="email"
+					type="email"
+					placeholder="Email"
+					required
+					padding="6px 16px 10px 16px"
+					margin="0px 10px 0px 0px"
+					width="450px"
+					border-width="2px"
+					border-color="--color-grey"
+				/>
+				<Button background="--color-dark" width="150px" border-radius="10px" href="https://gmail.us11.list-manage.com/subscribe/post?u=d17f9f6f20439a03e39c023f0&amp;id=11c55fbc62">
+					<Strong>
+						Button
+					</Strong>
+				</Button>
+			</Components.QuarklycommunityKitMailChimp>
 		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
 			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
