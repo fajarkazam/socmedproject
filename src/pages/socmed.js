@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Hr, Icon, LinkBox, Input } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Hr, Icon, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu } from "@quarkly/components";
@@ -99,15 +99,14 @@ export default (() => {
 				>
 					Streamline your content planning, scheduling, and collaboration effortlessly
 				</Text>
-				<Button sm-background="--color-dark" sm-border-radius="15px" sm-padding="15px 24px 15px 24px">
+				<Button sm-background="--color-dark" sm-border-radius="15px" sm-padding="15px 24px 15px 24px" background="--color-dark">
 					<Strong>
 						Get the Template
 					</Strong>
 				</Button>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Notion-Social-Media-Calendar-Template.webp?v=2023-06-05T05:56:42.055Z"
 					display="block"
-					sm-width="100% border-box"
 					sm-min-width="100%"
 					sm-background="#ffffff"
 					max-width="100%"
@@ -116,6 +115,10 @@ export default (() => {
 					position="static"
 					object-fit="contain"
 					srcSet="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z ,https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%283%29.png?v=2023-05-22T16:47:28.324Z "
+					sm-align-self="center"
+					sm-flex="0 1 auto"
+					sm-order="1"
+					sm-display="inline-block"
 				/>
 			</Box>
 		</Section>
@@ -860,7 +863,75 @@ export default (() => {
 				</Strong>
 			</Button>
 		</Section>
-		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark">
+		<Section
+			background="#FFFFFF"
+			color="--dark"
+			padding="64px 0 64px 0"
+			display="block"
+			quarkly-title="Subscribe"
+		>
+			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
+				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
+					<Box>
+						<Text font="--headline2" max-width="500px" margin="10px 0 0 0" sm-margin="10px 0 15px 0">
+							Subscribe
+						</Text>
+						<Text
+							font="--base"
+							color="--grey"
+							letter-spacing="1px"
+							text-transform="uppercase"
+							margin="0"
+						>
+							SUBSCRIBE TO GET THE LATEST NEWS ABOUT DIGITAL MARKETING AND FREE TEMPLATE
+						</Text>
+					</Box>
+				</Box>
+				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
+					<Components.QuarklycommunityKitForm action="https://76b8bd26.sibforms.com/serve/MUIEADJaG-k3iA8_1RKL-4QknBEThkFR4BjmCuBfTFogC0XrREx7k09NLPdv9jZMkV5pqEnwmk59eCBhlcfUi33AaxCW7hxOo-FwnoGl9MebFlfaPcV1xvk3yJXnJfV_ae0dPPjeNoZ9tzn7oYrWxZFJjLfmdRspoMmVxcoQsmkbXj9Bv_YdORp8tW8vi9I7czEb3C3qRvR2cdj4" autoComplete="on" method="get" width="max-content">
+						<Input
+							display="block"
+							placeholder-color="LightGray"
+							background="white"
+							sm-margin="0px 0px 25px 10px"
+							margin="0px 0px 15px 0px"
+							min-height="100%"
+							position="static"
+						/>
+						<Input
+							display="block"
+							placeholder-color="LightGray"
+							background="white"
+							sm-margin="0px 0px 25px 10px"
+							margin="0px 0px 15px 0px"
+						/>
+						<Button
+							sm-margin="0px 0px 0px 10px"
+							sm-width="125px"
+							sm-border-radius="5px"
+							sm-background="--color-dark"
+							background="--color-dark"
+						>
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Strong>
+									Subscribe
+								</Strong>
+							</Span>
+						</Button>
+					</Components.QuarklycommunityKitForm>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
 			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				as="h1"
@@ -943,75 +1014,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0" sm-padding="40px 0">
-			<Override slot="SectionContent" align-items="center" />
-			<LinkBox href="<div class=&quot;ml-embedded&quot; data-form=&quot;VAuW9t&quot;></div>">
-				<Components.Form />
-			</LinkBox>
-			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
-				About Us
-			</Text>
-			<Text
-				as="p"
-				font="--lead"
-				margin="20px 0 20px 0"
-				text-align="center"
-				sm-text-align="left"
-				sm-align-self="flex-start"
-			>
-				Sign Up Now
-			</Text>
-		</Section>
-		<Components.QuarklycommunityKitForm
-			sm-justify-content="center"
-			sm-align-items="center"
-			sm-align-content="center"
-			sm-display="block"
-			sm-width="80%"
-			sm-text-align="left"
-			sm-position="static"
-			sm-min-width="100%"
-		>
-			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
-			<Text margin="0px 0px 0px 0px" sm-font="--headline2" sm-text-align="left" sm-margin="15px 0px 0px 15px">
-				Subscribe
-			</Text>
-			<Text margin="0px 0px 0px 0px" sm-font="--lead" sm-margin="0px 0px 025px 15px">
-				Enter your name and email to get an update about digital marketing
-			</Text>
-			<Box min-width="100px" min-height="100px" sm-width="80%" sm-text-align="center">
-				<Input
-					display="block"
-					placeholder-color="LightGray"
-					background="white"
-					sm-border-radius="5px"
-					name="Name"
-					placeholder="Name"
-					sm-margin="0px 0px 10px 15px"
-				/>
-				<Input
-					display="block"
-					placeholder-color="LightGray"
-					background="white"
-					sm-border-radius="5px"
-					name="Name"
-					placeholder="Email"
-					sm-margin="0px 0px 15px 15px"
-				/>
-				<Button
-					sm-text-align="left"
-					sm-padding="20 24px 8px 24px"
-					sm-margin="0px 0 35px 15px"
-					sm-background="--color-dark"
-					sm-border-radius="5px"
-					sm-display="block"
-				>
-					<Strong>
-						Subscribe
-					</Strong>
-				</Button>
-			</Box>
-		</Components.QuarklycommunityKitForm>
 		<Section background-color="--dark" text-align="center" padding="32px 0">
 			<Menu
 				display="flex"
@@ -1051,8 +1053,6 @@ export default (() => {
 				All right reserved @2023
 			</Link>
 		</Section>
-		<Components.Form />
-		<Components.Form />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
