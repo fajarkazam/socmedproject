@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Hr, Icon, Input } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Input, Hr, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu } from "@quarkly/components";
@@ -128,6 +128,73 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
+			background="#FFFFFF"
+			color="--dark"
+			padding="64px 0 64px 0"
+			display="block"
+			quarkly-title="Subscribe"
+		>
+			<Override slot="SectionContent" />
+			<Box
+				margin="-16px -16px -16px -16px"
+				display="block"
+				flex-wrap="wrap"
+				text-align="left"
+				justify-content="center"
+				align-items="center"
+				sm-margin="-16px 0 -16px -0"
+			>
+				<Box padding="16px 16px 16px 16px" lg-width="100%" sm-display="inline-block" sm-margin="0px 0 0px 0">
+					<Box text-align="center" sm-display="block">
+						<Text
+							font="--headline2"
+							max-width="500px"
+							margin="10px 0 15px 0"
+							sm-margin="10px 0 15px 0"
+							display="inline-block"
+							sm-display="inline-block"
+							sm-font="--headline3"
+						>
+							Subscribe
+						</Text>
+						<Text
+							font="--lead"
+							color="--dark"
+							letter-spacing="1px"
+							margin="0 0 15px 0"
+							text-align="center"
+							display="inline-block"
+						>
+							We share various digital marketing templates to help you get the job done beautifully
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+			<Components.QuarklycommunityKitMailChimp
+				url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4"
+				align-self="center"
+				sm-display="block"
+				sm-width="375px"
+				sm-flex="0 1 auto"
+				sm-order="1"
+			>
+				<Input
+					display="block"
+					placeholder-color="LightGray"
+					background="white"
+					align-self="center"
+					width="350px"
+					name="EMAIL"
+					type="email"
+					required
+					placeholder="Email"
+				/>
+				<Button background="--color-dark">
+					Subsribe
+				</Button>
+			</Components.QuarklycommunityKitMailChimp>
+		</Section>
+		<Section
 			padding="25px 0 25px 0"
 			sm-padding="25px 0 25px 0"
 			position="static"
@@ -182,7 +249,7 @@ export default (() => {
 					Plan and visualize your content schedule for different platforms at a glance.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/3%20%281%29.webp?v=2023-06-05T01:41:09.026Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/7.png?v=2023-06-05T17:38:01.363Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -245,7 +312,7 @@ export default (() => {
 					Easily organize and label your posts by topic, campaign, or format.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/1%20%281%29.webp?v=2023-06-05T01:41:09.034Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/5.png?v=2023-06-05T17:38:01.355Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -304,7 +371,7 @@ export default (() => {
 					Tailor the calendar to match your branding and specific social media needs.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/2%20%281%29.webp?v=2023-06-05T01:41:09.032Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/6.png?v=2023-06-05T17:38:01.357Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -682,7 +749,7 @@ export default (() => {
 						hyphens="manual"
 						user-select="auto"
 						pointer-events="auto"
-						sm-font="--headline2"
+						sm-font="--headline3"
 						font="--headline2"
 					>
 						Personalized Only For You
@@ -704,8 +771,16 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="--headline1"
 					/>
-					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Social Media Specialist
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong>
+							Social Media Specialist
+						</Strong>
 					</Text>
 					<Text
 						margin="0px 0px 12px 0px"
@@ -713,7 +788,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
-						sm-font="--lead"
+						sm-font="--base"
 					>
 						Easily manage your company social media content calendar
 					</Text>
@@ -727,8 +802,16 @@ export default (() => {
 						size="36px"
 						sm-font="normal 900 50px/1.2 --fontFamily-sans"
 					/>
-					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Content Creator
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong>
+							Content Creator
+						</Strong>
 					</Text>
 					<Text
 						margin="0px 0px 12px 0px"
@@ -736,7 +819,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
-						sm-font="--lead"
+						sm-font="--base"
 					>
 						Maximize your potential to increase social media presence
 					</Text>
@@ -750,8 +833,16 @@ export default (() => {
 						size="36px"
 						sm-font="50px sans-serif"
 					/>
-					<Text margin="0px 0px 11px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						Online Shop Owner
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong>
+							Online Shop Owner
+						</Strong>
 					</Text>
 					<Text
 						margin="0px 0px 12px 0px"
@@ -759,7 +850,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
-						sm-font="--lead"
+						sm-font="--base"
 					>
 						Increase your website traffic through social media
 					</Text>
@@ -782,7 +873,13 @@ export default (() => {
 			>
 				Get the Template Today!
 			</Text>
-			<Text as="p" font="--lead" margin="20px 0 20px 0" text-align="center">
+			<Text
+				as="p"
+				font="--lead"
+				margin="20px 0 20px 0"
+				text-align="center"
+				sm-font="--base"
+			>
 				Get started now and take your social media strategy to new level.
 			</Text>
 			<Box
@@ -839,7 +936,7 @@ export default (() => {
 					sm-margin="15px 0px 25px 60px"
 					sm-text-align="left"
 					sm-width="250px"
-					sm-font="--lead"
+					sm-font="--base"
 				>
 					- Lifetime access
 					<br />
@@ -849,18 +946,20 @@ export default (() => {
 					<br />
 					- Social media audit
 				</Text>
+				<Button
+					font="--lead"
+					margin="20px"
+					sm-background="--color-dark"
+					background="--color-dark"
+					sm-border-radius="15px"
+					sm-display="inline-block"
+					sm-margin="20px 0 20px 75px"
+				>
+					<Strong>
+						Get the Template
+					</Strong>
+				</Button>
 			</Box>
-			<Button
-				font="--lead"
-				margin="20px"
-				sm-background="--color-dark"
-				background="--color-dark"
-				sm-border-radius="15px"
-			>
-				<Strong>
-					Get the Template
-				</Strong>
-			</Button>
 		</Section>
 		<Section
 			background="#FFFFFF"
@@ -884,6 +983,7 @@ export default (() => {
 							margin="10px 0 15px 0"
 							sm-margin="10px 0 15px 0"
 							text-align="center"
+							sm-font="--headline3"
 						>
 							Subscribe
 						</Text>
@@ -893,6 +993,7 @@ export default (() => {
 							letter-spacing="1px"
 							margin="0 0 15px 0"
 							text-align="center"
+							sm-font="--base"
 						>
 							We share various digital marketing templates to help you get the job done beautifully
 						</Text>
@@ -939,7 +1040,7 @@ export default (() => {
 					pointer-events="auto"
 				>
 					<Strong
-						sm-font="--headline2"
+						sm-font="--headline3"
 						overflow-wrap="normal"
 						word-break="normal"
 						white-space="normal"
@@ -956,43 +1057,49 @@ export default (() => {
 			</Text>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap" sm-margin="-16px -0 -16px 0">
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--headline3">
-						Do I have to download Notion to access this file?
+					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--lead">
+						<Strong>
+							Do I have to download Notion to access this file?
+						</Strong>
 					</Text>
 					<Text
 						as="p"
 						font="--base"
 						margin="12px 0"
 						color="--greyD2"
-						sm-font="--lead"
+						sm-font="--base"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--headline3">
-						I am new to social media job. Is it possible to understand this template?
+					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--lead">
+						<Strong>
+							I am new to social media job. Is it possible to understand this template?
+						</Strong>
 					</Text>
 					<Text
 						as="p"
 						font="--base"
 						margin="12px 0"
 						color="--greyD2"
-						sm-font="--lead"
+						sm-font="--base"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--headline3">
-						When will we get there?
+					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--lead">
+						<Strong>
+							When will we get there?
+						</Strong>
 					</Text>
 					<Text
 						as="p"
 						font="--base"
 						margin="12px 0"
 						color="--greyD2"
-						sm-font="--lead"
+						sm-font="--base"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 					</Text>
