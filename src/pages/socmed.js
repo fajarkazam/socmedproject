@@ -875,10 +875,13 @@ export default (() => {
 			display="block"
 			quarkly-title="Subscribe"
 		>
-			<Box min-width="100px" min-height="100px">
-				<Components.EmbedHtml />
-			</Box>
-			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
+			<Box
+				margin="-16px -16px -16px -16px"
+				display="flex"
+				flex-wrap="wrap"
+				text-align="left"
+				justify-content="center"
+			>
 				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
 					<Box>
 						<Text font="--headline2" max-width="500px" margin="10px 0 0 0" sm-margin="10px 0 15px 0">
@@ -895,65 +898,27 @@ export default (() => {
 						</Text>
 					</Box>
 				</Box>
-				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
-					<Components.QuarklycommunityKitForm
-						action="https://76b8bd26.sibforms.com/serve/MUIEADJaG-k3iA8_1RKL-4QknBEThkFR4BjmCuBfTFogC0XrREx7k09NLPdv9jZMkV5pqEnwmk59eCBhlcfUi33AaxCW7hxOo-FwnoGl9MebFlfaPcV1xvk3yJXnJfV_ae0dPPjeNoZ9tzn7oYrWxZFJjLfmdRspoMmVxcoQsmkbXj9Bv_YdORp8tW8vi9I7czEb3C3qRvR2cdj4"
-						autoComplete="on"
-						method="post"
-						width="max-content"
-						sm-width="100%"
-					>
-						<Input
-							display="block"
-							placeholder-color="LightGray"
-							background="white"
-							sm-margin="0px 0px 25px 0"
-							margin="0px 0px 15px 0px"
-							min-height="100%"
-							position="static"
-							sm-width="80%"
-							name="Name"
-							type="text"
-							placeholder="Name"
-							required
-						/>
-						<Input
-							display="block"
-							placeholder-color="LightGray"
-							background="white"
-							sm-margin="0px 0px 25px 0"
-							margin="0px 0px 15px 0px"
-							sm-width="80%"
-							name="Email"
-							type="email"
-							placeholder="Email"
-							required
-						/>
-						<Button
-							sm-margin="0px 0px 0px 0"
-							sm-width="125px"
-							sm-border-radius="5px"
-							sm-background="--color-dark"
-							background="--color-dark"
-							user-select="none"
-						>
-							<Span
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								<Strong>
-									Subscribe
-								</Strong>
-							</Span>
-						</Button>
-					</Components.QuarklycommunityKitForm>
-				</Box>
+				<Components.QuarklycommunityKitMailChimp url="https://gmail.us11.list-manage.com/subscribe/post?u=d17f9f6f20439a03e39c023f0&amp;id=11c55fbc62&amp;f_id=00a5a8e0f0" align-self="center">
+					<Input
+						display="block"
+						placeholder-color="LightGray"
+						background="white"
+						name="email"
+						type="email"
+						placeholder="Email"
+						required
+						padding="6px 16px 10px 16px"
+						margin="0px 10px 0px 0px"
+						width="450px"
+						border-width="2px"
+						border-color="--color-grey"
+					/>
+					<Button background="--color-dark" width="150px" border-radius="10px">
+						<Strong>
+							Button
+						</Strong>
+					</Button>
+				</Components.QuarklycommunityKitMailChimp>
 			</Box>
 		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
