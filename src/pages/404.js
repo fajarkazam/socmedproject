@@ -54,6 +54,9 @@ export default (() => {
 			<script place={"endOfBody"} rawKey={"646487f7c6dd23010c9101c9"}>
 				{"<!-- Google Tag Manager -->\n<amp-analytics config=\"https://www.googletagmanager.com/amp.json?id=GTM-MPGQQDQ&gtm.url=SOURCE_URL\" data-credentials=\"include\"></amp-analytics>\n"}
 			</script>
+			<script place={"endOfHead"} rawKey={"647d448520e0611490d54f0d"}>
+				{"<!-- MailerLite Universal -->\n<script>\n    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])\n    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,\n    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})\n    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');\n    ml('account', '465418');\n</script>\n<!-- End MailerLite Universal -->"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });

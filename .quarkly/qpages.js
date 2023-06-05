@@ -1,6 +1,6 @@
 module.exports = [
 	"/index/",
-	"/index1/",
+	"/socmed/",
 	"/404/",
 	"/",
 	"/404.html"

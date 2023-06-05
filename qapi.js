@@ -21,7 +21,7 @@ export default {
 			"pageUrl": "index"
 		},
 		"6474df74588b2d00195721ab": {
-			"pageUrl": "index1",
+			"pageUrl": "socmed",
 			"id": "6474df74588b2d00195721ab",
 			"name": "Social Media"
 		}
