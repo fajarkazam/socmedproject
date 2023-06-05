@@ -1,1 +1,1 @@
-export { default as QuarklycommunityKitNetlifyForm } from "./QuarklycommunityKitNetlifyForm"
+export { default as QuarklycommunityKitMailChimp } from "./QuarklycommunityKitMailChimp"

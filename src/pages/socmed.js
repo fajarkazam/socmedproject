@@ -169,15 +169,6 @@ export default (() => {
 				width="100%"
 			>
 				<Text
-					margin="0px 0px 16px 0px"
-					color="--dark"
-					font="--headline2"
-					text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-				>
-					Why this template?
-				</Text>
-				<Text
 					margin="0px 0px 24px 0px"
 					color="--dark"
 					font="--headline3"
@@ -199,7 +190,7 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-margin="35px 0px 0px 0px"
+					sm-margin="35px 0px 25px 0px"
 					flex="1 1 0%"
 					sm-display="inline-block"
 					sm-position="static"
@@ -264,7 +255,7 @@ export default (() => {
 					hover-transform="translateY(-10px)"
 					sm-max-width="375px"
 					sm-min-height="100px"
-					sm-margin="35px 0px 0px 0px"
+					sm-margin="35px 0px 25px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 				/>
@@ -322,7 +313,7 @@ export default (() => {
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100px"
-					sm-margin="35px 0px 0px 0px"
+					sm-margin="35px 0px 25px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-min-width="80%"
@@ -785,7 +776,7 @@ export default (() => {
 				margin="20px 0 0 0"
 				sm-align-self="center"
 				sm-text-align="center"
-				sm-font="--headline2"
+				sm-font="--headline3"
 				align-self="center"
 				text-align="center"
 			>
@@ -832,8 +823,11 @@ export default (() => {
 						sm-text-align="center"
 						sm-display="block"
 						font="--headline2"
+						sm-font="--headline3"
 					>
-						Rp 79.000
+						<Strong>
+							Rp 79.000
+						</Strong>
 					</Strong>
 				</Text>
 				<Text
@@ -905,25 +899,22 @@ export default (() => {
 					</Box>
 				</Box>
 			</Box>
-			<Components.QuarklycommunityKitNetlifyForm align-self="center" formName="subscribe-socialmedia">
+			<Components.QuarklycommunityKitMailChimp url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4" align-self="center">
 				<Input
 					display="block"
 					placeholder-color="LightGray"
 					background="white"
 					align-self="center"
-					margin="0px 0px 15px 0px"
-					name="email"
-					type="email"
-					placeholder="Email"
-					required
 					width="350px"
+					name="EMAIL"
+					type="email"
+					required
+					placeholder="Email"
 				/>
-				<Button align-self="center" background="--color-dark" width="350px">
-					<Strong>
-						Subscribe
-					</Strong>
+				<Button background="--color-dark">
+					Subsribe
 				</Button>
-			</Components.QuarklycommunityKitNetlifyForm>
+			</Components.QuarklycommunityKitMailChimp>
 		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
 			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
@@ -1008,7 +999,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section background-color="--dark" text-align="center" padding="32px 0">
+		<Section background-color="--dark" text-align="center" padding="32px 0" justify-content="center">
 			<Menu
 				display="flex"
 				justify-content="center"
@@ -1017,6 +1008,7 @@ export default (() => {
 				margin="-6px 0 16px"
 				md-flex-direction="column"
 				md-align-items="center"
+				filterMode="exclude"
 			>
 				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
 				<Override slot="link-active" color="--primary" />
