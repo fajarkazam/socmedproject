@@ -168,6 +168,7 @@ export default (() => {
 					sm-max-width="100%"
 					sm-color="--light"
 					width="70%"
+					sm-width="100%"
 				>
 					Get the 5 most useful daily life organizer notion template for{" "}
 					<Strong
