@@ -1,12 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Hr, Input, Icon } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, List, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu } from "@quarkly/components";
 import * as Components from "components";
-import { BsPhone } from "react-icons/bs";
-import { FaRegFileImage, FaWarehouse } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"socmed"} />
@@ -127,7 +125,6 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 		<Section
 			background="#FFFFFF"
 			color="--dark"
@@ -135,10 +132,10 @@ export default (() => {
 			display="block"
 			quarkly-title="Subscribe"
 			sm-max-width="100%"
-			sm-background="--color-light"
+			sm-background="--color-dark"
 		>
 			<Override slot="SectionContent" sm-margin="0px 0 0px 0" sm-max-width="100%" />
-			<Box text-align="center" sm-display="block">
+			<Box text-align="center" sm-display="block" sm-color="--light">
 				<Text
 					font="--headline2"
 					margin="10px 0 15px 0"
@@ -155,7 +152,7 @@ export default (() => {
 					text-align="center"
 					sm-width="100%"
 				>
-					Subscribe
+					Ultimate Daily Life Organizer
 				</Text>
 				<Text
 					font="--lead"
@@ -167,9 +164,62 @@ export default (() => {
 					sm-text-align="left"
 					sm-margin="0 0 15px 20px"
 					sm-max-width="100%"
+					sm-color="--light"
 				>
-					We share various digital marketing templates to help you get the job done beautifully
+					Get the 5 most useful daily life organizer notion template for{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						FREE
+					</Strong>
+					{" "}to elevate your life by writing down your email and we will send you the{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Daily Life Organizer
+					</Strong>
+					{" "}template.
 				</Text>
+				<List
+					margin="0px 0px 0px 0px"
+					padding="0px 0px 0px 20px"
+					list-style-type="disc"
+					as="ul"
+					sm-width="100%"
+					sm-margin="0px 20px 25px 20px"
+					sm-text-align="left"
+					sm-font="--lead"
+				>
+					<Text margin="0px 0px 0px 0px">
+						Daily cook planner
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Student organizer
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Finance tracker
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Credit tracker
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Wedding planner
+					</Text>
+				</List>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
 				url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4"
@@ -193,13 +243,21 @@ export default (() => {
 					sm-display="inline-block"
 					sm-margin="0px 0px 0px 20px"
 					sm-align-self="center"
+					sm-width="375px"
+					sm-border-radius="2px"
 				/>
-				<Button background="--color-dark" sm-align-self="center">
+				<Button
+					background="--color-dark"
+					sm-align-self="center"
+					sm-border-style="solid"
+					sm-border-width="2px"
+					sm-border-color="--color-light"
+					sm-padding="6px 24px 6px 24px"
+				>
 					Subsribe
 				</Button>
 			</Components.QuarklycommunityKitMailChimp>
 		</Section>
-		<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 		<Section
 			padding="25px 0 25px 0"
 			sm-padding="25px 0 25px 0"
@@ -210,6 +268,7 @@ export default (() => {
 			quarkly-title="Features"
 			margin="50px 0 0 0"
 			sm-width="100%"
+			sm-margin="0 0 0 0"
 		>
 			<Override
 				slot="SectionContent"
@@ -228,7 +287,7 @@ export default (() => {
 				sm-text-align="left"
 				sm-margin="0px 0px 24px 20px"
 			>
-				What's inside?
+				What you will get
 			</Text>
 			<Box
 				display="flex"
@@ -262,7 +321,7 @@ export default (() => {
 					sm-font="--headline3"
 					align-self="center"
 					sm-text-align="left"
-					sm-margin="0px 0px 24px 20px"
+					sm-margin="0px 0px 0 20px"
 				>
 					Intuitive calendar view
 				</Text>
@@ -272,7 +331,7 @@ export default (() => {
 					font="--lead"
 					lg-text-align="center"
 					sm-text-align="left"
-					sm-margin="0px 0px 40px 20px"
+					sm-margin="0px 0px 20px 20px"
 				>
 					Plan and visualize your content schedule for different platforms at a glance.
 				</Text>
@@ -285,7 +344,7 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					sm-display="inline-block"
 					sm-position="static"
@@ -327,7 +386,7 @@ export default (() => {
 					sm-font="--headline3"
 					align-self="center"
 					sm-text-align="left"
-					sm-margin="0px 0px 24px 20px"
+					sm-margin="0px 0px 0 20px"
 				>
 					Content categorization
 				</Text>
@@ -353,7 +412,7 @@ export default (() => {
 					hover-transform="translateY(-10px)"
 					sm-max-width="375px"
 					sm-min-height="100px"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 				/>
@@ -390,7 +449,7 @@ export default (() => {
 					sm-font="--headline3"
 					align-self="center"
 					sm-text-align="left"
-					sm-margin="0px 0px 24px 20px"
+					sm-margin="0px 0px 0 20px"
 				>
 					Customizable templates
 				</Text>
@@ -414,7 +473,7 @@ export default (() => {
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100px"
-					sm-margin="35px 0px 25px 0px"
+					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-min-width="80%"
@@ -453,7 +512,7 @@ export default (() => {
 					align-self="center"
 					text-align="left"
 					sm-text-align="left"
-					sm-margin="0px 20px 24px 20px"
+					sm-margin="0px 20px 0 20px"
 				>
 					Collaborative workspace
 				</Text>
@@ -478,7 +537,7 @@ export default (() => {
 					hover-transform="translateY(-10px)"
 					sm-max-width="375px"
 					sm-min-height="100px"
-					sm-margin="35px 0px 0px 0px"
+					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
 					sm-min-width="100%"
@@ -486,7 +545,6 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="80px 0 50px 0" sm-padding="25px 0 15px 0" quarkly-title="Target">
-			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				margin="0px 0px 5px 0px"
 				color="--dark"
@@ -532,27 +590,15 @@ export default (() => {
 					display="flex"
 					sm-align-items="flex-start"
 				>
-					<Icon
-						category="bs"
-						icon={BsPhone}
-						margin="0px 0px 22px 0px"
-						color="--dark"
-						size="36px"
-						sm-display="block"
-						sm-align-self="flex-start"
-						sm-order="-1"
-						sm-flex="0 1 auto"
-						sm-text-align="center"
-						sm-font="--headline1"
-					/>
 					<Text
 						margin="0px 0px 11px 0px"
 						color="--darkL2"
 						font="--headline3"
 						lg-text-align="left"
 						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
 					>
-						<Strong sm-display="flex" sm-justify-content="flex-start">
+						<Strong sm-display="flex" sm-justify-content="flex-start" sm-font="--headline3">
 							Social Media Specialist
 						</Strong>
 					</Text>
@@ -562,7 +608,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 						sm-text-align="left"
 					>
 						Easily manage your company social media content calendar
@@ -576,22 +622,15 @@ export default (() => {
 					sm-text-align="left"
 					sm-align-items="flex-start"
 				>
-					<Icon
-						category="fa"
-						icon={FaRegFileImage}
-						margin="0px 0px 22px 0px"
-						color="--dark"
-						size="36px"
-						sm-font="normal 900 50px/1.2 --fontFamily-sans"
-					/>
 					<Text
 						margin="0px 0px 11px 0px"
 						color="--darkL2"
 						font="--headline3"
 						lg-text-align="left"
 						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
 					>
-						<Strong sm-display="block" sm-justify-content="flex-start">
+						<Strong sm-display="block" sm-justify-content="flex-start" sm-font="--headline3">
 							Content Creator
 						</Strong>
 					</Text>
@@ -601,7 +640,7 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 						sm-text-align="left"
 					>
 						Maximize your potential to increase social media presence
@@ -614,22 +653,15 @@ export default (() => {
 					display="flex"
 					sm-align-items="flex-start"
 				>
-					<Icon
-						category="fa"
-						icon={FaWarehouse}
-						margin="0px 0px 22px 0px"
-						color="--dark"
-						size="36px"
-						sm-font="50px sans-serif"
-					/>
 					<Text
 						margin="0px 0px 11px 0px"
 						color="--darkL2"
 						font="--headline3"
 						lg-text-align="left"
 						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
 					>
-						<Strong>
+						<Strong sm-font="--headline3">
 							Online Shop Owner
 						</Strong>
 					</Text>
@@ -639,7 +671,8 @@ export default (() => {
 						font="--base"
 						text-align="center"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
+						sm-text-align="left"
 					>
 						Increase your website traffic through social media
 					</Text>
@@ -965,6 +998,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-width="250px"
 					sm-font="--base"
+					sm-color="--dark"
 				>
 					- Lifetime access
 					<br />
