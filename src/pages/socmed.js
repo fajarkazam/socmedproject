@@ -103,6 +103,8 @@ export default (() => {
 					sm-padding="15px 24px 15px 24px"
 					background="--color-dark"
 					sm-margin="0px 0px 15px 0px"
+					type="button"
+					href="https://invoice.xendit.co/od/socmedtemplate"
 				>
 					<Strong>
 						Get the Template
@@ -1016,6 +1018,8 @@ export default (() => {
 					sm-border-radius="15px"
 					sm-display="inline-block"
 					sm-margin="20px 0 20px 75px"
+					href="https://invoice.xendit.co/od/socmedtemplate"
+					type="button"
 				>
 					<Strong>
 						Get the Template
