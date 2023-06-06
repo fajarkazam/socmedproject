@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Input, Hr, Icon } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, Hr, Input, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Menu } from "@quarkly/components";
@@ -72,7 +72,7 @@ export default (() => {
 						pointer-events="auto"
 					>
 						<Strong
-							sm-font="700 32px/33.6px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+							sm-font="--headline2"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -83,7 +83,7 @@ export default (() => {
 							pointer-events="auto"
 							font="--headline1"
 						>
-							Notion Social Media Calendar Template
+							Social Media Organizer Template
 						</Strong>
 					</Span>
 				</Text>
@@ -127,48 +127,49 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
+		<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 		<Section
 			background="#FFFFFF"
 			color="--dark"
 			padding="64px 0 64px 0"
 			display="block"
 			quarkly-title="Subscribe"
+			sm-max-width="100%"
+			sm-background="--color-light"
 		>
-			<Override slot="SectionContent" />
-			<Box
-				margin="-16px -16px -16px -16px"
-				display="block"
-				flex-wrap="wrap"
-				text-align="left"
-				justify-content="center"
-				align-items="center"
-				sm-margin="-16px 0 -16px -0"
-			>
-				<Box padding="16px 16px 16px 16px" lg-width="100%" sm-display="inline-block" sm-margin="0px 0 0px 0">
-					<Box text-align="center" sm-display="block">
-						<Text
-							font="--headline2"
-							max-width="500px"
-							margin="10px 0 15px 0"
-							sm-margin="10px 0 15px 0"
-							display="inline-block"
-							sm-display="inline-block"
-							sm-font="--headline3"
-						>
-							Subscribe
-						</Text>
-						<Text
-							font="--lead"
-							color="--dark"
-							letter-spacing="1px"
-							margin="0 0 15px 0"
-							text-align="center"
-							display="inline-block"
-						>
-							We share various digital marketing templates to help you get the job done beautifully
-						</Text>
-					</Box>
-				</Box>
+			<Override slot="SectionContent" sm-margin="0px 0 0px 0" sm-max-width="100%" />
+			<Box text-align="center" sm-display="block">
+				<Text
+					font="--headline2"
+					margin="10px 0 15px 0"
+					sm-margin="10px 0 15px 20px"
+					display="inline-block"
+					sm-display="block"
+					sm-font="--headline3"
+					sm-text-align="left"
+					sm-align-items="center"
+					sm-flex-direction="row"
+					sm-justify-content="flex-start"
+					sm-max-width="100%"
+					width="100%"
+					text-align="center"
+					sm-width="100%"
+				>
+					Subscribe
+				</Text>
+				<Text
+					font="--lead"
+					color="--dark"
+					letter-spacing="1px"
+					margin="0 0 15px 0"
+					text-align="center"
+					display="inline-block"
+					sm-text-align="left"
+					sm-margin="0 0 15px 20px"
+					sm-max-width="100%"
+				>
+					We share various digital marketing templates to help you get the job done beautifully
+				</Text>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
 				url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4"
@@ -177,6 +178,7 @@ export default (() => {
 				sm-width="375px"
 				sm-flex="0 1 auto"
 				sm-order="1"
+				sm-margin="0px 0px 0px 0"
 			>
 				<Input
 					display="block"
@@ -188,12 +190,16 @@ export default (() => {
 					type="email"
 					required
 					placeholder="Email"
+					sm-display="inline-block"
+					sm-margin="0px 0px 0px 20px"
+					sm-align-self="center"
 				/>
-				<Button background="--color-dark">
+				<Button background="--color-dark" sm-align-self="center">
 					Subsribe
 				</Button>
 			</Components.QuarklycommunityKitMailChimp>
 		</Section>
+		<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 		<Section
 			padding="25px 0 25px 0"
 			sm-padding="25px 0 25px 0"
@@ -203,6 +209,7 @@ export default (() => {
 			display="block"
 			quarkly-title="Features"
 			margin="50px 0 0 0"
+			sm-width="100%"
 		>
 			<Override
 				slot="SectionContent"
@@ -211,6 +218,18 @@ export default (() => {
 				display="block"
 				width="100%"
 			/>
+			<Text
+				margin="0px 0px 24px 0px"
+				color="--dark"
+				font="--headline3"
+				lg-text-align="center"
+				sm-font="--headline2"
+				align-self="center"
+				sm-text-align="left"
+				sm-margin="0px 0px 24px 20px"
+			>
+				What's inside?
+			</Text>
 			<Box
 				display="flex"
 				flex-direction="column"
@@ -242,10 +261,19 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="--headline3"
 					align-self="center"
+					sm-text-align="left"
+					sm-margin="0px 0px 24px 20px"
 				>
 					Intuitive calendar view
 				</Text>
-				<Text margin="0px 0px 40px 0px" color="--greyD3" font="--lead" lg-text-align="center">
+				<Text
+					margin="0px 0px 40px 0px"
+					color="--greyD3"
+					font="--lead"
+					lg-text-align="center"
+					sm-text-align="left"
+					sm-margin="0px 0px 40px 20px"
+				>
 					Plan and visualize your content schedule for different platforms at a glance.
 				</Text>
 				<Image
@@ -272,7 +300,7 @@ export default (() => {
 				lg-width="100%"
 				lg-align-items="center"
 				lg-margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 0px 0px"
+				sm-margin="0px 0px 0px 20"
 				sm-padding="0px 0px 0px 0px"
 				padding="16px 16px 16px 16px"
 				justify-content="center"
@@ -298,6 +326,8 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="--headline3"
 					align-self="center"
+					sm-text-align="left"
+					sm-margin="0px 0px 24px 20px"
 				>
 					Content categorization
 				</Text>
@@ -307,7 +337,8 @@ export default (() => {
 					font="--lead"
 					lg-text-align="center"
 					align-self="center"
-					sm-margin="0px 0px 0 0px"
+					sm-margin="0px 20px 0 20px"
+					sm-text-align="left"
 				>
 					Easily organize and label your posts by topic, campaign, or format.
 				</Text>
@@ -358,6 +389,8 @@ export default (() => {
 					lg-text-align="center"
 					sm-font="--headline3"
 					align-self="center"
+					sm-text-align="left"
+					sm-margin="0px 0px 24px 20px"
 				>
 					Customizable templates
 				</Text>
@@ -366,7 +399,8 @@ export default (() => {
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
-					sm-margin="0px 0px 0 0px"
+					sm-margin="0px 20px 0 20px"
+					sm-text-align="left"
 				>
 					Tailor the calendar to match your branding and specific social media needs.
 				</Text>
@@ -418,6 +452,8 @@ export default (() => {
 					sm-font="--headline3"
 					align-self="center"
 					text-align="left"
+					sm-text-align="left"
+					sm-margin="0px 20px 24px 20px"
 				>
 					Collaborative workspace
 				</Text>
@@ -426,7 +462,8 @@ export default (() => {
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
-					sm-margin="0px 0px 0 0px"
+					sm-margin="0px 20px 0 20px"
+					sm-text-align="left"
 				>
 					Seamlessly collaborate with team members, assign tasks, and track progress.
 				</Text>
@@ -448,7 +485,174 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" quarkly-title="Reviews" sm-padding="25px 0 25px 0">
+		<Section padding="80px 0 50px 0" sm-padding="25px 0 15px 0" quarkly-title="Target">
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
+			<Text
+				margin="0px 0px 5px 0px"
+				color="--dark"
+				font="--headline3"
+				text-align="center"
+				sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+				padding="0px 0px 50px 0px"
+			>
+				<Span
+					font-size="36px"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+						sm-font="--headline2"
+						font="--headline2"
+						sm-display="block"
+						sm-text-align="left"
+					>
+						Who is it for?
+					</Span>
+				</Span>
+			</Text>
+			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
+				<Box
+					align-items="center"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+					sm-align-items="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsPhone}
+						margin="0px 0px 22px 0px"
+						color="--dark"
+						size="36px"
+						sm-display="block"
+						sm-align-self="flex-start"
+						sm-order="-1"
+						sm-flex="0 1 auto"
+						sm-text-align="center"
+						sm-font="--headline1"
+					/>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong sm-display="flex" sm-justify-content="flex-start">
+							Social Media Specialist
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+						sm-font="--base"
+						sm-text-align="left"
+					>
+						Easily manage your company social media content calendar
+					</Text>
+				</Box>
+				<Box
+					align-items="center"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+					sm-text-align="left"
+					sm-align-items="flex-start"
+				>
+					<Icon
+						category="fa"
+						icon={FaRegFileImage}
+						margin="0px 0px 22px 0px"
+						color="--dark"
+						size="36px"
+						sm-font="normal 900 50px/1.2 --fontFamily-sans"
+					/>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong sm-display="block" sm-justify-content="flex-start">
+							Content Creator
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+						sm-font="--base"
+						sm-text-align="left"
+					>
+						Maximize your potential to increase social media presence
+					</Text>
+				</Box>
+				<Box
+					align-items="center"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+					sm-align-items="flex-start"
+				>
+					<Icon
+						category="fa"
+						icon={FaWarehouse}
+						margin="0px 0px 22px 0px"
+						color="--dark"
+						size="36px"
+						sm-font="50px sans-serif"
+					/>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong>
+							Online Shop Owner
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 12px 0px"
+						color="--greyD3"
+						font="--base"
+						text-align="center"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						Increase your website traffic through social media
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0 80px 0"
+			quarkly-title="Reviews"
+			sm-padding="25px 0 25px 0"
+			sm-flex-direction="row"
+			sm-justify-content="flex-start"
+		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -459,15 +663,18 @@ export default (() => {
 				width="100%"
 				sm-margin="0px 0px 30px 0px"
 			>
-				<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 				<Text
 					margin="0px 0px 16px 0px"
 					color="--dark"
 					font="--headline2"
 					text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="--headline3"
+					sm-text-align="left"
+					sm-align-self="flex-start"
 				>
-					Reviews From Readers
+					<Strong sm-display="flex" sm-justify-content="flex-start" sm-font="--headline2">
+						Reviews From Readers
+					</Strong>
 				</Text>
 			</Box>
 			<Box
@@ -500,13 +707,6 @@ export default (() => {
 						“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Image
-							width="43px"
-							height="43px"
-							src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/image6.png?v=2021-08-25T19:47:23.498Z"
-							border-radius="50зч"
-							margin="0px 15px 12px 0px"
-						/>
 						<Box>
 							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
 								Sam Smith
@@ -540,13 +740,6 @@ export default (() => {
 						“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Image
-							width="43px"
-							height="43px"
-							src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/image5.png?v=2021-08-25T19:47:16.297Z"
-							border-radius="50зч"
-							margin="0px 15px 12px 0px"
-						/>
 						<Box>
 							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
 								Mason Johnson
@@ -580,13 +773,6 @@ export default (() => {
 						Must have book for students, who want to be Product Designer, UX Designer, or Interaction Designer.
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Image
-							width="43px"
-							height="43px"
-							src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/image4.png?v=2021-08-25T19:47:08.343Z"
-							border-radius="50зч"
-							margin="0px 15px 12px 0px"
-						/>
 						<Box>
 							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
 								Adriana Williams
@@ -620,13 +806,6 @@ export default (() => {
 						“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.”
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Image
-							width="43px"
-							height="43px"
-							src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/image-3.png?v=2021-08-25T19:46:11.754Z"
-							border-radius="50зч"
-							margin="0px 15px 12px 0px"
-						/>
 						<Box>
 							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
 								Ethan Tremblay
@@ -660,13 +839,6 @@ export default (() => {
 						Must have book for students, who want to be Product Designer, UX Designer, or Interaction Designer.
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Image
-							width="43px"
-							height="43px"
-							src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/image4.png?v=2021-08-25T19:47:08.343Z"
-							border-radius="50зч"
-							margin="0px 15px 12px 0px"
-						/>
 						<Box>
 							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
 								Adriana Williams
@@ -700,13 +872,6 @@ export default (() => {
 						“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Image
-							width="43px"
-							height="43px"
-							src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/image4.png?v=2021-08-25T19:47:08.343Z"
-							border-radius="50зч"
-							margin="0px 15px 12px 0px"
-						/>
 						<Box>
 							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
 								Mason Johnson
@@ -719,155 +884,16 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 50px 0" sm-padding="25px 0 15px 0" quarkly-title="Target">
-			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
-			<Text
-				margin="0px 0px 5px 0px"
-				color="--dark"
-				font="--headline3"
-				text-align="center"
-				sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-				padding="0px 0px 50px 0px"
-			>
-				<Span
-					font-size="36px"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Span
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-						sm-font="--headline3"
-						font="--headline2"
-					>
-						Personalized Only For You
-					</Span>
-				</Span>
-			</Text>
-			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
-				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
-					<Icon
-						category="bs"
-						icon={BsPhone}
-						margin="0px 0px 22px 0px"
-						color="--dark"
-						size="36px"
-						sm-display="block"
-						sm-align-self="center"
-						sm-order="-1"
-						sm-flex="0 1 auto"
-						sm-text-align="center"
-						sm-font="--headline1"
-					/>
-					<Text
-						margin="0px 0px 11px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							Social Media Specialist
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 12px 0px"
-						color="--greyD3"
-						font="--base"
-						text-align="center"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						Easily manage your company social media content calendar
-					</Text>
-				</Box>
-				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
-					<Icon
-						category="fa"
-						icon={FaRegFileImage}
-						margin="0px 0px 22px 0px"
-						color="--dark"
-						size="36px"
-						sm-font="normal 900 50px/1.2 --fontFamily-sans"
-					/>
-					<Text
-						margin="0px 0px 11px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							Content Creator
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 12px 0px"
-						color="--greyD3"
-						font="--base"
-						text-align="center"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						Maximize your potential to increase social media presence
-					</Text>
-				</Box>
-				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
-					<Icon
-						category="fa"
-						icon={FaWarehouse}
-						margin="0px 0px 22px 0px"
-						color="--dark"
-						size="36px"
-						sm-font="50px sans-serif"
-					/>
-					<Text
-						margin="0px 0px 11px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							Online Shop Owner
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 12px 0px"
-						color="--greyD3"
-						font="--base"
-						text-align="center"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						Increase your website traffic through social media
-					</Text>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="80px 0" sm-padding="25px 0 5px 0">
+		<Section padding="80px 0" sm-padding="25px 0 5px 0" quarkly-title="Price">
 			<Override slot="SectionContent" align-items="center" />
-			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				as="h2"
 				font="--headline2"
 				md-font="--headline2"
 				margin="20px 0 0 0"
-				sm-align-self="center"
-				sm-text-align="center"
-				sm-font="--headline3"
+				sm-align-self="flex-start"
+				sm-text-align="left"
+				sm-font="--headline2"
 				align-self="center"
 				text-align="center"
 			>
@@ -879,6 +905,8 @@ export default (() => {
 				margin="20px 0 20px 0"
 				text-align="center"
 				sm-font="--base"
+				sm-align-self="flex-start"
+				sm-text-align="left"
 			>
 				Get started now and take your social media strategy to new level.
 			</Text>
@@ -984,6 +1012,7 @@ export default (() => {
 							sm-margin="10px 0 15px 0"
 							text-align="center"
 							sm-font="--headline3"
+							sm-display="flex"
 						>
 							Subscribe
 						</Text>
@@ -994,6 +1023,7 @@ export default (() => {
 							margin="0 0 15px 0"
 							text-align="center"
 							sm-font="--base"
+							sm-text-align="left"
 						>
 							We share various digital marketing templates to help you get the job done beautifully
 						</Text>
@@ -1011,22 +1041,24 @@ export default (() => {
 					type="email"
 					required
 					placeholder="Email"
+					sm-margin="0px 0px 0px 15px"
 				/>
-				<Button background="--color-dark">
+				<Button background="--color-dark" sm-margin="0px 15px 0px 0px">
 					Subsribe
 				</Button>
 			</Components.QuarklycommunityKitMailChimp>
 		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
-			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 			<Text
 				as="h1"
 				font="--headline3"
 				margin="0 0 24px 0"
-				sm-font="normal 900 30px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+				sm-font="--headline3"
 				sm-text-align="center"
 				text-align="center"
 				padding="0px 0px 50px 0px"
+				sm-align-self="flex-start"
+				sm-padding="0px 0px 0 0px"
 			>
 				<Span
 					font-size="36px"
@@ -1039,7 +1071,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Strong
+					<Span
 						sm-font="--headline3"
 						overflow-wrap="normal"
 						word-break="normal"
@@ -1051,8 +1083,10 @@ export default (() => {
 						pointer-events="auto"
 						font="--headline2"
 					>
-						F.A.Q.
-					</Strong>
+						<Strong sm-font="--headline2">
+							F.A.Q.
+						</Strong>
+					</Span>
 				</Span>
 			</Text>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap" sm-margin="-16px -0 -16px 0">
@@ -1106,7 +1140,13 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section background-color="--dark" text-align="center" padding="32px 0" justify-content="center">
+		<Section
+			background-color="--dark"
+			text-align="center"
+			padding="32px 0"
+			justify-content="center"
+			sm-justify-content="flex-start"
+		>
 			<Menu
 				display="flex"
 				justify-content="center"
@@ -1116,13 +1156,24 @@ export default (() => {
 				md-flex-direction="column"
 				md-align-items="center"
 				filterMode="exclude"
+				sm-align-items="flex-start"
 			>
 				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
 				<Override slot="link-active" color="--primary" />
 				<Override slot="item" padding="6px 0px" />
-				<Override slot="link-index" sm-color="--light">
+				<Override slot="link-index" sm-color="--light" sm-padding="6px 12px 6px 0">
 					AB Digital Marketing
 				</Override>
+				<Override
+					slot="link-socmed"
+					sm-color="--light"
+					sm-font="--lead"
+					sm-text-align="left"
+					sm-display="flex"
+					sm-padding="0 12px 0 0"
+				/>
+				<Override slot="link-socmed1" sm-font="--lead" sm-padding="0 12px 0 0" sm-text-align="left" />
+				<Override slot="link-socmed11" sm-font="--lead" sm-padding="0 12px 0 0" sm-text-align="left" />
 			</Menu>
 			<Link
 				href="mailto:hello@company.com"
@@ -1131,6 +1182,9 @@ export default (() => {
 				color="--grey"
 				hover-color="--primary"
 				sm-color="--light"
+				sm-display="flex"
+				sm-margin="0px 0px 0px 5px"
+				sm-font="--base"
 			>
 				digitalmastery.ads@gmail.com
 			</Link>
@@ -1140,8 +1194,10 @@ export default (() => {
 				variant="--base"
 				color="--grey"
 				hover-color="--primary"
-				sm-margin="0 0px 0px 0px"
+				sm-margin="0 0px 0px 5px"
 				sm-color="--light"
+				sm-display="flex"
+				sm-font="--base"
 			>
 				All right reserved @2023
 			</Link>

@@ -5,9 +5,11 @@ export default {
 			"pageUrl": "root",
 			"name": "root",
 			"children": [
-				"6461957b820441001fb09af2",
 				"6461957b820441001fb09af5",
-				"6474df74588b2d00195721ab"
+				"6474df74588b2d00195721ab",
+				"647f0c8a8bd7e60018589221",
+				"647f0c8f477c3a0019b29f9d",
+				"6461957b820441001fb09af2"
 			]
 		},
 		"6461957b820441001fb09af2": {
@@ -24,6 +26,16 @@ export default {
 			"pageUrl": "socmed",
 			"id": "6474df74588b2d00195721ab",
 			"name": "Social Media"
+		},
+		"647f0c8a8bd7e60018589221": {
+			"pageUrl": "socmed1",
+			"id": "647f0c8a8bd7e60018589221",
+			"name": "SEO"
+		},
+		"647f0c8f477c3a0019b29f9d": {
+			"pageUrl": "socmed11",
+			"id": "647f0c8f477c3a0019b29f9d",
+			"name": "CRM"
 		}
 	},
 	"mode": "production",
