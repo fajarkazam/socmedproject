@@ -167,6 +167,7 @@ export default (() => {
 					sm-margin="0 0 15px 20px"
 					sm-max-width="100%"
 					sm-color="--light"
+					width="70%"
 				>
 					Get the 5 most useful daily life organizer notion template for{" "}
 					<Strong
@@ -197,7 +198,7 @@ export default (() => {
 					{" "}template.
 				</Text>
 				<List
-					margin="0px 0px 0px 0px"
+					margin="0px 0px 25px 0px"
 					padding="0px 0px 0px 20px"
 					list-style-type="disc"
 					as="ul"
@@ -205,6 +206,10 @@ export default (() => {
 					sm-margin="0px 20px 25px 20px"
 					sm-text-align="left"
 					sm-font="--lead"
+					font="--lead"
+					width="70%"
+					text-align="left"
+					display="inline-block"
 				>
 					<Text margin="0px 0px 0px 0px">
 						Daily cook planner
@@ -282,12 +287,14 @@ export default (() => {
 			<Text
 				margin="0px 0px 24px 0px"
 				color="--dark"
-				font="--headline3"
+				font="--headline2"
 				lg-text-align="center"
 				sm-font="--headline2"
 				align-self="center"
 				sm-text-align="left"
 				sm-margin="0px 0px 24px 20px"
+				display="block"
+				text-align="center"
 			>
 				What you will get
 			</Text>
@@ -300,7 +307,7 @@ export default (() => {
 				lg-margin="0px 0px 0px 0px"
 				sm-margin="0px 0px 0px 0px"
 				sm-padding="0px 0px 0px 0px"
-				padding="16px 16px 16px 16px"
+				padding="16px 0 16px 0"
 				justify-content="center"
 				lg-order="1"
 				flex-wrap="no-wrap"
@@ -316,7 +323,7 @@ export default (() => {
 				width="100%"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 0 0px"
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
@@ -328,7 +335,7 @@ export default (() => {
 					Intuitive calendar view
 				</Text>
 				<Text
-					margin="0px 0px 40px 0px"
+					margin="0px 0px 0 0px"
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
@@ -381,7 +388,7 @@ export default (() => {
 				sm-position="static"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 0 0px"
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
@@ -393,7 +400,7 @@ export default (() => {
 					Content categorization
 				</Text>
 				<Text
-					margin="0px 0px 40px 0px"
+					margin="0px 0px 0 0px"
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
@@ -444,7 +451,7 @@ export default (() => {
 				width="100%"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 0 0px"
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
@@ -456,7 +463,7 @@ export default (() => {
 					Customizable templates
 				</Text>
 				<Text
-					margin="0px 0px 40px 0px"
+					margin="0px 0px 0 0px"
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
@@ -506,7 +513,7 @@ export default (() => {
 				width="100%"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 0 0px"
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
@@ -519,7 +526,7 @@ export default (() => {
 					Collaborative workspace
 				</Text>
 				<Text
-					margin="0px 0px 40px 0px"
+					margin="0px 0px 0 0px"
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
@@ -529,7 +536,7 @@ export default (() => {
 					Seamlessly collaborate with team members, assign tasks, and track progress.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Untitled%20design%20%282%29.png?v=2023-05-22T16:41:10.980Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/7.png?v=2023-06-05T17:38:01.363Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -607,7 +614,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 12px 0px"
 						color="--greyD3"
-						font="--base"
+						font="--lead"
 						text-align="center"
 						flex="1 0 auto"
 						sm-font="--lead"
@@ -639,7 +646,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 12px 0px"
 						color="--greyD3"
-						font="--base"
+						font="--lead"
 						text-align="center"
 						flex="1 0 auto"
 						sm-font="--lead"
@@ -670,7 +677,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 12px 0px"
 						color="--greyD3"
-						font="--base"
+						font="--lead"
 						text-align="center"
 						flex="1 0 auto"
 						sm-font="--lead"
@@ -707,7 +714,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-align-self="flex-start"
 				>
-					<Strong sm-display="flex" sm-justify-content="flex-start" sm-font="--headline2">
+					<Strong sm-display="flex" sm-justify-content="flex-start" sm-font="--headline2" font="--headline2">
 						Reviews From Readers
 					</Strong>
 				</Text>
@@ -993,9 +1000,9 @@ export default (() => {
 				<Text
 					margin="0px 0px 48px 0px"
 					color="--greyD2"
-					text-align="center"
-					font="--base"
-					width="400px"
+					text-align="left"
+					font="--lead"
+					width="40%"
 					sm-margin="15px 0px 25px 60px"
 					sm-text-align="left"
 					sm-width="250px"
@@ -1058,7 +1065,7 @@ export default (() => {
 							font="--lead"
 							color="--dark"
 							letter-spacing="1px"
-							margin="0 0 15px 0"
+							margin="0 0 25px 0"
 							text-align="center"
 							sm-font="--base"
 							sm-text-align="left"
@@ -1080,6 +1087,8 @@ export default (() => {
 					required
 					placeholder="Email"
 					sm-margin="0px 0px 0px 15px"
+					border-width="2px"
+					border-color="--color-grey"
 				/>
 				<Button background="--color-dark" sm-margin="0px 15px 0px 0px">
 					Subsribe
@@ -1129,48 +1138,48 @@ export default (() => {
 			</Text>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap" sm-margin="-16px -0 -16px 0">
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--lead">
+					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
 						<Strong>
 							Do I have to download Notion to access this file?
 						</Strong>
 					</Text>
 					<Text
 						as="p"
-						font="--base"
-						margin="12px 0"
-						color="--greyD2"
+						font="--lead"
+						margin="0 0 12px 0"
+						color="--dark"
 						sm-font="--base"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--lead">
+					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
 						<Strong>
 							I am new to social media job. Is it possible to understand this template?
 						</Strong>
 					</Text>
 					<Text
 						as="p"
-						font="--base"
-						margin="12px 0"
-						color="--greyD2"
+						font="--lead"
+						margin="0 0 12px 0"
+						color="--dark"
 						sm-font="--base"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0" sm-font="--lead">
+					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
 						<Strong>
 							When will we get there?
 						</Strong>
 					</Text>
 					<Text
 						as="p"
-						font="--base"
-						margin="12px 0"
-						color="--greyD2"
+						font="--lead"
+						margin="0 0 12px 0"
+						color="--dark"
 						sm-font="--base"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
@@ -1195,11 +1204,13 @@ export default (() => {
 				md-align-items="center"
 				filterMode="exclude"
 				sm-align-items="flex-start"
+				align-content="flex-start"
+				flex-wrap="no-wrap"
 			>
 				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
 				<Override slot="link-active" color="--primary" />
 				<Override slot="item" padding="6px 0px" />
-				<Override slot="link-index" sm-color="--light" sm-padding="6px 12px 6px 0">
+				<Override slot="link-index" sm-color="--light" sm-padding="6px 12px 6px 0" font="--headline3">
 					AB Digital Marketing
 				</Override>
 				<Override
@@ -1209,9 +1220,13 @@ export default (() => {
 					sm-text-align="left"
 					sm-display="flex"
 					sm-padding="0 12px 0 0"
+					color="--light"
 				/>
 				<Override slot="link-socmed1" sm-font="--lead" sm-padding="0 12px 0 0" sm-text-align="left" />
 				<Override slot="link-socmed11" sm-font="--lead" sm-padding="0 12px 0 0" sm-text-align="left" />
+				<Override slot="item-socmed" font="--lead" />
+				<Override slot="item-socmed1" font="--lead" />
+				<Override slot="item-socmed11" font="--lead" />
 			</Menu>
 			<Link
 				href="mailto:hello@company.com"
