@@ -167,7 +167,7 @@ export default (() => {
 					sm-margin="0 0 15px 20px"
 					sm-max-width="100%"
 					sm-color="--light"
-					width="70%"
+					width="55%"
 					sm-width="100%"
 				>
 					Get the 5 most useful daily life organizer notion template for{" "}
@@ -208,7 +208,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-font="--lead"
 					font="--lead"
-					width="70%"
+					width="55%"
 					text-align="left"
 					display="inline-block"
 				>
@@ -530,7 +530,7 @@ export default (() => {
 				</Span>
 			</Text>
 			<Box
-				padding="50px 55px 50px 55px"
+				padding="50px 55px 35px 55px"
 				sm-padding="55px 40px 50px 55px"
 				border-width="1px"
 				border-style="solid"
@@ -540,6 +540,9 @@ export default (() => {
 				flex-direction="column"
 				align-items="flex-start"
 				sm-margin="0px 0px 20px 0px"
+				width="50%"
+				align-self="center"
+				margin="0px 0px 20px 0px"
 			>
 				<Text
 					margin="0px 0px 11px 0px"
@@ -568,7 +571,7 @@ export default (() => {
 				</Box>
 			</Box>
 			<Box
-				padding="50px 55px 50px 55px"
+				padding="50px 55px 35px 55px"
 				sm-padding="55px 40px 50px 55px"
 				border-width="1px"
 				border-style="solid"
@@ -578,6 +581,9 @@ export default (() => {
 				flex-direction="column"
 				align-items="flex-start"
 				sm-margin="0px 0px 20px 0px"
+				margin="0px 0px 20px 0px"
+				width="50%"
+				align-self="center"
 			>
 				<Text
 					margin="0px 0px 11px 0px"
@@ -606,7 +612,7 @@ export default (() => {
 				</Box>
 			</Box>
 			<Box
-				padding="50px 55px 50px 55px"
+				padding="50px 55px 35px 55px"
 				sm-padding="55px 40px 50px 55px"
 				border-width="1px"
 				border-style="solid"
@@ -615,6 +621,8 @@ export default (() => {
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
+				align-self="center"
+				width="50%"
 			>
 				<Text
 					margin="0px 0px 11px 0px"
@@ -1050,6 +1058,7 @@ export default (() => {
 							text-align="center"
 							sm-font="--lead"
 							sm-text-align="left"
+							border-color="--color-dark"
 						>
 							We share various digital marketing templates to help you get the job done beautifully
 						</Text>
