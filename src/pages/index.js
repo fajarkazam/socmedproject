@@ -29,6 +29,7 @@ export default (() => {
 			flex-wrap="no-wrap"
 			quarkly-title="Hero"
 			margin="100px 0 100px 0"
+			sm-margin="85px 0 100px 0"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -185,21 +186,11 @@ export default (() => {
 				color="--dark"
 				border-radius="2px"
 			>
-				<Span
-					font="--lead"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
+				<Link href="#" color="#000000" sm-text-decoration-line="initial">
 					<Strong>
 						Get the Template
 					</Strong>
-				</Span>
+				</Link>
 			</Button>
 		</Section>
 		<Section
@@ -328,7 +319,7 @@ export default (() => {
 					sm-background="--color-dark"
 					sm-border-radius="5px"
 					sm-margin="0px 0px 15px 0px"
-					href="https://abdigitalmarketing.xyz/socmed/"
+					href="/socmed"
 					sm-text-align="center"
 					sm-display="block"
 					align-self="center"
@@ -336,18 +327,11 @@ export default (() => {
 					margin="0px 0px 30px 0px"
 					type="button"
 				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Access Social Media Template
-					</Strong>
+					<Link href="/socmed" color="#000000" sm-text-decoration-line="initial" sm-color="--light">
+						<Strong>
+							Access Social Media Template
+						</Strong>
+					</Link>
 				</Button>
 			</Box>
 			<Box

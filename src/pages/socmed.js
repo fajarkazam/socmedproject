@@ -106,9 +106,11 @@ export default (() => {
 					type="submit"
 					href="https://invoice.xendit.co/od/socmedtemplate"
 				>
-					<Strong>
-						Get the Template
-					</Strong>
+					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="#000000" sm-text-decoration-line="initial" sm-color="--light">
+						<Strong>
+							Get the Template
+						</Strong>
+					</Link>
 				</Button>
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Notion-Social-Media-Calendar-Template.webp?v=2023-06-05T05:56:42.055Z"
@@ -543,6 +545,7 @@ export default (() => {
 				width="50%"
 				align-self="center"
 				margin="0px 0px 20px 0px"
+				sm-align-self="center"
 			>
 				<Text
 					margin="0px 0px 11px 0px"
@@ -584,6 +587,7 @@ export default (() => {
 				margin="0px 0px 20px 0px"
 				width="50%"
 				align-self="center"
+				sm-align-self="center"
 			>
 				<Text
 					margin="0px 0px 11px 0px"
@@ -623,6 +627,7 @@ export default (() => {
 				align-items="flex-start"
 				align-self="center"
 				width="50%"
+				sm-align-self="center"
 			>
 				<Text
 					margin="0px 0px 11px 0px"
@@ -1017,9 +1022,11 @@ export default (() => {
 					href="https://invoice.xendit.co/od/socmedtemplate"
 					type="submit"
 				>
-					<Strong>
-						Get the Template
-					</Strong>
+					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="#000000" sm-text-decoration-line="initial" sm-color="--light">
+						<Strong>
+							Get the Template
+						</Strong>
+					</Link>
 				</Button>
 			</Box>
 		</Section>
@@ -1140,7 +1147,7 @@ export default (() => {
 						color="--dark"
 						sm-font="--lead"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						No, you don't have to download Notion to start using this file. But it will be more convenient to use Notion app while access the file.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
@@ -1156,7 +1163,7 @@ export default (() => {
 						color="--dark"
 						sm-font="--lead"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						Yes, this template has been create as simple as possible so you can start using it start from day 1.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
