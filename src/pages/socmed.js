@@ -106,8 +106,17 @@ export default (() => {
 					type="submit"
 					href="https://invoice.xendit.co/od/socmedtemplate"
 				>
-					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="#000000" sm-text-decoration-line="initial" sm-color="--light">
-						<Strong>
+					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="--light" sm-text-decoration-line="initial" sm-color="--light">
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							Get the Template
 						</Strong>
 					</Link>
@@ -531,128 +540,161 @@ export default (() => {
 					</Span>
 				</Span>
 			</Text>
-			<Box
-				padding="50px 55px 35px 55px"
-				sm-padding="55px 40px 50px 55px"
-				border-width="1px"
-				border-style="solid"
-				border-radius="24px"
-				border-color="--color-lightD2"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				sm-margin="0px 0px 20px 0px"
-				width="50%"
-				align-self="center"
-				margin="0px 0px 20px 0px"
-				sm-align-self="center"
-			>
-				<Text
-					margin="0px 0px 11px 0px"
-					color="--darkL2"
-					font="--headline3"
-					lg-text-align="left"
-					sm-font="--lead"
-					sm-margin="0px 0px 0 0px"
+			<Box min-height="100px" width="100%" display="flex" justify-content="center">
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					sm-margin="0px 0px 20px 0px"
+					width="30%"
+					align-self="center"
+					margin="0px 5px 20px 0px"
+					sm-align-self="center"
 				>
-					<Strong sm-display="flex" sm-justify-content="flex-start" sm-font="--headline3" sm-margin="0px 0px 15px 0px">
-						Social Media Specialist
-					</Strong>
-				</Text>
-				<Text
-					margin="0px 0px 35px 0px"
-					color="--dark"
-					font="--lead"
-					lg-margin="0px 0px 50px 0px"
-					sm-margin="0px 0px 30px 0px"
-					flex="1 0 auto"
-				>
-					Easily manage your company social media content calendar{"\n\n"}
-				</Text>
-				<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-					<Box />
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						width="300px"
+						flex="0 1 auto"
+						order="-1"
+						display="inline"
+					>
+						<Strong
+							sm-display="flex"
+							sm-justify-content="flex-start"
+							sm-font="--headline3"
+							sm-margin="0px 0px 15px 0px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Social Media Specialist
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+					>
+						Easily manage your company social media content calendar{"\n\n"}
+					</Text>
 				</Box>
-			</Box>
-			<Box
-				padding="50px 55px 35px 55px"
-				sm-padding="55px 40px 50px 55px"
-				border-width="1px"
-				border-style="solid"
-				border-radius="24px"
-				border-color="--color-lightD2"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				sm-margin="0px 0px 20px 0px"
-				margin="0px 0px 20px 0px"
-				width="50%"
-				align-self="center"
-				sm-align-self="center"
-			>
-				<Text
-					margin="0px 0px 11px 0px"
-					color="--darkL2"
-					font="--headline3"
-					lg-text-align="left"
-					sm-font="--lead"
-					sm-margin="0px 0px 0 0px"
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					align-self="center"
+					width="30%"
+					sm-align-self="center"
+					margin="0px 5px 20px 5px"
 				>
-					<Strong sm-display="block" sm-justify-content="flex-start" sm-font="--headline3" sm-margin="0px 0px 15px 0px">
-						Content Creator
-					</Strong>
-				</Text>
-				<Text
-					margin="0px 0px 35px 0px"
-					color="--dark"
-					font="--lead"
-					lg-margin="0px 0px 50px 0px"
-					sm-margin="0px 0px 30px 0px"
-					flex="1 0 auto"
-				>
-					Maximize your potential to increase social media presence{"\n\n"}
-				</Text>
-				<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-					<Box />
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Strong sm-font="--headline3" sm-margin="0px 0px 15px 0px" display="flex" width="260px">
+							Online Shop Owner
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+					>
+						Increase your website traffic through social media{"\n\n"}
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box />
+					</Box>
 				</Box>
-			</Box>
-			<Box
-				padding="50px 55px 35px 55px"
-				sm-padding="55px 40px 50px 55px"
-				border-width="1px"
-				border-style="solid"
-				border-radius="24px"
-				border-color="--color-lightD2"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				align-self="center"
-				width="50%"
-				sm-align-self="center"
-			>
-				<Text
-					margin="0px 0px 11px 0px"
-					color="--darkL2"
-					font="--headline3"
-					lg-text-align="left"
-					sm-font="--lead"
-					sm-margin="0px 0px 0 0px"
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					sm-margin="0px 0px 20px 0px"
+					margin="0px 5px 20px 5px"
+					width="30%"
+					align-self="center"
+					sm-align-self="center"
 				>
-					<Strong sm-font="--headline3" sm-margin="0px 0px 15px 0px">
-						Online Shop Owner
-					</Strong>
-				</Text>
-				<Text
-					margin="0px 0px 35px 0px"
-					color="--dark"
-					font="--lead"
-					lg-margin="0px 0px 50px 0px"
-					sm-margin="0px 0px 30px 0px"
-					flex="1 0 auto"
-				>
-					Increase your website traffic through social media{"\n\n"}
-				</Text>
-				<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-					<Box />
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Strong
+							sm-display="block"
+							sm-justify-content="flex-start"
+							sm-font="--headline3"
+							sm-margin="0px 0px 15px 0px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							display="flex"
+							width="225px"
+						>
+							Content Creator
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						width="275px"
+					>
+						Maximize your potential to increase social media presence{"\n\n"}
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box />
+					</Box>
 				</Box>
 			</Box>
 		</Section>
@@ -1022,8 +1064,17 @@ export default (() => {
 					href="https://invoice.xendit.co/od/socmedtemplate"
 					type="submit"
 				>
-					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="#000000" sm-text-decoration-line="initial" sm-color="--light">
-						<Strong>
+					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="--light" sm-text-decoration-line="initial" sm-color="--light">
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							Get the Template
 						</Strong>
 					</Link>
