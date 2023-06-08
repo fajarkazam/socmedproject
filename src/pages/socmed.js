@@ -357,7 +357,7 @@ export default (() => {
 					Plan and visualize your content schedule for different platforms at a glance.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Mockup_3-removebg-preview.webp?v=2023-06-07T15:52:54.350Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10:05:18.818Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -423,7 +423,7 @@ export default (() => {
 					Easily organize and label your posts by topic, campaign, or format.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Mockup_1-removebg-preview.webp?v=2023-06-07T15:52:54.353Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10:05:18.814Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -485,7 +485,7 @@ export default (() => {
 					Tailor the calendar to match your branding and specific social media needs.
 				</Text>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Mockup_2-removebg-preview.webp?v=2023-06-07T15:52:54.352Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10:05:18.824Z"
 					object-fit="cover"
 					width="80%"
 					height="100%"
@@ -540,7 +540,13 @@ export default (() => {
 					</Span>
 				</Span>
 			</Text>
-			<Box min-height="100px" width="100%" display="flex" justify-content="center">
+			<Box
+				min-height="100px"
+				width="100%"
+				display="flex"
+				justify-content="center"
+				sm-display="block"
+			>
 				<Box
 					padding="50px 55px 35px 55px"
 					sm-padding="55px 40px 50px 55px"
@@ -556,6 +562,10 @@ export default (() => {
 					align-self="center"
 					margin="0px 5px 20px 0px"
 					sm-align-self="center"
+					sm-width="75%"
+					sm-flex-direction="column"
+					sm-justify-content="flex-start"
+					sm-align-content="flex-start"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -611,6 +621,7 @@ export default (() => {
 					width="30%"
 					sm-align-self="center"
 					margin="0px 5px 20px 5px"
+					sm-width="73%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -653,6 +664,7 @@ export default (() => {
 					width="30%"
 					align-self="center"
 					sm-align-self="center"
+					sm-width="74%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1219,8 +1231,18 @@ export default (() => {
 				</Box>
 				<Box display="flex" flex-direction="column">
 					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
-						<Strong sm-font="--headline3">
-							When will we get there?
+						<Strong
+							sm-font="--headline3"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							How long I can access this file?
 						</Strong>
 					</Text>
 					<Text
@@ -1230,7 +1252,7 @@ export default (() => {
 						color="--dark"
 						sm-font="--lead"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						You will have lifetime access to this file. We recommend you to duplicate the file first in case of there are something error on server site.
 					</Text>
 				</Box>
 			</Box>
