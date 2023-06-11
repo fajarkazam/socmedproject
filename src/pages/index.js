@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Image, Box, Section, List, Button } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Box, Section, Image, List, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override } from "@quarkly/components";
+import { RawHtml, Override, Menu } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -58,7 +59,7 @@ export default (() => {
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-width="100px"
 					sm-min-width="100%"
-					sm-text-align="left"
+					sm-text-align="center"
 				>
 					<Span
 						sm-font="--headline3"
@@ -82,7 +83,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 							font="--headline1"
-							sm-text-align="left"
+							sm-text-align="center"
 						>
 							Welcome to AB Digital Marketing
 						</Strong>
@@ -97,12 +98,12 @@ export default (() => {
 					width="60%"
 					sm-display="block"
 					sm-width="fit-content"
-					sm-text-align="left"
+					sm-text-align="center"
 					sm-font="--lead"
 				>
 					We create various Notion Template to supercharge your daily life to the next level
 				</Text>
-				<Image src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z" display="block" sm-width="50%" width="350px" />
+				<Link href="#" color="#000000" />
 			</Box>
 		</Section>
 		<Section
@@ -123,14 +124,15 @@ export default (() => {
 			>
 				Notion Daily Life Organizer
 			</Text>
+			<Image src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16:35:14.888Z" display="block" width="50%" align-self="center" />
 			<Text
 				margin="0px 0px 15px 0px"
 				sm-color="--light"
 				sm-font="--lead"
 				sm-margin="15px 0px 20px 0px"
 				color="--light"
-				font="--lead"
-				width="50%"
+				font="--base"
+				width="70%"
 				display="inline-block"
 				align-self="center"
 				sm-align-self="flex-start"
@@ -149,7 +151,7 @@ export default (() => {
 				as="ul"
 				sm-font="--lead"
 				color="--light"
-				font="--lead"
+				font="--base"
 				align-self="center"
 				display="inline-block"
 				width="50%"
@@ -171,27 +173,186 @@ export default (() => {
 					Daily Cook Tracker
 				</Text>
 			</List>
-			<Button
-				sm-background="--color-light"
-				sm-border-radius="5px"
-				sm-margin="0px 0px 25px 0px"
-				sm-color="--dark"
-				sm-font="--lead"
-				background="--color-light"
-				border-width="2px"
-				border-style="solid"
-				border-color="--color-light"
-				width="250px"
-				align-self="center"
-				color="--dark"
-				border-radius="2px"
-			>
-				<Link href="#" color="#000000" sm-text-decoration-line="initial">
-					<Strong>
-						Get the Template
-					</Strong>
+			<Components.QuarklycommunityKitMailChimp align-self="center" url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4" width="500px">
+				<Override
+					slot="Form"
+					border-width="2px"
+					border-style="solid"
+					border-color="--color-light"
+					border-radius="4px"
+				/>
+				<Input
+					display="block"
+					placeholder-color="LightGray"
+					background="white"
+					padding="6px 100px 6px 16px"
+					name="Email"
+					type="email"
+					placeholder="Email"
+				/>
+				<Link
+					href="#"
+					color="--light"
+					text-align="right"
+					align-self="center"
+					padding="10px 20px 10px 20px"
+					border-width={0}
+					border-color="--color-light"
+					border-radius="2px"
+					text-decoration-line="initial"
+					display="block"
+					width="150px"
+				>
+					Get The Template
 				</Link>
-			</Button>
+			</Components.QuarklycommunityKitMailChimp>
+		</Section>
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Digital Marketing Template
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						Your All-in-one template to success in digital marketing world
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				display="grid"
+				lg-flex-wrap="wrap"
+				grid-template-columns="repeat(4, 1fr)"
+				grid-gap="36px 4%"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				sm-grid-template-columns="1fr"
+				sm-grid-gap="12px"
+			>
+				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
+					<Text
+						padding="7px 24px 8px 24px"
+						margin="0px 0px 32px 0px"
+						font="--headline3"
+						border-radius="50px"
+						align-items="center"
+						display="flex"
+						justify-content="center"
+						color="--light"
+						width="49px"
+						height="49px"
+						background="--color-indigo"
+						sm-margin="0px 0px 20px 0px"
+						lg-margin="0px 0px 18px 0px"
+						md-background="--color-darkL2"
+					>
+						1
+					</Text>
+					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						No Advanced Skill Needed
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 30px 0px">
+					<Text
+						padding="7px 24px 8px 24px"
+						margin="0px 0px 32px 0px"
+						font="--headline3"
+						border-radius="50px"
+						align-items="center"
+						display="flex"
+						justify-content="center"
+						color="--light"
+						width="49px"
+						height="49px"
+						background="--color-indigo"
+						sm-margin="0px 0px 20px 0px"
+						lg-margin="0px 0px 18px 0px"
+						md-background="--color-darkL2"
+					>
+						2
+					</Text>
+					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Customizable Template
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
+					<Text
+						padding="7px 24px 8px 24px"
+						margin="0px 0px 32px 0px"
+						font="--headline3"
+						border-radius="50px"
+						align-items="center"
+						display="flex"
+						justify-content="center"
+						color="--light"
+						width="49px"
+						height="49px"
+						background="--color-indigo"
+						sm-margin="0px 0px 20px 0px"
+						lg-margin="0px 0px 18px 0px"
+						md-background="--color-darkL2"
+					>
+						3
+					</Text>
+					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Access From Everywhere
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 0px 0px">
+					<Text
+						padding="7px 24px 8px 24px"
+						margin="0px 0px 32px 0px"
+						font="--headline3"
+						border-radius="50px"
+						align-items="center"
+						display="flex"
+						justify-content="center"
+						color="--light"
+						width="49px"
+						height="49px"
+						background="--color-indigo"
+						sm-margin="0px 0px 20px 0px"
+						lg-margin="0px 0px 18px 0px"
+						md-background="--color-darkL2"
+					>
+						4
+					</Text>
+					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+						Lifetime Access
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+					</Text>
+				</Box>
+			</Box>
 		</Section>
 		<Section
 			padding="25px 0 25px 0"
@@ -216,23 +377,8 @@ export default (() => {
 				sm-text-align="left"
 				align-self="center"
 				width="100%"
-			>
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					display="flex"
-					text-align="left"
-					justify-content="center"
-				>
-					Digital Marketing Template
-				</Strong>
-			</Text>
+				sm-display="flex"
+			/>
 			<Box
 				display="flex"
 				flex-direction="column"
@@ -276,14 +422,17 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 						sm-text-align="left"
+						font="--headline3"
 					>
-						Social Media Calendar Template
+						<Strong>
+							Social Media Calendar Template
+						</Strong>
 					</Span>
 				</Text>
 				<Text
 					margin="0px 0px 20px 0px"
 					color="--greyD3"
-					font="--lead"
+					font="--base"
 					lg-text-align="center"
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
@@ -292,7 +441,7 @@ export default (() => {
 					width="75%"
 					text-align="center"
 				>
-					Plan and visualize your content schedule for different platforms at a glance.
+					Plan and visualize your social media content schedule for different platforms at a glance.
 				</Text>
 				<Image
 					src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
@@ -326,9 +475,31 @@ export default (() => {
 					background="--color-dark"
 					margin="0px 0px 30px 0px"
 					type="button"
+					border-color="--color-light"
+					padding="15px 24px 15px 24px"
+					border-radius="4px"
 				>
-					<Link href="/socmed" color="#000000" sm-text-decoration-line="initial" sm-color="--light">
-						<Strong>
+					<Link
+						href="/socmed"
+						color="--light"
+						sm-text-decoration-line="initial"
+						sm-color="--light"
+						border-color="--color-light"
+						md-text-decoration-line="initial"
+						lg-text-decoration-line="initial"
+						text-decoration-line="initial"
+					>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							border-color="--color-light"
+						>
 							Access Social Media Template
 						</Strong>
 					</Link>
@@ -386,13 +557,15 @@ export default (() => {
 						justify-content="center"
 						margin="30px 0px 0px 0px"
 					>
-						Search Engine Optimization Checklist
+						<Strong>
+							Search Engine Optimization Checklist
+						</Strong>
 					</Span>
 				</Text>
 				<Text
 					margin="0px 0px 20px 0px"
 					color="--greyD3"
-					font="--lead"
+					font="--base"
 					lg-text-align="center"
 					align-self="flex-start"
 					sm-margin="0px 0px 15px 0px"
@@ -432,6 +605,8 @@ export default (() => {
 					background="--color-dark"
 					margin="0px 0px 40px 0px"
 					href="/socmed1"
+					padding="15px 24px 15px 24px"
+					border-radius="4px"
 				>
 					<Strong
 						overflow-wrap="normal"
@@ -495,13 +670,15 @@ export default (() => {
 						display="flex"
 						justify-content="center"
 					>
-						Customer Relationship Management Template
+						<Strong>
+							Customer Relationship Management Template
+						</Strong>
 					</Span>
 				</Text>
 				<Text
 					margin="0px 0px 20px 0px"
 					color="--greyD3"
-					font="--lead"
+					font="--base"
 					lg-text-align="center"
 					sm-margin="0px 0px 15px 0px"
 					sm-text-align="left"
@@ -532,6 +709,8 @@ export default (() => {
 					background="--color-dark"
 					margin="0px 0px 40px 0px"
 					href="/socmed11"
+					padding="15px 24px 15px 24px"
+					border-radius="4px"
 				>
 					<Span
 						overflow-wrap="normal"
@@ -601,7 +780,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
-						font="--lead"
+						font="--base"
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
@@ -634,7 +813,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
-						font="--lead"
+						font="--base"
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
@@ -667,7 +846,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
-						font="--lead"
+						font="--base"
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
@@ -700,7 +879,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
-						font="--lead"
+						font="--base"
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
@@ -733,7 +912,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
-						font="--lead"
+						font="--base"
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
@@ -766,7 +945,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
-						font="--lead"
+						font="--base"
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
@@ -790,23 +969,67 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" />
 			<Text
 				as="h2"
-				font="--headline1"
+				font="--headline2"
 				md-font="--headline2"
 				margin="20px 0 0 0"
 				sm-align-self="flex-start"
+				lg-font="--headline2"
 			>
 				About Us
 			</Text>
 			<Text
 				as="p"
-				font="--lead"
+				font="--base"
 				margin="20px 0 20px 0"
 				text-align="left"
 				sm-text-align="left"
 				align-self="flex-start"
 			>
-				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
+				Hi, we're AB Digital Marketing. We are here to help you manage your day-to-day task to be more efficient and effective. We were passionate to help all of you to grow in this fast pace digital marketing world. By using the template we developed, we hope you can achieve great result and grow even more in digital marketing.
 			</Text>
+		</Section>
+		<Section background-color="--dark" text-align="center" padding="32px 0">
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--lead"
+				font-weight="700"
+				margin="-6px 0 16px"
+				md-flex-direction="column"
+				md-align-items="center"
+				sm-align-self="flex-start"
+				sm-text-align="left"
+				sm-align-items="flex-start"
+				sm-font="--base"
+			>
+				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px 0px" />
+				<Override slot="link-index" border-color="--color-light" color="--light">
+					Home
+				</Override>
+				<Override slot="item-index" sm-text-align="left" />
+			</Menu>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--light"
+				hover-color="--primary"
+				margin="0px 0px 15px 0px"
+				sm-margin="0px 0px 5px 0px"
+			>
+				digitalmastery.ads@gmail.com
+			</Link>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--light"
+				hover-color="--primary"
+			>
+				All right reserved @2022
+			</Link>
 		</Section>
 		<Link
 			font={"--capture"}

@@ -29,6 +29,9 @@ export default (() => {
 			sm-background="#ffffff"
 			flex-wrap="no-wrap"
 			quarkly-title="Hero"
+			margin="0 0 50 0"
+			height="1250px"
+			sm-height="750px"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -139,145 +142,6 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			background="#FFFFFF"
-			color="--dark"
-			padding="64px 0 64px 0"
-			display="block"
-			quarkly-title="Subscribe"
-			sm-max-width="100%"
-			sm-background="--color-dark"
-		>
-			<Override slot="SectionContent" sm-margin="0px 0 0px 0" sm-max-width="100%" />
-			<Box text-align="center" sm-display="block" sm-color="--light">
-				<Text
-					font="--headline2"
-					margin="10px 0 15px 0"
-					sm-margin="10px 0 15px 20px"
-					display="inline-block"
-					sm-display="block"
-					sm-font="--headline3"
-					sm-text-align="left"
-					sm-align-items="center"
-					sm-flex-direction="row"
-					sm-justify-content="flex-start"
-					sm-max-width="100%"
-					width="100%"
-					text-align="center"
-					sm-width="100%"
-				>
-					Ultimate Daily Life Organizer
-				</Text>
-				<Text
-					font="--lead"
-					color="--dark"
-					letter-spacing="1px"
-					margin="0 0 15px 0"
-					text-align="center"
-					display="inline-block"
-					sm-text-align="left"
-					sm-margin="0 0 15px 20px"
-					sm-max-width="100%"
-					sm-color="--light"
-					width="55%"
-					sm-width="100%"
-				>
-					Get the 5 most useful daily life organizer notion template for{" "}
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						FREE
-					</Strong>
-					{" "}to elevate your life by writing down your email and we will send you the{" "}
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Daily Life Organizer
-					</Strong>
-					{" "}template.
-				</Text>
-				<List
-					margin="0px 0px 25px 0px"
-					padding="0px 0px 0px 20px"
-					list-style-type="disc"
-					as="ul"
-					sm-width="100%"
-					sm-margin="0px 20px 25px 20px"
-					sm-text-align="left"
-					sm-font="--lead"
-					font="--lead"
-					width="55%"
-					text-align="left"
-					display="inline-block"
-				>
-					<Text margin="0px 0px 0px 0px">
-						Daily cook planner
-					</Text>
-					<Text margin="0px 0px 0px 0px">
-						Student organizer
-					</Text>
-					<Text margin="0px 0px 0px 0px">
-						Finance tracker
-					</Text>
-					<Text margin="0px 0px 0px 0px">
-						Credit tracker
-					</Text>
-					<Text margin="0px 0px 0px 0px">
-						Wedding planner
-					</Text>
-				</List>
-			</Box>
-			<Components.QuarklycommunityKitMailChimp
-				url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4"
-				align-self="center"
-				sm-display="block"
-				sm-width="375px"
-				sm-flex="0 1 auto"
-				sm-order="1"
-				sm-margin="0px 0px 0px 0"
-			>
-				<Input
-					display="block"
-					placeholder-color="LightGray"
-					background="white"
-					align-self="center"
-					width="350px"
-					name="EMAIL"
-					type="email"
-					required
-					placeholder="Email"
-					sm-display="inline-block"
-					sm-margin="0px 0px 0px 20px"
-					sm-align-self="center"
-					sm-width="375px"
-					sm-border-radius="2px"
-				/>
-				<Button
-					background="--color-dark"
-					sm-align-self="center"
-					sm-border-style="solid"
-					sm-border-width="2px"
-					sm-border-color="--color-light"
-					sm-padding="6px 24px 6px 24px"
-				>
-					Subsribe
-				</Button>
-			</Components.QuarklycommunityKitMailChimp>
-		</Section>
-		<Section
 			padding="25px 0 25px 0"
 			sm-padding="25px 0 25px 0"
 			position="static"
@@ -301,12 +165,15 @@ export default (() => {
 				color="--dark"
 				font="--headline2"
 				lg-text-align="center"
-				sm-font="--headline2"
+				sm-font="normal 900 37px/1.2 --fontFamily-sans"
 				align-self="center"
 				sm-text-align="left"
 				sm-margin="0px 0px 24px 20px"
 				display="block"
 				text-align="center"
+				sm-display="flex"
+				sm-align-items="center"
+				sm-justify-content="center"
 			>
 				What you will get
 			</Text>
@@ -497,11 +364,24 @@ export default (() => {
 					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
-					sm-min-width="80%"
+					sm-max-width="375px"
 				/>
 			</Box>
 		</Section>
-		<Section padding="80px 0 50px 0" sm-padding="25px 0 15px 0" quarkly-title="Target">
+		<Section
+			padding="80px 0 50px 0"
+			sm-padding="25px 0 15px 0"
+			quarkly-title="Target"
+			lg-align-items="center"
+			lg-justify-content="center"
+		>
+			<Override
+				slot="SectionContent"
+				lg-margin="0px 20px 0px 20px"
+				lg-justify-content="center"
+				lg-text-align="center"
+				lg-align-items="center"
+			/>
 			<Text
 				margin="0px 0px 5px 0px"
 				color="--dark"
@@ -533,8 +413,10 @@ export default (() => {
 						pointer-events="auto"
 						sm-font="--headline2"
 						font="--headline2"
-						sm-display="block"
+						sm-display="flex"
 						sm-text-align="left"
+						sm-align-items="center"
+						sm-justify-content="center"
 					>
 						Who is it for?
 					</Span>
@@ -546,6 +428,7 @@ export default (() => {
 				display="flex"
 				justify-content="center"
 				sm-display="block"
+				lg-align-self="center"
 			>
 				<Box
 					padding="50px 55px 35px 55px"
@@ -562,22 +445,27 @@ export default (() => {
 					align-self="center"
 					margin="0px 5px 20px 0px"
 					sm-align-self="center"
-					sm-width="75%"
+					sm-width="80%"
 					sm-flex-direction="column"
 					sm-justify-content="flex-start"
 					sm-align-content="flex-start"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					lg-text-align="left"
+					lg-width="30%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
 						color="--darkL2"
 						font="--headline3"
-						lg-text-align="left"
+						lg-text-align="center"
 						sm-font="--lead"
 						sm-margin="0px 0px 0 0px"
 						width="300px"
 						flex="0 1 auto"
 						order="-1"
 						display="inline"
+						lg-width="250px"
 					>
 						<Strong
 							sm-display="flex"
@@ -592,6 +480,7 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							sm-text-align="left"
 						>
 							Social Media Specialist
 						</Strong>
@@ -603,6 +492,8 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
+						sm-align-self="center"
+						sm-text-align="center"
 					>
 						Easily manage your company social media content calendar{"\n\n"}
 					</Text>
@@ -621,7 +512,9 @@ export default (() => {
 					width="30%"
 					sm-align-self="center"
 					margin="0px 5px 20px 5px"
-					sm-width="73%"
+					sm-width="80%"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -631,7 +524,14 @@ export default (() => {
 						sm-font="--lead"
 						sm-margin="0px 0px 0 0px"
 					>
-						<Strong sm-font="--headline3" sm-margin="0px 0px 15px 0px" display="flex" width="260px">
+						<Strong
+							sm-font="--headline3"
+							sm-margin="0px 0px 15px 0px"
+							display="flex"
+							width="260px"
+							sm-align-items="center"
+							sm-justify-content="center"
+						>
 							Online Shop Owner
 						</Strong>
 					</Text>
@@ -642,6 +542,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
+						sm-text-align="center"
 					>
 						Increase your website traffic through social media{"\n\n"}
 					</Text>
@@ -664,7 +565,9 @@ export default (() => {
 					width="30%"
 					align-self="center"
 					sm-align-self="center"
-					sm-width="74%"
+					sm-width="80%"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -701,6 +604,7 @@ export default (() => {
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
 						width="275px"
+						sm-text-align="center"
 					>
 						Maximize your potential to increase social media presence{"\n\n"}
 					</Text>
@@ -726,6 +630,7 @@ export default (() => {
 				margin="0px 0px 56px 0px"
 				width="100%"
 				sm-margin="0px 0px 30px 0px"
+				sm-text-align="left"
 			>
 				<Text
 					margin="0px 0px 16px 0px"
@@ -734,9 +639,15 @@ export default (() => {
 					text-align="center"
 					sm-font="--headline3"
 					sm-text-align="left"
-					sm-align-self="flex-start"
+					sm-align-self="center"
 				>
-					<Strong sm-display="flex" sm-justify-content="flex-start" sm-font="--headline2" font="--headline2">
+					<Strong
+						sm-display="flex"
+						sm-justify-content="flex-start"
+						sm-font="--headline2"
+						font="--headline2"
+						sm-text-align="left"
+					>
 						Reviews From Readers
 					</Strong>
 				</Text>
@@ -948,7 +859,13 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0" sm-padding="25px 0 5px 0" quarkly-title="Price">
+		<Section
+			padding="80px 0"
+			sm-padding="25px 0 5px 0"
+			quarkly-title="Price"
+			sm-height="650px"
+			lg-padding="30px 0 80px 0"
+		>
 			<Override slot="SectionContent" align-items="center" />
 			<Text
 				as="h2"
@@ -991,15 +908,25 @@ export default (() => {
 				sm-width="100%"
 				sm-justify-self="center"
 				sm-align-self="center"
-				sm-display="block"
+				sm-display="flex"
 				sm-padding="25px 0 25px 0"
 				justify-self="center"
 				sm-border-color="--color-dark"
+				md-width="75%"
+				md-border-color="--color-darkL2"
+				md-align-self="center"
 			>
 				<Text margin="0px 0px 24px 0px" font="--headline3" sm-text-align="center">
 					Social Media Calendar Template
 				</Text>
-				<Text margin="0px 0px 8px 0px" font="--headline1" sm-font="--headline3">
+				<Text
+					margin="0px 0px 8px 0px"
+					font="--headline1"
+					sm-font="--headline3"
+					md-width="60%"
+					display="flex"
+					flex-direction="column"
+				>
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -1014,6 +941,12 @@ export default (() => {
 						font="--headline2"
 						sm-font="--headline3"
 						sm-flex-direction="column"
+						md-display="flex"
+						md-flex-direction="column"
+						lg-display="flex"
+						lg-flex-direction="column"
+						display="flex"
+						flex-direction="column"
 					>
 						<Strong
 							sm-text-decoration-line="line-through"
@@ -1028,6 +961,18 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							md-font="700 25px/50.4px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+							md-color="--red"
+							md-text-decoration-line="line-through"
+							md-align-self="center"
+							lg-font="700 25px/50.4px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+							lg-text-align="center"
+							lg-text-decoration-line="line-through"
+							lg-color="--red"
+							font="700 25px/50.4px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
+							text-align="center"
+							color="--red"
+							text-decoration-line="line-through"
 						>
 							Rp 149.000
 						</Strong>
@@ -1040,6 +985,8 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							md-align-self="center"
+							md-margin="0px 0px 25px 0px"
 						>
 							Rp 79.000
 						</Strong>
@@ -1056,6 +1003,8 @@ export default (() => {
 					sm-width="250px"
 					sm-font="--lead"
 					sm-color="--dark"
+					md-width="50%"
+					lg-width="60%"
 				>
 					- Lifetime access
 					<br />
@@ -1072,11 +1021,24 @@ export default (() => {
 					background="--color-dark"
 					sm-border-radius="15px"
 					sm-display="inline-block"
-					sm-margin="20px 0 20px 75px"
+					sm-margin="20px 0 20px 0"
 					href="https://invoice.xendit.co/od/socmedtemplate"
 					type="submit"
+					sm-align-self="center"
+					lg-padding="15px 24px 15px 24px"
+					lg-border-radius="4px"
+					padding="15px 24px 15px 24px"
+					border-radius="5px"
 				>
-					<Link href="https://invoice.xendit.co/od/socmedtemplate" color="--light" sm-text-decoration-line="initial" sm-color="--light">
+					<Link
+						href="https://invoice.xendit.co/od/socmedtemplate"
+						color="--light"
+						sm-text-decoration-line="initial"
+						sm-color="--light"
+						md-text-decoration-line="initial"
+						lg-text-decoration-line="initial"
+						text-decoration-line="initial"
+					>
 						<Strong
 							overflow-wrap="normal"
 							word-break="normal"
@@ -1094,48 +1056,178 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			background="#FFFFFF"
-			color="--dark"
+			background="--color-dark"
+			color="--light"
 			padding="64px 0 64px 0"
 			display="block"
 			quarkly-title="Subscribe"
+			sm-max-width="100%"
+			sm-background="--color-dark"
+			sm-display="flex"
+			sm-flex-direction="column"
+			sm-align-items="center"
 		>
+			<Override
+				slot="SectionContent"
+				sm-margin="0px 0 0px 0"
+				sm-max-width="100%"
+				sm-align-items="center"
+				sm-justify-content="center"
+				lg-align-items="center"
+				lg-justify-content="center"
+				lg-align-content="center"
+			/>
 			<Box
-				margin="-16px -16px -16px -16px"
-				display="flex"
-				flex-wrap="wrap"
-				text-align="left"
-				justify-content="center"
+				text-align="center"
+				sm-display="flex"
+				sm-color="--light"
+				margin="0px 0px 15px 0px"
+				sm-flex-direction="column"
+				sm-align-items="flex-start"
+				md-display="flex"
+				md-flex-direction="column"
+				md-align-self="center"
+				lg-align-self="center"
+				lg-display="flex"
+				lg-flex-direction="column"
 			>
-				<Box padding="16px 16px 16px 16px" width="45%" lg-width="100%">
-					<Box>
-						<Text
-							font="--headline2"
-							max-width="500px"
-							margin="10px 0 15px 0"
-							sm-margin="10px 0 15px 0"
-							text-align="center"
-							sm-font="--headline2"
-							sm-display="flex"
-						>
-							Subscribe
-						</Text>
-						<Text
-							font="--lead"
-							color="--dark"
-							letter-spacing="1px"
-							margin="0 0 25px 0"
-							text-align="center"
-							sm-font="--lead"
-							sm-text-align="left"
-							border-color="--color-dark"
-						>
-							We share various digital marketing templates to help you get the job done beautifully
-						</Text>
-					</Box>
-				</Box>
+				<Text
+					font="--headline2"
+					margin="10px 0 15px 0"
+					sm-margin="10px 0 15px 0"
+					display="inline-block"
+					sm-display="block"
+					sm-font="--headline3"
+					sm-text-align="center"
+					sm-align-items="center"
+					sm-flex-direction="row"
+					sm-justify-content="flex-start"
+					sm-max-width="100%"
+					width="100%"
+					text-align="center"
+					sm-width="100%"
+				>
+					Ultimate Daily Life Organizer
+				</Text>
+				<Image
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16:35:14.888Z"
+					display="block"
+					sm-width="75%"
+					sm-display="flex"
+					sm-align-items="center"
+					sm-justify-content="center"
+					sm-flex-direction="column"
+					sm-align-self="center"
+					md-display="flex"
+					md-align-items="center"
+					md-flex-direction="column"
+					md-justify-content="center"
+					lg-display="flex"
+					lg-align-items="center"
+					lg-flex-direction="column"
+					lg-justify-content="center"
+					lg-align-content="center"
+					lg-width="75%"
+					lg-align-self="center"
+				/>
+				<Text
+					font="--lead"
+					color="--light"
+					letter-spacing="1px"
+					margin="0 0 15px 0"
+					text-align="center"
+					display="inline-block"
+					sm-text-align="left"
+					sm-margin="0 0 15px 0"
+					sm-max-width="100%"
+					sm-color="--light"
+					width="70%"
+					sm-width="100%"
+					md-text-align="left"
+					md-align-self="center"
+					lg-text-align="left"
+					lg-align-self="center"
+				>
+					Get the 5 most useful daily life organizer notion template for{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						FREE
+					</Strong>
+					{" "}to elevate your life.{" "}
+					<br />
+					<br />
+					Write down your email and we will send you the{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Daily Life Organizer
+					</Strong>
+					{" "}template.
+				</Text>
+				<List
+					margin="0px 0px 25px 0px"
+					padding="0px 0px 0px 20px"
+					list-style-type="disc"
+					as="ul"
+					sm-width="75%"
+					sm-margin="0px 20px 25px 50px"
+					sm-text-align="left"
+					sm-font="--lead"
+					font="--lead"
+					width="55%"
+					text-align="left"
+					display="inline-block"
+					md-align-self="center"
+					lg-align-self="center"
+				>
+					<Text margin="0px 0px 0px 0px">
+						Daily cook planner
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Student organizer
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Finance tracker
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Credit tracker
+					</Text>
+					<Text margin="0px 0px 0px 0px">
+						Wedding planner
+					</Text>
+				</List>
 			</Box>
-			<Components.QuarklycommunityKitMailChimp url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4" align-self="center">
+			<Components.QuarklycommunityKitMailChimp
+				url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4"
+				align-self="center"
+				sm-display="block"
+				sm-width="375px"
+				sm-flex="0 1 auto"
+				sm-order="1"
+				sm-margin="0px 0px 0px 0"
+			>
+				<Override
+					slot="Form"
+					border-width="2px"
+					border-style="solid"
+					border-color="--color-light"
+					border-radius="2px"
+				/>
 				<Input
 					display="block"
 					placeholder-color="LightGray"
@@ -1146,11 +1238,28 @@ export default (() => {
 					type="email"
 					required
 					placeholder="Email"
-					sm-margin="0px 0px 0px 15px"
+					sm-display="inline-block"
+					sm-align-self="center"
+					sm-width="375px"
+					sm-border-radius="2px"
 					border-width="2px"
-					border-color="--color-grey"
+					border-style="solid"
+					border-color="--color-light"
+					border-radius="2px"
+					md-padding="10px 16px 10px 16px"
 				/>
-				<Button background="--color-dark" sm-margin="0px 15px 0px 0px">
+				<Button
+					background="--color-dark"
+					sm-align-self="center"
+					sm-border-style="solid"
+					sm-border-width="2px"
+					sm-border-color="--color-light"
+					sm-padding="10px 24px 10px 24px"
+					border-color="--color-light"
+					border-radius="2px"
+					border-width="2px"
+					border-style="solid"
+				>
 					Subsribe
 				</Button>
 			</Components.QuarklycommunityKitMailChimp>
@@ -1206,7 +1315,7 @@ export default (() => {
 					<Text
 						as="p"
 						font="--lead"
-						margin="0 0 12px 0"
+						margin="0 0 20px 0"
 						color="--dark"
 						sm-font="--lead"
 					>
@@ -1222,7 +1331,7 @@ export default (() => {
 					<Text
 						as="p"
 						font="--lead"
-						margin="0 0 12px 0"
+						margin="0 0 20px 0"
 						color="--dark"
 						sm-font="--lead"
 					>
