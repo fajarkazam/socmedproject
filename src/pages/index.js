@@ -264,6 +264,7 @@ export default (() => {
 						sm-margin="0px 0px 20px 0px"
 						lg-margin="0px 0px 18px 0px"
 						md-background="--color-darkL2"
+						sm-padding="7px 7px 7px 7px"
 					>
 						1
 					</Text>
@@ -290,6 +291,7 @@ export default (() => {
 						sm-margin="0px 0px 20px 0px"
 						lg-margin="0px 0px 18px 0px"
 						md-background="--color-darkL2"
+						sm-padding="7px 7px 7px 7px"
 					>
 						2
 					</Text>
@@ -316,6 +318,7 @@ export default (() => {
 						sm-margin="0px 0px 20px 0px"
 						lg-margin="0px 0px 18px 0px"
 						md-background="--color-darkL2"
+						sm-padding="7px 7px 7px 7px"
 					>
 						3
 					</Text>
@@ -342,6 +345,7 @@ export default (() => {
 						sm-margin="0px 0px 20px 0px"
 						lg-margin="0px 0px 18px 0px"
 						md-background="--color-darkL2"
+						sm-padding="7px 7px 7px 7px"
 					>
 						4
 					</Text>
