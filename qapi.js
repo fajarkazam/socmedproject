@@ -38,6 +38,10 @@ export default {
 						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
 					}
 				}
+			},
+			"seo": {
+				"title": "Digital Marketing Notion Template",
+				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM."
 			}
 		},
 		"6474df74588b2d00195721ab": {
@@ -61,6 +65,10 @@ export default {
 						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
 					}
 				}
+			},
+			"seo": {
+				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM.",
+				"title": "Social Media Notion Template"
 			}
 		},
 		"647f0c8a8bd7e60018589221": {
@@ -84,6 +92,10 @@ export default {
 						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
 					}
 				}
+			},
+			"seo": {
+				"title": "SEO Notion Template",
+				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM."
 			}
 		},
 		"647f0c8f477c3a0019b29f9d": {
