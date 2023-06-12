@@ -20,17 +20,71 @@ export default {
 		"6461957b820441001fb09af5": {
 			"id": "6461957b820441001fb09af5",
 			"name": "AB Digital Marketing",
-			"pageUrl": "index"
+			"pageUrl": "index",
+			"customCode": {
+				"6486a11bf658b8cdaff32dd6": {
+					"name": "GTM",
+					"place": "endOfHead",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
+					}
+				},
+				"6486a123762b294f5b7adb32": {
+					"name": "GTM",
+					"place": "endOfBody",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+					}
+				}
+			}
 		},
 		"6474df74588b2d00195721ab": {
 			"pageUrl": "socmed",
 			"id": "6474df74588b2d00195721ab",
-			"name": "Social Media"
+			"name": "Social Media",
+			"customCode": {
+				"6486a13acf0d18fd19947124": {
+					"name": "GTM",
+					"place": "endOfBody",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+					}
+				},
+				"6486a14282cb6b98aecf35a8": {
+					"name": "GTM",
+					"place": "endOfHead",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
+					}
+				}
+			}
 		},
 		"647f0c8a8bd7e60018589221": {
 			"pageUrl": "socmed1",
 			"id": "647f0c8a8bd7e60018589221",
-			"name": "SEO"
+			"name": "SEO",
+			"customCode": {
+				"6486a1568e4fe0925793e17f": {
+					"name": "GTM",
+					"place": "endOfHead",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
+					}
+				},
+				"6486a15ea3d9b52bda9ca95a": {
+					"name": "GTM",
+					"place": "endOfBody",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+					}
+				}
+			}
 		},
 		"647f0c8f477c3a0019b29f9d": {
 			"pageUrl": "socmed11",
