@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, List, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Menu } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -1807,74 +1807,6 @@ export default (() => {
 					</Text>
 				</Box>
 			</Box>
-		</Section>
-		<Section
-			background-color="--dark"
-			text-align="center"
-			padding="32px 0"
-			justify-content="center"
-			sm-justify-content="flex-start"
-		>
-			<Menu
-				display="flex"
-				justify-content="center"
-				font="--lead"
-				font-weight="700"
-				margin="-6px 0 16px"
-				md-flex-direction="column"
-				md-align-items="center"
-				filterMode="exclude"
-				sm-align-items="flex-start"
-				align-content="flex-start"
-				flex-wrap="no-wrap"
-			>
-				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
-				<Override slot="link-active" color="--primary" />
-				<Override slot="item" padding="6px 0px" />
-				<Override slot="link-index" sm-color="--light" sm-padding="6px 12px 6px 0" font="--headline3">
-					AB Digital Marketing
-				</Override>
-				<Override
-					slot="link-socmed"
-					sm-color="--light"
-					sm-font="--lead"
-					sm-text-align="left"
-					sm-display="flex"
-					sm-padding="0 12px 0 0"
-					color="--light"
-				/>
-				<Override slot="link-socmed1" sm-font="--lead" sm-padding="0 12px 0 0" sm-text-align="left" />
-				<Override slot="link-socmed11" sm-font="--lead" sm-padding="0 12px 0 0" sm-text-align="left" />
-				<Override slot="item-socmed" font="--lead" />
-				<Override slot="item-socmed1" font="--lead" />
-				<Override slot="item-socmed11" font="--lead" />
-			</Menu>
-			<Link
-				href="mailto:hello@company.com"
-				text-decoration-line="none"
-				variant="--base"
-				color="--grey"
-				hover-color="--primary"
-				sm-color="--light"
-				sm-display="flex"
-				sm-margin="0px 0px 0px 5px"
-				sm-font="--base"
-			>
-				digitalmastery.ads@gmail.com
-			</Link>
-			<Link
-				href="mailto:hello@company.com"
-				text-decoration-line="none"
-				variant="--base"
-				color="--grey"
-				hover-color="--primary"
-				sm-margin="0 0px 0px 5px"
-				sm-color="--light"
-				sm-display="flex"
-				sm-font="--base"
-			>
-				All right reserved @2023
-			</Link>
 		</Section>
 		<Link
 			font={"--capture"}
