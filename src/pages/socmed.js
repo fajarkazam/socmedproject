@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Button, Image, Box, Section, List, Input } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Button, Box, Section, Image, List, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -60,6 +60,7 @@ export default (() => {
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-width="100px"
 					sm-min-width="100%"
+					sm-margin="0px 0px 50px 0px"
 				>
 					<Span
 						sm-font="--headline3"
@@ -83,6 +84,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 							font="--headline1"
+							sm-margin="0px 0px 50px 0px"
 						>
 							Social Media Organizer Template
 						</Strong>
@@ -97,6 +99,7 @@ export default (() => {
 					width="60%"
 					sm-display="block"
 					sm-width="fit-content"
+					sm-margin="0px 0px 50px 0px"
 				>
 					Streamline your content planning, scheduling, and collaboration effortlessly
 				</Text>
@@ -130,22 +133,6 @@ export default (() => {
 						</Strong>
 					</Link>
 				</Button>
-				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10:05:18.818Z"
-					display="block"
-					sm-min-width="100%"
-					sm-background="#ffffff"
-					max-width="100%"
-					overflow-x="visible"
-					overflow-y="visible"
-					position="static"
-					object-fit="contain"
-					sm-align-self="center"
-					sm-flex="0 1 auto"
-					sm-order="1"
-					sm-display="inline-block"
-					sm-width="100%"
-				/>
 			</Box>
 		</Section>
 		<Section
@@ -172,22 +159,40 @@ export default (() => {
 				color="--dark"
 				font="--headline2"
 				lg-text-align="center"
-				sm-font="normal 900 37px/1.2 --fontFamily-sans"
+				sm-font="--headline3"
 				align-self="center"
-				sm-text-align="center"
-				sm-margin="0px 0px 5px 0"
+				sm-text-align="left"
 				display="block"
 				text-align="center"
 				sm-display="inline-block"
 				sm-align-items="center"
 				sm-justify-content="center"
-				sm-width="80%"
+				sm-width="90%"
 				sm-flex-direction="column"
 				sm-align-content="center"
 			>
-				Why You Should Get It
+				<Strong>
+					Why You Should Get It
+				</Strong>
 			</Text>
-			<Text margin="0px 0px 35px 0px" text-align="center" font="--lead" color="--dark">
+			<Text
+				margin="0px 0px 5px 0px"
+				color="--dark"
+				font="--headline2"
+				lg-text-align="center"
+				sm-font="--lead"
+				align-self="center"
+				sm-text-align="left"
+				display="block"
+				text-align="center"
+				sm-display="inline-block"
+				sm-align-items="center"
+				sm-justify-content="center"
+				sm-width="90%"
+				sm-flex-direction="column"
+				sm-align-content="center"
+				sm-margin="0px 0px 50px 0px"
+			>
 				Fitur yang tersedia dalam template
 			</Text>
 			<Box
@@ -211,8 +216,9 @@ export default (() => {
 				sm-flex-direction="column"
 				sm-align-self="center"
 				sm-order="-1"
-				sm-display="block"
+				sm-display="inline-block"
 				width="100%"
+				sm-width="90%"
 			>
 				<Box
 					display="flex"
@@ -235,7 +241,7 @@ export default (() => {
 					sm-flex-direction="column"
 					sm-align-self="center"
 					sm-order="-1"
-					sm-display="block"
+					sm-display="inline-block"
 					width="40%"
 					text-align="left"
 					margin="0px 0px 0px 40px"
@@ -247,17 +253,33 @@ export default (() => {
 						lg-text-align="center"
 						sm-font="--headline3"
 						align-self="flex-start"
-						sm-text-align="center"
+						sm-text-align="left"
 						sm-margin="0px 0px 0 0"
+						sm-width="80%"
+						sm-display="inline-block"
 					>
-						Tampilan Kalendar Sederhana
+						<Span
+							sm-font="--lead"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							<Strong>
+								Tampilan Kalendar Sederhana
+							</Strong>
+						</Span>
 					</Text>
 					<Text
 						margin="0px 0px 0 0px"
 						color="--greyD3"
 						font="--lead"
 						lg-text-align="center"
-						sm-text-align="center"
+						sm-text-align="left"
 						sm-margin="0px 0px 20px 0"
 						sm-font="--base"
 						align-self="flex-start"
@@ -278,8 +300,9 @@ export default (() => {
 					flex="1 1 0%"
 					sm-display="inline-block"
 					sm-position="static"
-					sm-max-width="375px"
-					sm-min-height="100px"
+					sm-max-width="450px"
+					sm-min-height="150px"
+					sm-width="100%"
 				/>
 			</Box>
 			<Box
@@ -303,10 +326,11 @@ export default (() => {
 				sm-flex-direction="column"
 				sm-align-self="center"
 				sm-order="-1"
-				sm-display="block"
+				sm-display="inline-block"
 				width="100%"
 				sm-flex="0 1 auto"
 				sm-position="static"
+				sm-width="90%"
 			>
 				<Box
 					display="flex"
@@ -340,12 +364,16 @@ export default (() => {
 						color="--dark"
 						font="--headline3"
 						lg-text-align="center"
-						sm-font="--headline3"
+						sm-font="--lead"
 						align-self="flex-start"
 						sm-text-align="center"
 						sm-margin="0px 0px 0 0"
+						sm-display="inline"
+						sm-width="80%"
 					>
-						Konten Manajemen
+						<Strong>
+							Konten Manajemen
+						</Strong>
 					</Text>
 					<Text
 						margin="0px 0px 0 0px"
@@ -353,9 +381,10 @@ export default (() => {
 						font="--lead"
 						lg-text-align="center"
 						align-self="flex-start"
-						sm-margin="0px 20px 0 20px"
-						sm-text-align="center"
+						sm-margin="0px 0 0 0"
+						sm-text-align="left"
 						sm-font="--base"
+						sm-display="inline-block"
 					>
 						Easily organize and label your posts by topic, campaign, or format.
 					</Text>
@@ -375,7 +404,7 @@ export default (() => {
 					flex="1 1 0%"
 					min-height="400px"
 					align-self="flex-start"
-					sm-width="80%"
+					sm-width="100%"
 				/>
 			</Box>
 			<Box
@@ -399,8 +428,9 @@ export default (() => {
 				sm-flex-direction="column"
 				sm-align-self="center"
 				sm-order="-1"
-				sm-display="block"
+				sm-display="inline-block"
 				width="100%"
+				sm-width="90%"
 			>
 				<Box
 					display="flex"
@@ -432,23 +462,27 @@ export default (() => {
 						color="--dark"
 						font="--headline3"
 						lg-text-align="center"
-						sm-font="--headline3"
+						sm-font="--lead"
 						align-self="flex-start"
-						sm-text-align="center"
+						sm-text-align="left"
 						sm-margin="0px 0px 0 0"
 						text-align="left"
 					>
-						Kustomisasi Template
+						<Strong>
+							Kustomisasi Template
+						</Strong>
 					</Text>
 					<Text
 						margin="0px 0px 0 0px"
 						color="--greyD3"
 						font="--lead"
 						lg-text-align="center"
-						sm-margin="0px 20px 0 20px"
-						sm-text-align="center"
+						sm-margin="0px 0 0 0"
+						sm-text-align="left"
 						sm-font="--base"
 						align-self="flex-start"
+						sm-display="inline-block"
+						sm-padding="0px 0px 0 0px"
 					>
 						Tailor the calendar to match your branding and specific social media needs.
 					</Text>
@@ -467,6 +501,7 @@ export default (() => {
 					flex="1 1 0%"
 					min-height="400px"
 					sm-max-width="375px"
+					sm-width="100%"
 				/>
 			</Box>
 		</Section>
@@ -490,14 +525,22 @@ export default (() => {
 			<Text
 				margin="0px 0px 5px 0px"
 				color="--dark"
-				font="--headline3"
+				font="--headline2"
+				lg-text-align="center"
+				sm-font="--headline3"
+				align-self="center"
+				sm-text-align="left"
+				display="block"
 				text-align="center"
-				sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-				padding="0px 0px 5px 0px"
-				sm-padding="0px 0px 0 0px"
+				sm-display="inline-block"
+				sm-align-items="center"
+				sm-justify-content="center"
+				sm-width="90%"
+				sm-flex-direction="column"
+				sm-align-content="center"
+				sm-align-self="flex-start"
 			>
-				<Span
-					font-size="36px"
+				<Strong
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
@@ -507,28 +550,18 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					<Span
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-						sm-font="--headline2"
-						font="--headline2"
-						sm-display="flex"
-						sm-text-align="left"
-						sm-align-items="center"
-						sm-justify-content="center"
-					>
-						Who Is It For
-					</Span>
-				</Span>
+					Who is it for
+				</Strong>
 			</Text>
-			<Text margin="0px 0px 35px 0px" text-align="center" font="--lead" sm-margin="0px 0px 50px 0px">
-				Some text
+			<Text
+				margin="0px 0px 35px 0px"
+				text-align="center"
+				font="--lead"
+				sm-margin="0px 0px 50px 0px"
+				sm-align-self="flex-start"
+				sm-font="--lead"
+			>
+				Siapa yang membutuhkan template ini
 			</Text>
 			<Box
 				min-height="100px"
@@ -580,7 +613,7 @@ export default (() => {
 						<Strong
 							sm-display="flex"
 							sm-justify-content="flex-start"
-							sm-font="--headline3"
+							sm-font="--lead"
 							sm-margin="0px 0px 15px 0px"
 							overflow-wrap="normal"
 							word-break="normal"
@@ -592,7 +625,9 @@ export default (() => {
 							pointer-events="auto"
 							sm-text-align="center"
 						>
-							Social Media Specialist
+							<Strong>
+								Social Media Specialist
+							</Strong>
 						</Strong>
 					</Text>
 					<Text
@@ -640,14 +675,24 @@ export default (() => {
 						sm-margin="0px 0px 0 0px"
 					>
 						<Strong
-							sm-font="--headline3"
+							sm-font="--lead"
 							sm-margin="0px 0px 15px 0px"
 							display="flex"
 							width="260px"
 							sm-align-items="center"
 							sm-justify-content="center"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
 						>
-							Online Shop Owner
+							<Strong>
+								Online Shop Owner
+							</Strong>
 						</Strong>
 					</Text>
 					<Text
@@ -694,11 +739,12 @@ export default (() => {
 						lg-text-align="left"
 						sm-font="--lead"
 						sm-margin="0px 0px 0 0px"
+						sm-text-align="center"
 					>
 						<Strong
 							sm-display="block"
 							sm-justify-content="flex-start"
-							sm-font="--headline3"
+							sm-font="--lead"
 							sm-margin="0px 0px 15px 0px"
 							overflow-wrap="normal"
 							word-break="normal"
@@ -711,7 +757,9 @@ export default (() => {
 							display="flex"
 							width="225px"
 						>
-							Content Creator
+							<Strong>
+								Content Creator
+							</Strong>
 						</Strong>
 					</Text>
 					<Text
@@ -751,23 +799,38 @@ export default (() => {
 				flex-wrap="wrap"
 				display="block"
 				width="100%"
+				sm-width="90%"
 			/>
 			<Text
 				margin="0px 0px 5px 0px"
 				color="--dark"
 				font="--headline2"
 				lg-text-align="center"
-				sm-font="normal 900 37px/1.2 --fontFamily-sans"
+				sm-font="--headline3"
 				align-self="center"
 				sm-text-align="left"
 				sm-margin="0px 0px 5px 0"
 				display="block"
 				text-align="center"
-				sm-display="flex"
+				sm-display="block"
 				sm-align-items="center"
 				sm-justify-content="center"
 			>
-				What You Will Get
+				<Span
+					sm-font="--headline3"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Strong>
+						What You Will Get
+					</Strong>
+				</Span>
 			</Text>
 			<Text
 				margin="0px 0px 35px 0px"
@@ -775,6 +838,7 @@ export default (() => {
 				font="--lead"
 				color="--dark"
 				sm-margin="0px 0px 60px 0px"
+				sm-text-align="left"
 			>
 				Fitur yang tersedia dalam template
 			</Text>
@@ -807,20 +871,22 @@ export default (() => {
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
-					sm-font="--headline3"
+					sm-font="--lead"
 					align-self="center"
-					sm-text-align="center"
+					sm-text-align="left"
 					sm-margin="0px 0px 0 0"
 				>
-					Tampilan Kalendar Sederhana
+					<Strong>
+						Tampilan Kalendar Sederhana
+					</Strong>
 				</Text>
 				<Text
 					margin="0px 0px 0 0px"
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
-					sm-text-align="center"
-					sm-margin="0px 0px 20px 20px"
+					sm-text-align="left"
+					sm-margin="0px 0px 20px 0"
 					sm-font="--base"
 				>
 					Plan and visualize your content schedule for different platforms at a glance.
@@ -840,6 +906,7 @@ export default (() => {
 					sm-position="static"
 					sm-max-width="375px"
 					sm-min-height="100px"
+					sm-width="100%"
 				/>
 			</Box>
 			<Box
@@ -873,12 +940,14 @@ export default (() => {
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
-					sm-font="--headline3"
+					sm-font="--lead"
 					align-self="center"
-					sm-text-align="center"
+					sm-text-align="left"
 					sm-margin="0px 0px 0 0"
 				>
-					Konten Manajemen
+					<Strong>
+						Konten Manajemen
+					</Strong>
 				</Text>
 				<Text
 					margin="0px 0px 0 0px"
@@ -886,8 +955,8 @@ export default (() => {
 					font="--lead"
 					lg-text-align="center"
 					align-self="center"
-					sm-margin="0px 20px 0 20px"
-					sm-text-align="center"
+					sm-margin="0px 20px 0 0"
+					sm-text-align="left"
 					sm-font="--base"
 				>
 					Easily organize and label your posts by topic, campaign, or format.
@@ -906,6 +975,7 @@ export default (() => {
 					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
+					sm-width="100%"
 				/>
 			</Box>
 			<Box
@@ -937,20 +1007,22 @@ export default (() => {
 					color="--dark"
 					font="--headline3"
 					lg-text-align="center"
-					sm-font="--headline3"
+					sm-font="--lead"
 					align-self="center"
-					sm-text-align="center"
+					sm-text-align="left"
 					sm-margin="0px 0px 0 0"
 				>
-					Kustomisasi Template
+					<Strong>
+						Kustomisasi Template
+					</Strong>
 				</Text>
 				<Text
 					margin="0px 0px 0 0px"
 					color="--greyD3"
 					font="--lead"
 					lg-text-align="center"
-					sm-margin="0px 20px 0 20px"
-					sm-text-align="center"
+					sm-margin="0px 20px 0 0"
+					sm-text-align="left"
 					sm-font="--base"
 				>
 					Tailor the calendar to match your branding and specific social media needs.
@@ -969,6 +1041,7 @@ export default (() => {
 					flex="1 1 0%"
 					min-height="400px"
 					sm-max-width="375px"
+					sm-width="100%"
 				/>
 			</Box>
 		</Section>
@@ -997,13 +1070,13 @@ export default (() => {
 					text-align="center"
 					sm-font="--headline3"
 					sm-text-align="left"
-					sm-align-self="center"
+					sm-align-self="flex-start"
 					sm-margin="0px 0px 0 0px"
 				>
 					<Strong
 						sm-display="flex"
 						sm-justify-content="flex-start"
-						sm-font="--headline2"
+						sm-font="--headline3"
 						font="--headline2"
 						sm-text-align="center"
 						overflow-wrap="normal"
@@ -1014,11 +1087,14 @@ export default (() => {
 						hyphens="manual"
 						user-select="auto"
 						pointer-events="auto"
+						sm-flex-direction="column"
 					>
-						Reviews
+						<Strong>
+							Reviews
+						</Strong>
 					</Strong>
 				</Text>
-				<Text margin="0px 0px 0px 0px" text-align="center" font="--lead">
+				<Text margin="0px 0px 0px 0px" text-align="center" font="--lead" sm-text-align="left">
 					Pendapat kustomer yang sudah menggunakannya
 				</Text>
 			</Box>
@@ -1249,12 +1325,14 @@ export default (() => {
 				md-font="--headline2"
 				margin="20px 0 0 0"
 				sm-align-self="flex-start"
-				sm-text-align="center"
-				sm-font="--headline2"
+				sm-text-align="left"
+				sm-font="--headline3"
 				align-self="center"
 				text-align="center"
 			>
-				Get the Template Today!
+				<Strong>
+					Get the Template Today!
+				</Strong>
 			</Text>
 			<Text
 				as="p"
@@ -1263,7 +1341,8 @@ export default (() => {
 				text-align="center"
 				sm-font="--lead"
 				sm-align-self="flex-start"
-				sm-text-align="center"
+				sm-text-align="left"
+				sm-margin="0 0 20px 0"
 			>
 				Get started now and take your social media strategy to new level.
 			</Text>
