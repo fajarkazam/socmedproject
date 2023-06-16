@@ -21,51 +21,18 @@ export default {
 			"id": "6461957b820441001fb09af5",
 			"name": "AB Digital Marketing",
 			"pageUrl": "index",
-			"customCode": {
-				"6486a11bf658b8cdaff32dd6": {
-					"name": "GTM",
-					"place": "endOfHead",
-					"tag": "script",
-					"data": {
-						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
-					}
-				},
-				"6486a123762b294f5b7adb32": {
-					"name": "GTM",
-					"place": "endOfBody",
-					"tag": "script",
-					"data": {
-						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
-					}
-				}
-			},
+			"customCode": {},
 			"seo": {
-				"title": "Digital Marketing Notion Template",
-				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM."
+				"title": "",
+				"description": "",
+				"og:title": ""
 			}
 		},
 		"6474df74588b2d00195721ab": {
 			"pageUrl": "socmed",
 			"id": "6474df74588b2d00195721ab",
 			"name": "Social Media",
-			"customCode": {
-				"6486a13acf0d18fd19947124": {
-					"name": "GTM",
-					"place": "endOfBody",
-					"tag": "script",
-					"data": {
-						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
-					}
-				},
-				"6486a14282cb6b98aecf35a8": {
-					"name": "GTM",
-					"place": "endOfHead",
-					"tag": "script",
-					"data": {
-						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
-					}
-				}
-			},
+			"customCode": {},
 			"seo": {
 				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM.",
 				"title": "Social Media Notion Template"
@@ -75,24 +42,7 @@ export default {
 			"pageUrl": "socmed1",
 			"id": "647f0c8a8bd7e60018589221",
 			"name": "SEO",
-			"customCode": {
-				"6486a1568e4fe0925793e17f": {
-					"name": "GTM",
-					"place": "endOfHead",
-					"tag": "script",
-					"data": {
-						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T44CF6S');</script>\n<!-- End Google Tag Manager -->"
-					}
-				},
-				"6486a15ea3d9b52bda9ca95a": {
-					"name": "GTM",
-					"place": "endOfBody",
-					"tag": "script",
-					"data": {
-						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
-					}
-				}
-			},
+			"customCode": {},
 			"seo": {
 				"title": "SEO Notion Template",
 				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM."
