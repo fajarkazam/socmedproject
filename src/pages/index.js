@@ -106,7 +106,8 @@ export default (() => {
 				<Link href="#" color="#000000" />
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
+		<Section padding="80px 0 80px 0" quarkly-title="Reviews" sm-padding="25px 0 25px 0" sm-justify-content="flex-start">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				padding="80px 72px 80px 72px"
 				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
@@ -131,228 +132,12 @@ export default (() => {
 						md-text-align="center"
 						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						Digital Marketing Template
+						Reviews From Users
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						Your All-in-one template to success in digital marketing world
+						What they say about this digital marketing template
 					</Text>
 				</Box>
-			</Box>
-			<Box
-				display="grid"
-				lg-flex-wrap="wrap"
-				grid-template-columns="repeat(4, 1fr)"
-				grid-gap="36px 4%"
-				lg-grid-template-columns="repeat(2, 1fr)"
-				sm-grid-template-columns="1fr"
-				sm-grid-gap="12px"
-			>
-				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
-					<Text
-						padding="7px 7px 7px 7px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-						md-background="--color-darkL2"
-						sm-padding="2px 2px 2px 2px"
-						sm-font="--lead"
-					>
-						<Strong>
-							1
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 18px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							No Advanced Skill Needed
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
-					</Text>
-				</Box>
-				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 30px 0px">
-					<Text
-						padding="7px 7px 7px 7px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-						md-background="--color-darkL2"
-						sm-padding="2px 2px 2px 2px"
-						sm-font="--lead"
-					>
-						<Strong>
-							2
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 18px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							Customizable Template
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-					</Text>
-				</Box>
-				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
-					<Text
-						padding="7px 7px 7px 7px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-						md-background="--color-darkL2"
-						sm-padding="2px 2px 2px 2px"
-						sm-font="--lead"
-					>
-						<Strong>
-							3
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 18px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							Access From Everywhere
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
-					</Text>
-				</Box>
-				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 0px 0px">
-					<Text
-						padding="7px 7px 7px 7px"
-						margin="0px 0px 32px 0px"
-						font="--headline3"
-						border-radius="50px"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						color="--light"
-						width="49px"
-						height="49px"
-						background="--color-indigo"
-						sm-margin="0px 0px 20px 0px"
-						lg-margin="0px 0px 18px 0px"
-						md-background="--color-darkL2"
-						sm-padding="2px 2px 2px 2px"
-						sm-font="--lead"
-					>
-						<Strong>
-							4
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 18px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong>
-							Lifetime Access
-						</Strong>
-					</Text>
-					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
-					</Text>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="80px 0 80px 0" quarkly-title="Reviews" sm-padding="25px 0 25px 0" sm-justify-content="flex-start">
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				display="flex"
-				align-items="center"
-				flex-direction="column"
-				justify-content="center"
-				margin="0px 0px 56px 0px"
-				width="100%"
-				sm-margin="0px 0px 30px 0px"
-				sm-align-items="flex-start"
-			>
-				<Text
-					margin="0px 0px 16px 0px"
-					color="--dark"
-					font="--headline2"
-					text-align="center"
-					sm-font="--headline3"
-					sm-display="block"
-					sm-justify-content="flex-start"
-					sm-text-align="left"
-					sm-flex-direction="column"
-					sm-align-items="flex-start"
-				>
-					<Span
-						sm-font="--headline3"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						<Span
-							sm-font="--headline3"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							<Strong>
-								Reviews From Readers
-							</Strong>
-						</Span>
-					</Span>
-				</Text>
 			</Box>
 			<Box
 				display="grid"
@@ -561,6 +346,117 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" quarkly-title="Benefit">
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Why This Template
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						The benefit of using digital marketing template
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				display="grid"
+				lg-flex-wrap="wrap"
+				grid-template-columns="repeat(4, 1fr)"
+				grid-gap="36px 4%"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				sm-grid-template-columns="1fr"
+				sm-grid-gap="12px"
+			>
+				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Strong>
+							No Advanced Skill Needed
+						</Strong>
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 30px 0px">
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Strong>
+							Customizable Template
+						</Strong>
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column" sm-margin="0px 0px 30px 0px" sm-width="100%">
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Strong>
+							Access From Everywhere
+						</Strong>
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+					</Text>
+				</Box>
+				<Box display="flex" flex-direction="column" sm-width="100%" sm-margin="0px 0px 0px 0px">
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Strong>
+							Lifetime Access
+						</Strong>
+					</Text>
+					<Text margin="0px 0px 0px 0px" color="--greyD2" font="--base" lg-text-align="left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna{" "}
+					</Text>
+				</Box>
+			</Box>
+		</Section>
 		<Section
 			sm-background="--color-dark"
 			quarkly-title="Subscribe"
@@ -577,7 +473,7 @@ export default (() => {
 				text-align="center"
 				sm-align-self="flex-start"
 			>
-				Notion Daily Life Organizer
+				Get Notion Daily Life Organizer For FREE
 			</Text>
 			<Image src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16:35:14.888Z" display="block" width="50%" align-self="center" />
 			<Text
@@ -645,6 +541,7 @@ export default (() => {
 					type="email"
 					placeholder="Email"
 					sm-width="70%"
+					sm-border-color="--color-light"
 				/>
 				<Link
 					href="#"
@@ -679,6 +576,37 @@ export default (() => {
 			sm-margin="0 0 0 0"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" display="block" />
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Choose Your Template
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						Select what you want to organize
+					</Text>
+				</Box>
+			</Box>
 			<Text
 				margin="0px 0px 16px 0px"
 				color="--dark"
@@ -747,8 +675,17 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong>
-								Social Media Calendar Template
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Social Media Organizer Template
 							</Strong>
 						</Span>
 					</Span>

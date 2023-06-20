@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Span, Text, Button, Box, Section, Image, List, Input } from "@quarkly/widgets";
+import { Theme, Link, Strong, Span, Text, Button, Box, Section, Image, List, Input, LinkBox, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
+import { FaTwitterSquare, FaGithub, FaYoutube } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"socmed"} />
@@ -154,47 +155,39 @@ export default (() => {
 				display="block"
 				width="100%"
 			/>
-			<Text
-				margin="0px 0px 5px 0px"
-				color="--dark"
-				font="--headline2"
-				lg-text-align="center"
-				sm-font="--headline3"
-				align-self="center"
-				sm-text-align="left"
-				display="block"
-				text-align="center"
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 18px 60px 18px"
+				sm-width="80%"
 				sm-display="inline-block"
-				sm-align-items="center"
-				sm-justify-content="center"
-				sm-width="90%"
-				sm-flex-direction="column"
-				sm-align-content="center"
 			>
-				<Strong>
-					Why You Should Get It
-				</Strong>
-			</Text>
-			<Text
-				margin="0px 0px 5px 0px"
-				color="--dark"
-				font="--headline2"
-				lg-text-align="center"
-				sm-font="--lead"
-				align-self="center"
-				sm-text-align="left"
-				display="block"
-				text-align="center"
-				sm-display="inline-block"
-				sm-align-items="center"
-				sm-justify-content="center"
-				sm-width="90%"
-				sm-flex-direction="column"
-				sm-align-content="center"
-				sm-margin="0px 0px 50px 0px"
-			>
-				Fitur yang tersedia dalam template
-			</Text>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Why You Should Get It
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						All of the benefit of this social media organizer
+					</Text>
+				</Box>
+			</Box>
 			<Box
 				display="flex"
 				flex-direction="row"
@@ -505,6 +498,39 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
+		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Setting up a workplace in the office and at home
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</Text>
+				</Box>
+			</Box>
+		</Section>
 		<Section
 			padding="80px 0 50px 0"
 			sm-padding="25px 0 15px 0"
@@ -513,6 +539,7 @@ export default (() => {
 			lg-justify-content="center"
 			sm-flex-direction="column"
 			sm-align-content="center"
+			sm-height="1000px"
 		>
 			<Override
 				slot="SectionContent"
@@ -522,47 +549,37 @@ export default (() => {
 				lg-align-items="center"
 				sm-align-content="center"
 			/>
-			<Text
-				margin="0px 0px 5px 0px"
-				color="--dark"
-				font="--headline2"
-				lg-text-align="center"
-				sm-font="--headline3"
-				align-self="center"
-				sm-text-align="left"
-				display="block"
-				text-align="center"
-				sm-display="inline-block"
-				sm-align-items="center"
-				sm-justify-content="center"
-				sm-width="90%"
-				sm-flex-direction="column"
-				sm-align-content="center"
-				sm-align-self="flex-start"
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
 			>
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
 				>
-					Who is it for
-				</Strong>
-			</Text>
-			<Text
-				margin="0px 0px 35px 0px"
-				text-align="center"
-				font="--lead"
-				sm-margin="0px 0px 50px 0px"
-				sm-align-self="flex-start"
-				sm-font="--lead"
-			>
-				Siapa yang membutuhkan template ini
-			</Text>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Who Is It For
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						The one who most needs this template
+					</Text>
+				</Box>
+			</Box>
 			<Box
 				min-height="100px"
 				width="100%"
@@ -801,47 +818,37 @@ export default (() => {
 				width="100%"
 				sm-width="90%"
 			/>
-			<Text
-				margin="0px 0px 5px 0px"
-				color="--dark"
-				font="--headline2"
-				lg-text-align="center"
-				sm-font="--headline3"
-				align-self="center"
-				sm-text-align="left"
-				sm-margin="0px 0px 5px 0"
-				display="block"
-				text-align="center"
-				sm-display="block"
-				sm-align-items="center"
-				sm-justify-content="center"
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
 			>
-				<Span
-					sm-font="--headline3"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
 				>
-					<Strong>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
 						What You Will Get
-					</Strong>
-				</Span>
-			</Text>
-			<Text
-				margin="0px 0px 35px 0px"
-				text-align="center"
-				font="--lead"
-				color="--dark"
-				sm-margin="0px 0px 60px 0px"
-				sm-text-align="left"
-			>
-				Fitur yang tersedia dalam template
-			</Text>
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						All of the feature of the template
+					</Text>
+				</Box>
+			</Box>
 			<Box
 				display="flex"
 				flex-direction="column"
@@ -1054,49 +1061,37 @@ export default (() => {
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
-				display="flex"
-				align-items="center"
-				flex-direction="column"
-				justify-content="center"
-				margin="0px 0px 56px 0px"
-				width="100%"
-				sm-margin="0px 0px 30px 0px"
-				sm-text-align="left"
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+				sm-display="inline-block"
+				sm-width="80%"
 			>
-				<Text
-					margin="0px 0px 16px 0px"
-					color="--dark"
-					font="--headline2"
-					text-align="center"
-					sm-font="--headline3"
-					sm-text-align="left"
-					sm-align-self="flex-start"
-					sm-margin="0px 0px 0 0px"
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
 				>
-					<Strong
-						sm-display="flex"
-						sm-justify-content="flex-start"
-						sm-font="--headline3"
+					<Text
+						margin="0px 0px 16px 0px"
 						font="--headline2"
-						sm-text-align="center"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-						sm-flex-direction="column"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						<Strong>
-							Reviews
-						</Strong>
-					</Strong>
-				</Text>
-				<Text margin="0px 0px 0px 0px" text-align="center" font="--lead" sm-text-align="left">
-					Pendapat kustomer yang sudah menggunakannya
-				</Text>
+						What The User Said
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						The reviews from the user
+					</Text>
+				</Box>
 			</Box>
 			<Box
 				display="grid"
@@ -1318,7 +1313,39 @@ export default (() => {
 			sm-height="750px"
 			lg-padding="30px 0 80px 0"
 		>
-			<Override slot="SectionContent" align-items="center" sm-display="inline-block" />
+			<Override slot="SectionContent" align-items="center" sm-display="inline-block" sm-height="750px" />
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-width="330px"
+					>
+						How Much Is The Price
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						Get started now and take your social media strategy to the new level
+					</Text>
+				</Box>
+			</Box>
 			<Text
 				as="h2"
 				font="--headline2"
@@ -1329,85 +1356,44 @@ export default (() => {
 				sm-font="--headline3"
 				align-self="center"
 				text-align="center"
-			>
-				<Strong>
-					Get the Template Today!
-				</Strong>
-			</Text>
-			<Text
-				as="p"
-				font="--lead"
-				margin="20px 0 20px 0"
-				text-align="center"
-				sm-font="--lead"
-				sm-align-self="flex-start"
-				sm-text-align="left"
-				sm-margin="0 0 20px 0"
-			>
-				Get started now and take your social media strategy to new level.
-			</Text>
+			/>
 			<Box
-				width="50%"
+				min-width="100px"
+				min-height="100px"
+				padding="30px 60px 30px 60px"
+				border-color="#dadbe2"
 				display="flex"
-				padding="48px 40px 48px 40px"
-				background="#ffffff"
-				border-radius="24px"
-				align-items="center"
-				justify-content="center"
 				flex-direction="column"
-				border-width="2px"
-				border-style="solid"
-				border-color="--color-secondary"
-				lg-padding="48px 35px 56px 35px"
 				position="relative"
-				sm-width="100%"
-				sm-justify-self="center"
+				z-index="1"
+				lg-width="100%"
+				lg-align-items="stretch"
+				md-align-items="stretch"
+				sm-padding="30px 15px 30px 15px"
+				justify-content="center"
+				lg-border-radius="25px"
+				background="#f1f1f5"
+				width="40%"
+				border-radius="25px"
+				lg-order="-1"
+				lg-margin="0px 0px 40px 0px"
+				md-margin="0px 0px 30px 0px"
+				sm-width="90%"
 				sm-align-self="center"
-				sm-display="flex"
-				sm-padding="25px 0 25px 0"
-				justify-self="center"
-				sm-border-color="--color-dark"
-				md-width="75%"
-				md-border-color="--color-darkL2"
-				md-align-self="center"
 			>
-				<Text margin="0px 0px 24px 0px" font="--headline3" sm-text-align="center">
-					Social Media Calendar Template
-				</Text>
-				<Text
-					margin="0px 0px 8px 0px"
-					font="--headline1"
-					sm-font="--headline3"
-					md-width="60%"
+				<Box
+					min-width="100px"
+					min-height="100px"
 					display="flex"
 					flex-direction="column"
+					margin="0px 0px 0 0px"
 				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-						sm-text-align="center"
-						sm-display="flex"
-						font="--headline2"
-						sm-font="--headline3"
-						sm-flex-direction="column"
-						md-display="flex"
-						md-flex-direction="column"
-						lg-display="flex"
-						lg-flex-direction="column"
-						display="flex"
-						flex-direction="column"
-					>
-						<Strong
-							sm-text-decoration-line="line-through"
-							sm-color="#ff0000"
-							sm-font="700 20px/33.6px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-							sm-margin="0px 10px 0px 0px"
+					<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-sansTrebuchet" color="--darkL1" text-align="center">
+						Social Media Organizer Template
+					</Text>
+					<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-sansTrebuchet" color="#80868a" text-align="center">
+						<Span
+							font="normal 700 46px/1.2 --fontFamily-sans"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1416,37 +1402,25 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
-							md-font="700 25px/50.4px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-							md-color="--red"
-							md-text-decoration-line="line-through"
-							md-align-self="center"
-							lg-font="700 25px/50.4px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-							lg-text-align="center"
-							lg-text-decoration-line="line-through"
-							lg-color="--red"
-							font="700 25px/50.4px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif"
-							text-align="center"
-							color="--red"
-							text-decoration-line="line-through"
+							color="--darkL1"
 						>
-							Rp 149.000
-						</Strong>
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-							md-align-self="center"
-							md-margin="0px 0px 25px 0px"
-						>
-							Rp 79.000
-						</Strong>
-					</Strong>
-				</Text>
+							Rp 79
+						</Span>
+						ribu
+					</Text>
+				</Box>
+				<Button
+					background="#543ae7"
+					color="--light"
+					border-color="--color-indigo"
+					border-radius="4px"
+					font="normal 400 17px/1.5 --fontFamily-sansHelvetica"
+					margin="0px 0px 20px 0px"
+					sm-background="--color-dark"
+					sm-padding="15px 24px 15px 24px"
+				>
+					Get The Template
+				</Button>
 				<Text
 					margin="0px 0px 48px 0px"
 					color="--greyD2"
@@ -1455,7 +1429,7 @@ export default (() => {
 					width="40%"
 					sm-margin="15px 0px 25px 0"
 					sm-text-align="left"
-					sm-width="250px"
+					sm-width="225px"
 					sm-font="--base"
 					sm-color="--dark"
 					md-width="50%"
@@ -1470,45 +1444,6 @@ export default (() => {
 					<br />
 					- Social media audit
 				</Text>
-				<Button
-					font="--lead"
-					margin="20px"
-					sm-background="--color-dark"
-					background="--color-dark"
-					sm-border-radius="15px"
-					sm-display="inline-block"
-					sm-margin="20px 0 20px 0"
-					href="https://invoice.xendit.co/od/socmedtemplate"
-					type="submit"
-					sm-align-self="center"
-					lg-padding="15px 24px 15px 24px"
-					lg-border-radius="4px"
-					padding="15px 24px 15px 24px"
-					border-radius="5px"
-				>
-					<Link
-						href="https://invoice.xendit.co/od/socmedtemplate"
-						color="--light"
-						sm-text-decoration-line="initial"
-						sm-color="--light"
-						md-text-decoration-line="initial"
-						lg-text-decoration-line="initial"
-						text-decoration-line="initial"
-					>
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							Get the Template
-						</Strong>
-					</Link>
-				</Button>
 			</Box>
 		</Section>
 		<Section
@@ -1610,7 +1545,7 @@ export default (() => {
 					lg-align-self="center"
 					sm-font="--base"
 				>
-					Dapatkan{" "}
+					Get{" "}
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -1623,7 +1558,7 @@ export default (() => {
 					>
 						Daily Life Organizer{" "}
 					</Strong>
-					secara{" "}
+					for{" "}
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -1634,7 +1569,7 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						GRATIS
+						FREE
 					</Strong>
 				</Text>
 				<List
@@ -1688,11 +1623,7 @@ export default (() => {
 					lg-align-self="center"
 					sm-font="--base"
 				>
-					Masukkan email utamamu, paket{" "}
-					<Strong>
-						Daily Life Organizer
-					</Strong>
-					{" "}akan segera dikirim ke emailmu
+					Write down your email, Daily Life Organizer Template will be sent to immediately
 				</Text>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
@@ -1748,6 +1679,38 @@ export default (() => {
 			</Components.QuarklycommunityKitMailChimp>
 		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-width="330px"
+					>
+						What Is The Common Question
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						What the pre-user usually ask to us
+					</Text>
+				</Box>
+			</Box>
 			<Text
 				as="h1"
 				font="--headline3"
@@ -1782,23 +1745,8 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 						font="--headline2"
-					>
-						<Strong
-							sm-font="--headline2"
-							sm-text-align="center"
-							sm-display="flex"
-							sm-flex-direction="column"
-							sm-align-items="center"
-							sm-justify-content="center"
-							sm-align-content="center"
-						>
-							F.A.Q.
-						</Strong>
-					</Span>
+					/>
 				</Span>
-			</Text>
-			<Text margin="0px 0px 0px 0px" sm-margin="0px 0px 50px 0px" sm-text-align="center" sm-font="--lead">
-				Pertanyaan yang sering ditanyakan
 			</Text>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap" sm-margin="-16px -0 -16px 0">
 				<Box display="flex" flex-direction="column">
@@ -1814,8 +1762,17 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong>
-								Apakah saya harus download Notion untuk dapat menggunakannya?
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Do I have to download Notion to start using it?
 							</Strong>
 						</Span>
 					</Text>
@@ -1884,6 +1841,95 @@ export default (() => {
 					>
 						You will have lifetime access to this file. We recommend you to duplicate the file first in case of there are something error on server site.
 					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section background="--color-light" padding="50px 0 50px 0" quarkly-title="Footer-22">
+			<Box
+				display="flex"
+				justify-content="space-between"
+				border-color="#232a44"
+				md-flex-direction="column"
+				align-items="center"
+				lg-flex-direction="column"
+			>
+				<Box
+					display="flex"
+					md-margin="0px 0px 25px 0px"
+					sm-flex-direction="column"
+					align-items="center"
+					lg-margin="0px 0px 25px 0px"
+					md-flex-direction="column"
+				>
+					<LinkBox
+						display="flex"
+						margin="0px 70px 0px 0px"
+						md-margin="0px 0 30px 0px"
+						flex-direction="row"
+						align-items="flex-end"
+					>
+						<Text margin="0px 0px 0px 0px" font="normal 500 28px/1 --fontFamily-serifTimes">
+							AB Digital Marketing
+						</Text>
+					</LinkBox>
+					<Box
+						display="flex"
+						md-margin="0px 0px 15px 0px"
+						sm-flex-direction="column"
+						justify-content="flex-start"
+						align-items="center"
+						grid-gap="24px"
+					>
+						<Box display="flex" grid-gap="8px" />
+						<Box display="flex" grid-gap="8px">
+							<Text margin="0px 0px 0px 0px" font="--base" color="--darkL2">
+								E-mail:
+							</Text>
+							<Link
+								href="tel:+9877654321223"
+								color="--darkL2"
+								text-decoration-line="initial"
+								font="normal 300 16px/1.5 --fontFamily-sans"
+								display="block"
+								margin="0px 0px 0px 0px"
+								hover-color="#6d32ec"
+							>
+								digitalmastery.ads@gmail.com
+							</Link>
+						</Box>
+					</Box>
+				</Box>
+				<Box display="flex" grid-template-columns="repeat(5, 1fr)" grid-gap="16px 24px">
+					<LinkBox href="/">
+						<Icon
+							category="fa"
+							icon={FaTwitterSquare}
+							size="24px"
+							color="--darkL2"
+							hover-color="#6d32ec"
+							transition="background-color 1s ease 0s"
+						/>
+					</LinkBox>
+					<LinkBox href="/">
+						<Icon
+							category="fa"
+							icon={FaGithub}
+							size="24px"
+							color="--darkL2"
+							hover-color="#6d32ec"
+							transition="background-color 1s ease 0s"
+						/>
+					</LinkBox>
+					<LinkBox href="/">
+						<Icon
+							category="fa"
+							icon={FaYoutube}
+							size="24px"
+							color="--darkL2"
+							hover-color="#6d32ec"
+							transition="background-color 1s ease 0s"
+						/>
+					</LinkBox>
 				</Box>
 			</Box>
 		</Section>
