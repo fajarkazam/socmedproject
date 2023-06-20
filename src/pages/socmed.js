@@ -181,7 +181,7 @@ export default (() => {
 						md-text-align="center"
 						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						Why You Should Get It
+						BENEFIT
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
 						All of the benefit of this social media organizer
@@ -498,39 +498,6 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
-			<Box
-				padding="80px 72px 80px 72px"
-				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
-				border-radius="24px"
-				margin="0px 0px 64px 0px"
-				sm-padding="60px 36px 60px 36px"
-			>
-				<Box
-					width="60%"
-					display="flex"
-					flex-direction="column"
-					md-width="100%"
-					md-align-items="center"
-					md-justify-content="center"
-					md-text-align="center"
-					lg-width="100%"
-				>
-					<Text
-						margin="0px 0px 16px 0px"
-						font="--headline2"
-						color="--dark"
-						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					>
-						Setting up a workplace in the office and at home
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-					</Text>
-				</Box>
-			</Box>
-		</Section>
 		<Section
 			padding="80px 0 50px 0"
 			sm-padding="25px 0 15px 0"
@@ -842,7 +809,7 @@ export default (() => {
 						md-text-align="center"
 						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						What You Will Get
+						FEATURES
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
 						All of the feature of the template
@@ -1086,7 +1053,7 @@ export default (() => {
 						md-text-align="center"
 						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						What The User Said
+						REVIEW
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
 						The reviews from the user
@@ -1339,7 +1306,7 @@ export default (() => {
 						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 						sm-width="330px"
 					>
-						How Much Is The Price
+						PRICE
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
 						Get started now and take your social media strategy to the new level
@@ -1417,7 +1384,9 @@ export default (() => {
 					font="normal 400 17px/1.5 --fontFamily-sansHelvetica"
 					margin="0px 0px 20px 0px"
 					sm-background="--color-dark"
-					sm-padding="15px 24px 15px 24px"
+					sm-padding="15px 20px 15px 20px"
+					sm-width="275px"
+					sm-align-self="center"
 				>
 					Get The Template
 				</Button>
@@ -1483,6 +1452,24 @@ export default (() => {
 				lg-flex-direction="column"
 				align-self="center"
 			>
+				<Text
+					font="--headline2"
+					margin="10px 0 15px 0"
+					sm-margin="10px 0 0 0"
+					display="inline-block"
+					sm-display="block"
+					sm-font="normal 900 32px/1.2 --fontFamily-sans"
+					sm-text-align="center"
+					sm-align-items="center"
+					sm-flex-direction="row"
+					sm-justify-content="flex-start"
+					sm-max-width="100%"
+					width="100%"
+					text-align="center"
+					sm-width="100%"
+				>
+					FREE
+				</Text>
 				<Text
 					font="--headline2"
 					margin="10px 0 15px 0"
@@ -1623,7 +1610,20 @@ export default (() => {
 					lg-align-self="center"
 					sm-font="--base"
 				>
-					Write down your email, Daily Life Organizer Template will be sent to immediately
+					Write down your email,{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Daily Life Organizer Template
+					</Strong>
+					{" "}will be sent to you immediately
 				</Text>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
@@ -1704,7 +1704,7 @@ export default (() => {
 						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 						sm-width="330px"
 					>
-						What Is The Common Question
+						F.A.Q.
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
 						What the pre-user usually ask to us
@@ -1844,7 +1844,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section background="--color-light" padding="50px 0 50px 0" quarkly-title="Footer-22">
+		<Section background="--color-light" padding="50px 0 50px 0" quarkly-title="Footer-22" sm-background="--color-lightD2">
 			<Box
 				display="flex"
 				justify-content="space-between"
