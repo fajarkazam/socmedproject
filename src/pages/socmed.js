@@ -293,8 +293,7 @@ export default (() => {
 					flex="1 1 0%"
 					sm-display="inline-block"
 					sm-position="static"
-					sm-max-width="450px"
-					sm-min-height="150px"
+					sm-min-height="300px"
 					sm-width="100%"
 				/>
 			</Box>
@@ -391,8 +390,7 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-max-width="375px"
-					sm-min-height="100px"
+					sm-min-height="300px"
 					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
@@ -489,11 +487,10 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-min-height="100px"
+					sm-min-height="300px"
 					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
-					sm-max-width="375px"
 					sm-width="100%"
 				/>
 			</Box>
@@ -878,8 +875,7 @@ export default (() => {
 					flex="1 1 0%"
 					sm-display="inline-block"
 					sm-position="static"
-					sm-max-width="375px"
-					sm-min-height="100px"
+					sm-min-height="300px"
 					sm-width="100%"
 				/>
 			</Box>
@@ -944,8 +940,7 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-max-width="375px"
-					sm-min-height="100px"
+					sm-min-height="300px"
 					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
@@ -1010,7 +1005,7 @@ export default (() => {
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
-					sm-min-height="100px"
+					sm-min-height="300px"
 					sm-margin="0 0px 40px 0px"
 					flex="1 1 0%"
 					min-height="400px"
@@ -1347,6 +1342,10 @@ export default (() => {
 				md-margin="0px 0px 30px 0px"
 				sm-width="90%"
 				sm-align-self="center"
+				sm-border-color="--color-grey"
+				sm-background="--color-light"
+				sm-border-width="2px"
+				sm-border-style="solid"
 			>
 				<Box
 					min-width="100px"
@@ -1964,12 +1963,6 @@ export default (() => {
 			</script>
 			<script place={"endOfBody"} rawKey={"648c87bfa8dac52456e7229f"}>
 				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T44CF6S\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
-			</script>
-			<script place={"endOfHead"} rawKey={"64933641ff7c78f8c3f7c8c5"}>
-				{"<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KS2DQJB');</script>\n<!-- End Google Tag Manager -->"}
-			</script>
-			<script place={"endOfBody"} rawKey={"6493364d8b49c5b221f87a01"}>
-				{"<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KS2DQJB\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"}
 			</script>
 		</RawHtml>
 	</Theme>;
