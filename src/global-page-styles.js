@@ -6,7 +6,7 @@ const pageStyles = {
     "404": {},
     "index": {},
     "socmed": {},
-    "socmed1": {},
+    "seo": {},
     "socmed11": {}
 };
 

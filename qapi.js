@@ -32,14 +32,31 @@ export default {
 			"pageUrl": "socmed",
 			"id": "6474df74588b2d00195721ab",
 			"name": "Social Media",
-			"customCode": {},
+			"customCode": {
+				"64933641ff7c78f8c3f7c8c5": {
+					"name": "GTM",
+					"place": "endOfHead",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KS2DQJB');</script>\n<!-- End Google Tag Manager -->"
+					}
+				},
+				"6493364d8b49c5b221f87a01": {
+					"name": "GTM",
+					"place": "endOfBody",
+					"tag": "script",
+					"data": {
+						"content": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KS2DQJB\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+					}
+				}
+			},
 			"seo": {
 				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM.",
 				"title": "Social Media Notion Template"
 			}
 		},
 		"647f0c8a8bd7e60018589221": {
-			"pageUrl": "socmed1",
+			"pageUrl": "seo",
 			"id": "647f0c8a8bd7e60018589221",
 			"name": "SEO",
 			"customCode": {},

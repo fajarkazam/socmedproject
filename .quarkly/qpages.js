@@ -1,7 +1,7 @@
 module.exports = [
 	"/index/",
 	"/socmed/",
-	"/socmed1/",
+	"/seo/",
 	"/socmed11/",
 	"/404/",
 	"/",
