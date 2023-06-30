@@ -32,7 +32,7 @@ export default (() => {
 			quarkly-title="Hero"
 			margin="0 0 50 0"
 			height="1250px"
-			sm-height="750px"
+			sm-height="725px"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -64,7 +64,7 @@ export default (() => {
 					sm-margin="0px 0px 50px 0px"
 				>
 					<Span
-						sm-font="--headline3"
+						sm-font="--headline2"
 						overflow-wrap="normal"
 						word-break="normal"
 						white-space="normal"
@@ -75,7 +75,7 @@ export default (() => {
 						pointer-events="auto"
 					>
 						<Strong
-							sm-font="--headline2"
+							sm-font="normal 900 32px/0.5 --fontFamily-sans"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -87,7 +87,7 @@ export default (() => {
 							font="--headline1"
 							sm-margin="0px 0px 50px 0px"
 						>
-							Social Media Organizer Template
+							SOCIAL MEDIA ORGANIZER TEMPLATE
 						</Strong>
 					</Span>
 				</Text>
@@ -102,7 +102,7 @@ export default (() => {
 					sm-width="fit-content"
 					sm-margin="0px 0px 50px 0px"
 				>
-					Streamline your content planning, scheduling, and collaboration effortlessly
+					Solusi Praktis Manajemen Social Media
 				</Text>
 				<Button
 					sm-background="--color-dark"
@@ -120,17 +120,8 @@ export default (() => {
 						sm-color="--light"
 						text-decoration-line="initial"
 					>
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							Get the Template
+						<Strong>
+							Dapatkan Template
 						</Strong>
 					</Link>
 				</Button>
@@ -160,7 +151,7 @@ export default (() => {
 				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
 				border-radius="24px"
 				margin="0px 0px 64px 0px"
-				sm-padding="60px 18px 60px 18px"
+				sm-padding="45px 18px 45px 18px"
 				sm-width="80%"
 				sm-display="inline-block"
 			>
@@ -179,12 +170,9 @@ export default (() => {
 						font="--headline2"
 						color="--dark"
 						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-font="normal 700 30px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						BENEFIT
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						All of the benefit of this social media organizer
+						Mengatur Social Media Secara Optimal
 					</Text>
 				</Box>
 			</Box>
@@ -277,7 +265,7 @@ export default (() => {
 						sm-font="--base"
 						align-self="flex-start"
 					>
-						Plan and visualize your content schedule for different platforms at a glance.
+						Merencanakan dan menampilkan jadwal konten dari semua platform secara cepat
 					</Text>
 				</Box>
 				<Image
@@ -363,8 +351,17 @@ export default (() => {
 						sm-display="inline"
 						sm-width="80%"
 					>
-						<Strong>
-							Konten Manajemen
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Konten Manajemen Lengkap
 						</Strong>
 					</Text>
 					<Text
@@ -378,7 +375,7 @@ export default (() => {
 						sm-font="--base"
 						sm-display="inline-block"
 					>
-						Easily organize and label your posts by topic, campaign, or format.
+						Mengatur dan mengelompokkan konten berdasar topik dan kampanye yang sedang berjalan
 					</Text>
 				</Box>
 				<Image
@@ -459,8 +456,17 @@ export default (() => {
 						sm-margin="0px 0px 0 0"
 						text-align="left"
 					>
-						<Strong>
-							Kustomisasi Template
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Personalisasi Template
 						</Strong>
 					</Text>
 					<Text
@@ -475,7 +481,7 @@ export default (() => {
 						sm-display="inline-block"
 						sm-padding="0px 0px 0 0px"
 					>
-						Tailor the calendar to match your branding and specific social media needs.
+						Mengatur kalendar konten sesuai keinginan pengguna
 					</Text>
 				</Box>
 				<Image
@@ -518,7 +524,7 @@ export default (() => {
 				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
 				border-radius="24px"
 				margin="0px 0px 64px 0px"
-				sm-padding="60px 36px 60px 36px"
+				sm-padding="40px 30px 40px 30px"
 			>
 				<Box
 					width="60%"
@@ -529,18 +535,17 @@ export default (() => {
 					md-justify-content="center"
 					md-text-align="center"
 					lg-width="100%"
+					sm-display="block"
+					sm-padding="0px 0 0px 0"
 				>
 					<Text
 						margin="0px 0px 16px 0px"
 						font="--headline2"
 						color="--dark"
 						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-font="normal 700 30px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					>
-						Who Is It For
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						The one who most needs this template
+						Template Yang Dapat Digunakan Siapa Saja
 					</Text>
 				</Box>
 			</Box>
@@ -622,7 +627,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="--base"
 					>
-						Easily manage your company social media content calendar{"\n\n"}
+						Mengatur semua pekerjaan social media di kantor secara efektif dan efisien apapun platformnya
 					</Text>
 				</Box>
 				<Box
@@ -686,7 +691,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="--base"
 					>
-						Increase your website traffic through social media{"\n\n"}
+						Meningkatkan pengunjung website kita  menggunakan social media secara mudah dan lengkap
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box />
@@ -754,7 +759,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="--base"
 					>
-						Maximize your potential to increase social media presence{"\n\n"}
+						Mengatur jadwal konten para content creator secara mudah dan terstruktur
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box />
@@ -787,7 +792,7 @@ export default (() => {
 				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
 				border-radius="24px"
 				margin="0px 0px 64px 0px"
-				sm-padding="60px 36px 60px 36px"
+				sm-padding="45px 36px 45px 36px"
 			>
 				<Box
 					width="60%"
@@ -804,12 +809,10 @@ export default (() => {
 						font="--headline2"
 						color="--dark"
 						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-font="normal 700 30px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-width="325px"
 					>
-						FEATURES
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						All of the feature of the template
+						Fitur Andalan Untuk Memudahkan Pengaturan Social Media
 					</Text>
 				</Box>
 			</Box>
@@ -1012,406 +1015,6 @@ export default (() => {
 					sm-max-width="375px"
 					sm-width="100%"
 				/>
-			</Box>
-		</Section>
-		<Section
-			padding="80px 0 80px 0"
-			quarkly-title="Reviews"
-			sm-padding="25px 0 25px 0"
-			sm-flex-direction="row"
-			sm-justify-content="flex-start"
-		>
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				padding="80px 72px 80px 72px"
-				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
-				border-radius="24px"
-				margin="0px 0px 64px 0px"
-				sm-padding="60px 36px 60px 36px"
-				sm-display="inline-block"
-				sm-width="80%"
-			>
-				<Box
-					width="60%"
-					display="flex"
-					flex-direction="column"
-					md-width="100%"
-					md-align-items="center"
-					md-justify-content="center"
-					md-text-align="center"
-					lg-width="100%"
-				>
-					<Text
-						margin="0px 0px 16px 0px"
-						font="--headline2"
-						color="--dark"
-						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					>
-						REVIEW
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						The reviews from the user
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				display="grid"
-				grid-template-columns="repeat(3, 1fr)"
-				grid-gap="16px"
-				lg-grid-template-columns="repeat(2, 1fr)"
-				md-grid-template-columns="1fr"
-			>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
-								Sam Smith
-							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
-								Product Designer
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
-								Mason Johnson
-							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
-								Manager
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						Must have book for students, who want to be Product Designer, UX Designer, or Interaction Designer.
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
-								Adriana Williams
-							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
-								Product Designer
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.”
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
-								Ethan Tremblay
-							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
-								UI/UX Designer
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						Must have book for students, who want to be Product Designer, UX Designer, or Interaction Designer.
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
-								Adriana Williams
-							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
-								Product Designer
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--base"
-					>
-						“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
-								Mason Johnson
-							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
-								Manager
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-			</Box>
-		</Section>
-		<Section
-			padding="80px 0"
-			sm-padding="25px 0 5px 0"
-			quarkly-title="Price"
-			sm-height="750px"
-			lg-padding="30px 0 80px 0"
-		>
-			<Override slot="SectionContent" align-items="center" sm-display="inline-block" sm-height="750px" />
-			<Box
-				padding="80px 72px 80px 72px"
-				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
-				border-radius="24px"
-				margin="0px 0px 64px 0px"
-				sm-padding="60px 36px 60px 36px"
-			>
-				<Box
-					width="60%"
-					display="flex"
-					flex-direction="column"
-					md-width="100%"
-					md-align-items="center"
-					md-justify-content="center"
-					md-text-align="center"
-					lg-width="100%"
-				>
-					<Text
-						margin="0px 0px 16px 0px"
-						font="--headline2"
-						color="--dark"
-						md-text-align="center"
-						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-						sm-width="330px"
-					>
-						PRICE
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
-						Get started now and take your social media strategy to the new level
-					</Text>
-				</Box>
-			</Box>
-			<Text
-				as="h2"
-				font="--headline2"
-				md-font="--headline2"
-				margin="20px 0 0 0"
-				sm-align-self="flex-start"
-				sm-text-align="left"
-				sm-font="--headline3"
-				align-self="center"
-				text-align="center"
-			/>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				padding="30px 60px 30px 60px"
-				border-color="#dadbe2"
-				display="flex"
-				flex-direction="column"
-				position="relative"
-				z-index="1"
-				lg-width="100%"
-				lg-align-items="stretch"
-				md-align-items="stretch"
-				sm-padding="30px 15px 30px 15px"
-				justify-content="center"
-				lg-border-radius="25px"
-				background="#f1f1f5"
-				width="40%"
-				border-radius="25px"
-				lg-order="-1"
-				lg-margin="0px 0px 40px 0px"
-				md-margin="0px 0px 30px 0px"
-				sm-width="90%"
-				sm-align-self="center"
-				sm-border-color="--color-grey"
-				sm-background="--color-light"
-				sm-border-width="2px"
-				sm-border-style="solid"
-			>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					display="flex"
-					flex-direction="column"
-					margin="0px 0px 0 0px"
-				>
-					<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-sansTrebuchet" color="--darkL1" text-align="center">
-						Social Media Organizer Template
-					</Text>
-					<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-sansTrebuchet" color="#80868a" text-align="center">
-						<Span
-							font="normal 700 46px/1.2 --fontFamily-sans"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-							color="--darkL1"
-						>
-							Rp 79
-						</Span>
-						ribu
-					</Text>
-				</Box>
-				<Button
-					background="#543ae7"
-					color="--light"
-					border-color="--color-indigo"
-					border-radius="4px"
-					font="normal 400 17px/1.5 --fontFamily-sansHelvetica"
-					margin="0px 0px 20px 0px"
-					sm-background="--color-dark"
-					sm-padding="15px 20px 15px 20px"
-					sm-width="275px"
-					sm-align-self="center"
-				>
-					Get The Template
-				</Button>
-				<Text
-					margin="0px 0px 48px 0px"
-					color="--greyD2"
-					text-align="left"
-					font="--lead"
-					width="40%"
-					sm-margin="15px 0px 25px 0"
-					sm-text-align="left"
-					sm-width="225px"
-					sm-font="--base"
-					sm-color="--dark"
-					md-width="50%"
-					lg-width="60%"
-					sm-align-self="center"
-				>
-					- Lifetime access
-					<br />
-					- Channel categorization
-					<br />
-					- Collaborative workspace
-					<br />
-					- Social media audit
-				</Text>
 			</Box>
 		</Section>
 		<Section
@@ -1676,6 +1279,440 @@ export default (() => {
 					Subsribe
 				</Button>
 			</Components.QuarklycommunityKitMailChimp>
+		</Section>
+		<Section
+			padding="80px 0 80px 0"
+			quarkly-title="Reviews"
+			sm-padding="25px 0 25px 0"
+			sm-flex-direction="row"
+			sm-justify-content="flex-start"
+		>
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="45px 36px 45px 36px"
+				sm-display="inline-block"
+				sm-width="80%"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-width="325px"
+					>
+						Pendapat Pengguna Social Media Organizer
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="16px"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						"Benar-benar sederhana sih, cuma butuh waktu 1 hari untuk mulai memaksimalkan dan mengatur sesuai pekerjaan saya"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
+								Andika S. Bimantara
+							</Text>
+							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						"Sekarang sudah lebih mudah sih untuk mengatur pekerjaan yang datang ke saya khususnya jadwal endorse yang sering menumpuk. Boleh dong sombong ya hahaha"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
+								Tika
+							</Text>
+							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
+								Content Creator
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						"Ternyata mengatur jadwal posting di social media bisa semudah itu ya. Ga perlu lagi bingung catat jadwal dan isi posting di social media lagi setiap minggunya. The best lah!"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
+								Adriana
+							</Text>
+							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
+								Online Shop Owner
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						"Kemarin beli masih 99 ribu sekarang turun ternyata harganya. Sediihh :( Tapi worth it banget sih buat handle jadwal posting di social media. Fitur Content Pipeline sih oke beneran buat isi konten kita. Thankss yaa"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
+								Karina
+							</Text>
+							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
+								Content Creator
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						"Organizer yang wajib dimiliki sih buat yang kerjaan sehari-harinya di dunia social media. Udah coba aja dulu. TOP!"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
+								Mario K.
+							</Text>
+							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--base"
+					>
+						"Udah pernah coba sih social media organizer di tempat lainnya. Cuma ga tau kenapa ini udah paling cocok aja sih buat dipake. Kalo yang keluar organizer lainnya keluar juga kabarin ya :):)"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px">
+								Bima A.
+							</Text>
+							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px">
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0"
+			sm-padding="25px 0 5px 0"
+			quarkly-title="Price"
+			sm-height="750px"
+			lg-padding="30px 0 80px 0"
+		>
+			<Override slot="SectionContent" align-items="center" sm-display="inline-block" sm-height="750px" />
+			<Box
+				padding="80px 72px 80px 72px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/Image%20%289%29.png?v=2021-08-26T14:56:08.732Z) 0% 0% /cover no-repeat scroll padding-box"
+				border-radius="24px"
+				margin="0px 0px 64px 0px"
+				sm-padding="60px 36px 60px 36px"
+			>
+				<Box
+					width="60%"
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+					md-text-align="center"
+					lg-width="100%"
+				>
+					<Text
+						margin="0px 0px 16px 0px"
+						font="--headline2"
+						color="--dark"
+						md-text-align="center"
+						sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						sm-width="330px"
+					>
+						PRICE
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--base" color="--greyD3" md-text-align="center">
+						Get started now and take your social media strategy to the new level
+					</Text>
+				</Box>
+			</Box>
+			<Text
+				as="h2"
+				font="--headline2"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				sm-align-self="flex-start"
+				sm-text-align="left"
+				sm-font="--headline3"
+				align-self="center"
+				text-align="center"
+			/>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				padding="30px 60px 30px 60px"
+				border-color="#dadbe2"
+				display="flex"
+				flex-direction="column"
+				position="relative"
+				z-index="1"
+				lg-width="100%"
+				lg-align-items="stretch"
+				md-align-items="stretch"
+				sm-padding="30px 15px 30px 15px"
+				justify-content="center"
+				lg-border-radius="25px"
+				background="#f1f1f5"
+				width="40%"
+				border-radius="25px"
+				lg-order="-1"
+				lg-margin="0px 0px 40px 0px"
+				md-margin="0px 0px 30px 0px"
+				sm-width="90%"
+				sm-align-self="center"
+				sm-border-color="--color-grey"
+				sm-background="--color-light"
+				sm-border-width="2px"
+				sm-border-style="solid"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					margin="0px 0px 0 0px"
+				>
+					<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-sansTrebuchet" color="--darkL1" text-align="center">
+						Social Media Organizer Template
+					</Text>
+					<Text
+						margin="0px 0px 20px 0px"
+						font="normal 400 17px/1.5 --fontFamily-sansTrebuchet"
+						color="#80868a"
+						text-align="center"
+						sm-font="normal 400 20px/1.5 --fontFamily-sansTrebuchet"
+						sm-text-decoration-line="line-through"
+						sm-margin="0px 0px 0 0px"
+					>
+						<Span
+							font-size="46px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							<Strong
+								sm-font="700 20px/69px &quot;Segoe UI&quot;, Candara, &quot;Bitstream Vera Sans&quot;, &quot;DejaVu Sans&quot;, &quot;Trebuchet MS&quot;, Verdana, &quot;Verdana Ref&quot;, sans-serif"
+								sm-color="#ff0000"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								Rp 99 ribu
+							</Strong>
+						</Span>
+					</Text>
+					<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-sansTrebuchet" color="#80868a" text-align="center">
+						<Span
+							font="normal 700 46px/1.2 --fontFamily-sans"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							color="--darkL1"
+						>
+							Rp 79
+						</Span>
+						ribu
+					</Text>
+				</Box>
+				<Button
+					background="#543ae7"
+					color="--light"
+					border-color="--color-indigo"
+					border-radius="4px"
+					font="normal 400 17px/1.5 --fontFamily-sansHelvetica"
+					margin="0px 0px 20px 0px"
+					sm-background="--color-dark"
+					sm-padding="15px 20px 15px 20px"
+					sm-width="275px"
+					sm-align-self="center"
+				>
+					Get The Template
+				</Button>
+				<Text
+					margin="0px 0px 48px 0px"
+					color="--greyD2"
+					text-align="left"
+					font="--lead"
+					width="40%"
+					sm-margin="15px 0px 25px 0"
+					sm-text-align="left"
+					sm-width="225px"
+					sm-font="--base"
+					sm-color="--dark"
+					md-width="50%"
+					lg-width="60%"
+					sm-align-self="center"
+				>
+					- Lifetime access
+					<br />
+					- Channel categorization
+					<br />
+					- Collaborative workspace
+					<br />
+					- Social media audit
+				</Text>
+			</Box>
 		</Section>
 		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
 			<Box
