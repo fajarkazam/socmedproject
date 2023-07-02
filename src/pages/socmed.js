@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Span, Strong, List, Input, Button, Icon, LinkBox } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Span, Strong, List, Input, Button, Icon, Em, LinkBox } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -80,6 +80,7 @@ export default (() => {
 						sm-text-align="left"
 						sm-margin="0px 0px 40px 0px"
 						width="1000px"
+						sm-width="100%"
 					>
 						Membuat dan Merencanakan Konten Social Media di Satu Tempat
 					</Text>
@@ -96,6 +97,7 @@ export default (() => {
 						sm-margin="0px 0px 40px 0px"
 						sm-color="--dark"
 						width="1000px"
+						sm-width="100%"
 					>
 						<Span
 							sm-color="#606469"
@@ -110,6 +112,7 @@ export default (() => {
 							color="--darkL2"
 							font="--lead"
 							margin="0px 0px 50px 0px"
+							sm-width="100%"
 						>
 							Social Media Organizer Template akan membantumu dalam membuat dan merencanakan konten berkualitas yang cepat dan sistematis
 						</Span>
@@ -181,7 +184,7 @@ export default (() => {
 			sm-padding="25px 0 25px 0"
 			sm-flex-direction="row"
 			sm-justify-content="flex-start"
-			sm-margin="0 0 0 0"
+			sm-margin="50px 0 0 0"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -235,6 +238,7 @@ export default (() => {
 					sm-font="--base"
 					sm-color="--dark"
 					width="1000px"
+					sm-width="100%"
 				>
 					Mulai dari Social Media Specialist hingga Online Shop Owner telah mencoba dan membuktikan berbagai manfaat dan fitur terbaik di dalamnya
 				</Text>
@@ -513,6 +517,7 @@ export default (() => {
 					sm-margin="0px 0px 15px 0px"
 					text-align="center"
 					width="1000px"
+					sm-width="100%"
 				>
 					Template yang mudah digunakan untuk mempercepat produksi konten social media
 				</Text>
@@ -525,6 +530,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-font="--base"
 					width="1000px"
+					sm-width="100%"
 				>
 					Apakah kamu berpengalaman ataupun baru di bidang social media, template ini akan memudahkan dalam meningkatkan performa social mediamu
 				</Text>
@@ -1127,6 +1133,7 @@ export default (() => {
 			sm-flex-direction="column"
 			sm-align-content="center"
 			sm-height="750px"
+			sm-margin="50px 0 0 0"
 		>
 			<Override
 				slot="SectionContent"
@@ -1170,6 +1177,7 @@ export default (() => {
 					sm-margin="0px 0px 15px 0px"
 					width="1000px"
 					text-align="center"
+					sm-width="100%"
 				>
 					Siapapun dapat menggunakannya tanpa perlu adaptasi terlalu lama
 				</Text>
@@ -1182,6 +1190,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-font="--base"
 					width="1000px"
+					sm-width="100%"
 				>
 					Meningkatkan performa untuk beberapa pekerjaan yang membutuhkan manajemen social media
 				</Text>
@@ -1452,8 +1461,9 @@ export default (() => {
 					sm-align-self="flex-start"
 					sm-text-align="left"
 					width="1000px"
+					sm-width="100%"
 				>
-					Dibuat untuk menjadi pembelian terbaikmu tahun ini
+					Dilengkapi berbagai fitur yang dibutuhkan untuk mengembangkan social media
 				</Text>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -1463,6 +1473,7 @@ export default (() => {
 					text-align="center"
 					sm-text-align="left"
 					width="1000px"
+					sm-width="100%"
 				>
 					Berbagai fitur ditambahkan untuk memudahkan dan mempercepat dalam pembuatan konten social media yang berkualitas oleh siapapun
 				</Text>
@@ -1492,8 +1503,17 @@ export default (() => {
 						lg-text-align="left"
 						sm-font="--lead"
 					>
-						<Strong>
-							Mobile Friendly
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Audit social media
 						</Strong>
 					</Text>
 					<Text
@@ -1503,7 +1523,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						Fitur yang memungkinkan kita melihat perkembangan social media dari waktu ke waktu untuk analisa lebih lanjut
 					</Text>
 				</Box>
 				<Box
@@ -1530,8 +1550,17 @@ export default (() => {
 						lg-text-align="left"
 						sm-font="--lead"
 					>
-						<Strong>
-							Frontend
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Fitur "Drag and Drop"{" "}
 						</Strong>
 					</Text>
 					<Text
@@ -1541,7 +1570,10 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						Dengan menggunakan model kanban view, update progress social media dapat dilakukan semudah{" "}
+						<Em>
+							drag and drop
+						</Em>
 					</Text>
 				</Box>
 				<Box
@@ -1568,8 +1600,17 @@ export default (() => {
 						lg-text-align="left"
 						sm-font="--lead"
 					>
-						<Strong>
-							Backend
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Mobile Friendly
 						</Strong>
 					</Text>
 					<Text
@@ -1579,7 +1620,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						Dengan menggunakan aplikasi notion di smartphone, kita bisa melakukan manajemen social media dari mana saja tanpa tergantung dengan komputer
 					</Text>
 				</Box>
 			</Box>
@@ -1588,7 +1629,7 @@ export default (() => {
 			padding="80px 0"
 			sm-padding="25px 0 5px 0"
 			quarkly-title="Price"
-			sm-height="850px"
+			sm-height="750px"
 			lg-padding="30px 0 80px 0"
 		>
 			<Override slot="SectionContent" align-items="center" sm-display="inline-block" sm-height="750px" />
@@ -1623,6 +1664,7 @@ export default (() => {
 					width="1000px"
 					align-self="center"
 					text-align="center"
+					sm-width="100%"
 				>
 					Produk yang akan menjadi pembelian terbaikmu tahun ini
 				</Text>
@@ -1634,6 +1676,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-margin="0px 0px 35px 0px"
 					text-align="center"
+					sm-width="100%"
 				>
 					Hanya dengan mengeluarkan sedikit modal, performa social mediamu akan berkembang dengan pesat
 				</Text>
@@ -1697,6 +1740,7 @@ export default (() => {
 						sm-font="normal 400 20px/1.5 --fontFamily-sansTrebuchet"
 						sm-text-decoration-line="line-through"
 						sm-margin="0px 0px 0 0px"
+						sm-padding="0 0px 0px 0px"
 					>
 						<Span
 							font-size="46px"
@@ -1799,7 +1843,13 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="60px 0" sm-padding="25px 0 40px 0" color="--dark" quarkly-title="FAQ">
+		<Section
+			padding="60px 0"
+			sm-padding="25px 0 40px 0"
+			color="--dark"
+			quarkly-title="FAQ"
+			sm-margin="50px 0 0 0"
+		>
 			<Box
 				width="100%"
 				display="flex"
@@ -1896,7 +1946,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong
+							<Span
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -1906,9 +1956,12 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 								font="--headline3"
+								sm-font="--lead"
 							>
-								Apakah saya harus mendownload Notion untuk menggunakanannya?
-							</Strong>
+								<Strong>
+									Apakah saya harus mendownload Notion untuk menggunakanannya?
+								</Strong>
+							</Span>
 						</Span>
 					</Text>
 					<Text
@@ -1934,7 +1987,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong
+							<Span
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -1944,9 +1997,12 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 								font="--headline3"
+								sm-font="--lead"
 							>
-								Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
-							</Strong>
+								<Strong>
+									Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+								</Strong>
+							</Span>
 						</Span>
 					</Text>
 					<Text
@@ -1972,19 +2028,32 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong font="--headline3">
-								How long I can access this file?
-							</Strong>
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								font="--headline3"
+								sm-font="--lead"
+							>
+								<Strong>
+									Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+								</Strong>
+							</Span>
 						</Span>
 					</Text>
 					<Text
 						as="p"
 						font="--lead"
-						margin="0 0 12px 0"
+						margin="0 0 20px 0"
 						color="--dark"
 						sm-font="--base"
 					>
-						You will have lifetime access to this file. We recommend you to duplicate the file first in case of there are something error on server site.
+						Yes, this template has been create as simple as possible so you can start using it start from day 1.
 					</Text>
 				</Box>
 			</Box>
