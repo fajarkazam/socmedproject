@@ -5,8 +5,8 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsPhone } from "react-icons/bs";
-import { FaHornbill, FaReact, FaTwitterSquare, FaGithub, FaYoutube } from "react-icons/fa";
+import { BsCheckBox, BsFillReplyAllFill, BsPhone } from "react-icons/bs";
+import { FaTwitterSquare, FaGithub, FaYoutube } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"socmed"} />
@@ -235,7 +235,7 @@ export default (() => {
 					color="--dark"
 					sm-margin="0px 0px 50px 0px"
 					sm-text-align="left"
-					sm-font="--base"
+					sm-font="--lead"
 					sm-color="--dark"
 					width="1000px"
 					sm-width="100%"
@@ -269,7 +269,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						"Benar-benar sederhana sih, cuma butuh waktu 1 hari untuk mulai memaksimalkan dan mengatur sesuai pekerjaan saya"
 					</Text>
@@ -303,7 +303,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						"Sekarang sudah lebih mudah sih untuk mengatur pekerjaan yang datang ke saya khususnya jadwal endorse yang sering menumpuk. Boleh dong sombong ya hahaha"
 					</Text>
@@ -337,7 +337,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						"Ternyata mengatur jadwal posting di social media bisa semudah itu ya. Ga perlu lagi bingung catat jadwal dan isi posting di social media lagi setiap minggunya. The best lah!"
 					</Text>
@@ -371,7 +371,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						"Kemarin beli masih 99 ribu sekarang turun ternyata harganya. Sediihh :( Tapi worth it banget sih buat handle jadwal posting di social media. Fitur Content Pipeline sih oke beneran buat isi konten kita. Thankss yaa"
 					</Text>
@@ -405,7 +405,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						"Organizer yang wajib dimiliki sih buat yang kerjaan sehari-harinya di dunia social media. Udah coba aja dulu. TOP!"
 					</Text>
@@ -439,7 +439,7 @@ export default (() => {
 						lg-margin="0px 0px 50px 0px"
 						sm-margin="0px 0px 30px 0px"
 						flex="1 0 auto"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						"Udah pernah coba sih social media organizer di tempat lainnya. Cuma ga tau kenapa ini udah paling cocok aja sih buat dipake. Kalo yang keluar organizer lainnya keluar juga kabarin ya :):)"
 					</Text>
@@ -528,7 +528,7 @@ export default (() => {
 					color="--dark"
 					sm-margin="0px 0px 50px 0px"
 					sm-text-align="left"
-					sm-font="--base"
+					sm-font="--lead"
 					width="1000px"
 					sm-width="100%"
 				>
@@ -591,7 +591,7 @@ export default (() => {
 						color="--dark"
 						font="--headline3"
 						lg-text-align="center"
-						sm-font="--headline3"
+						sm-font="--lead"
 						align-self="flex-start"
 						sm-text-align="left"
 						sm-margin="0px 0px 0 0"
@@ -620,6 +620,7 @@ export default (() => {
 								pointer-events="auto"
 								font="--headline3"
 								margin="0px 0px 10px 0px"
+								sm-font="normal 700 20px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
 							>
 								Tampilan dashboard yang sederhana
 							</Strong>
@@ -632,7 +633,7 @@ export default (() => {
 						lg-text-align="center"
 						sm-text-align="left"
 						sm-margin="0px 0px 20px 0"
-						sm-font="--base"
+						sm-font="--lead"
 						align-self="flex-start"
 					>
 						Merencanakan dan menampilkan jadwal konten dari semua platform secara cepat dan mudah
@@ -732,7 +733,21 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							Manajemen konten yang cepat dan lengkap
+							<Span
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Strong>
+									Manajemen konten yang cepat dan lengkap
+								</Strong>
+							</Span>
 						</Span>
 					</Text>
 					<Text
@@ -743,7 +758,7 @@ export default (() => {
 						align-self="flex-start"
 						sm-margin="0px 0 0 0"
 						sm-text-align="left"
-						sm-font="--base"
+						sm-font="--lead"
 						sm-display="inline-block"
 					>
 						Mengatur dan mengelompokkan konten berdasar channel, topik dan kampanye yang sedang berjalan
@@ -827,7 +842,21 @@ export default (() => {
 						sm-margin="0px 0px 0 0"
 						text-align="left"
 					>
-						Memastikan tidak ada konten yang terlewat untuk ditampilkan
+						<Span
+							sm-font="--lead"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							<Strong>
+								Memastikan tidak ada konten yang terlewat untuk ditampilkan
+							</Strong>
+						</Span>
 					</Text>
 					<Text
 						margin="0px 0px 0 0px"
@@ -836,7 +865,7 @@ export default (() => {
 						lg-text-align="center"
 						sm-margin="0px 0 0 0"
 						sm-text-align="left"
-						sm-font="--base"
+						sm-font="--lead"
 						align-self="flex-start"
 						sm-display="block"
 						sm-padding="0px 0px 0 0px"
@@ -978,7 +1007,24 @@ export default (() => {
 					lg-align-self="center"
 					sm-font="--base"
 				>
-					Get{" "}
+					Dapatkan{" "}
+					<Strong>
+						Ultimate{" "}
+					</Strong>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+						sm-font="--lead"
+					>
+						Daily Life Organizer Template
+					</Strong>
+					{" "}secara{" "}
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -989,21 +1035,9 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						Daily Life Organizer{" "}
+						GRATIS
 					</Strong>
-					for{" "}
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						FREE
-					</Strong>
+					!
 				</Text>
 				<List
 					margin="0px 0px 25px 0px"
@@ -1013,7 +1047,7 @@ export default (() => {
 					sm-width="75%"
 					sm-margin="0px 20px 25px 20px"
 					sm-text-align="left"
-					sm-font="--base"
+					sm-font="--lead"
 					font="--lead"
 					width="55%"
 					text-align="left"
@@ -1056,7 +1090,11 @@ export default (() => {
 					lg-align-self="center"
 					sm-font="--base"
 				>
-					Write down your email,{" "}
+					Tuliskan email utamamu,{" "}
+					<Strong>
+						Ultimate
+					</Strong>
+					{" "}
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -1066,10 +1104,11 @@ export default (() => {
 						hyphens="manual"
 						user-select="auto"
 						pointer-events="auto"
+						sm-font="--lead"
 					>
 						Daily Life Organizer Template
 					</Strong>
-					{" "}will be sent to you immediately
+					{" "}akan segera dikirimkan ke emailmu.
 				</Text>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
@@ -1132,8 +1171,8 @@ export default (() => {
 			lg-justify-content="center"
 			sm-flex-direction="column"
 			sm-align-content="center"
-			sm-height="750px"
-			sm-margin="50px 0 0 0"
+			sm-height="1100px"
+			sm-margin="0 0 0 0"
 		>
 			<Override
 				slot="SectionContent"
@@ -1155,6 +1194,7 @@ export default (() => {
 				sm-display="block"
 				sm-padding="0px 0 0px 0"
 				align-items="center"
+				sm-margin="0px 0px 15px 0px"
 			>
 				<Text
 					margin="0px 0px 0 0px"
@@ -1179,16 +1219,16 @@ export default (() => {
 					text-align="center"
 					sm-width="100%"
 				>
-					Siapapun dapat menggunakannya tanpa perlu adaptasi terlalu lama
+					Siapapun dapat menggunakannya tanpa perlu adaptasi lama
 				</Text>
 				<Text
 					margin="0px 0px 70px 0px"
 					text-align="center"
 					font="--lead"
 					color="--dark"
-					sm-margin="0px 0px 50px 0px"
+					sm-margin="0px 0px 25px 0px"
 					sm-text-align="left"
-					sm-font="--base"
+					sm-font="--lead"
 					width="1000px"
 					sm-width="100%"
 				>
@@ -1204,6 +1244,7 @@ export default (() => {
 				lg-align-self="center"
 				sm-justify-items="center"
 				sm-align-content="center"
+				sm-margin="15px 0px 0px 0px"
 			>
 				<Box
 					padding="50px 55px 35px 55px"
@@ -1215,7 +1256,7 @@ export default (() => {
 					display="flex"
 					flex-direction="column"
 					align-items="flex-start"
-					sm-margin="0px 0px 20px 0px"
+					sm-margin="20px 0px 20px 0px"
 					width="30%"
 					align-self="center"
 					margin="0px 5px 20px 0px"
@@ -1262,8 +1303,21 @@ export default (() => {
 							sm-align-items="flex-start"
 							sm-align-content="flex-start"
 						>
-							<Strong sm-text-align="left">
-								Social Media Specialist
+							<Strong
+								sm-text-align="left"
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Strong>
+									Social Media Specialist
+								</Strong>
 							</Strong>
 						</Strong>
 					</Text>
@@ -1276,7 +1330,7 @@ export default (() => {
 						flex="1 0 auto"
 						sm-align-self="flex-start"
 						sm-text-align="left"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						Mengatur semua pekerjaan social media di kantor secara efektif dan efisien apapun platformnya
 					</Text>
@@ -1333,8 +1387,20 @@ export default (() => {
 							sm-text-align="left"
 							sm-flex-direction="column"
 						>
-							<Strong>
-								Online Shop Owner
+							<Strong
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Strong>
+									Online Shop Owner
+								</Strong>
 							</Strong>
 						</Strong>
 					</Text>
@@ -1346,7 +1412,7 @@ export default (() => {
 						sm-margin="0px 0px 15px 0px"
 						flex="1 0 auto"
 						sm-text-align="left"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						Meningkatkan pengunjung website kita  menggunakan social media secara mudah dan lengkap
 					</Text>
@@ -1401,9 +1467,21 @@ export default (() => {
 							display="flex"
 							width="225px"
 						>
-							<Strong>
-								Content Creator
-							</Strong>
+							<Span
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Strong>
+									Content Creator
+								</Strong>
+							</Span>
 						</Strong>
 					</Text>
 					<Text
@@ -1415,7 +1493,7 @@ export default (() => {
 						flex="1 0 auto"
 						width="275px"
 						sm-text-align="left"
-						sm-font="--base"
+						sm-font="--lead"
 						sm-align-self="flex-start"
 					>
 						Mengatur jadwal konten para content creator secara mudah dan terstruktur
@@ -1463,7 +1541,7 @@ export default (() => {
 					width="1000px"
 					sm-width="100%"
 				>
-					Dilengkapi berbagai fitur yang dibutuhkan untuk mengembangkan social media
+					Dilengkapi berbagai fitur untuk mengembangkan social media
 				</Text>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -1479,6 +1557,105 @@ export default (() => {
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
+				<Box
+					padding="45px 45px"
+					lg-padding="45px 30px"
+					md-padding="45px 45px"
+					background="#FFFFFF"
+					border-radius="24px"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+				>
+					<Icon
+						category="bs"
+						icon={BsCheckBox}
+						margin="0px 0px 30px 0px"
+						color="--dark"
+						size="48px"
+					/>
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Audit social media
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--greyD3"
+						font="--base"
+						lg-text-align="left"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						Fitur yang memungkinkan kita melihat perkembangan social media dari waktu ke waktu untuk analisa lebih lanjut
+					</Text>
+				</Box>
+				<Box
+					padding="45px 45px"
+					lg-padding="45px 30px"
+					md-padding="45px 45px"
+					background="#FFFFFF"
+					border-radius="24px"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+				>
+					<Icon
+						category="bs"
+						icon={BsFillReplyAllFill}
+						margin="0px 0px 30px 0px"
+						color="--dark"
+						size="48px"
+					/>
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+					>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Fitur "Drag and Drop"{" "}
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--greyD3"
+						font="--base"
+						lg-text-align="left"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						Dengan menggunakan model kanban view, update progress social media dapat dilakukan semudah{" "}
+						<Em>
+							drag and drop
+						</Em>
+					</Text>
+				</Box>
 				<Box
 					padding="45px 45px"
 					lg-padding="45px 30px"
@@ -1513,103 +1690,6 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							Audit social media
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						color="--greyD3"
-						font="--base"
-						lg-text-align="left"
-						flex="1 0 auto"
-					>
-						Fitur yang memungkinkan kita melihat perkembangan social media dari waktu ke waktu untuk analisa lebih lanjut
-					</Text>
-				</Box>
-				<Box
-					padding="45px 45px"
-					lg-padding="45px 30px"
-					md-padding="45px 45px"
-					background="#FFFFFF"
-					border-radius="24px"
-					justify-content="flex-start"
-					flex-direction="column"
-					display="flex"
-				>
-					<Icon
-						category="fa"
-						icon={FaHornbill}
-						margin="0px 0px 30px 0px"
-						color="--dark"
-						size="48px"
-					/>
-					<Text
-						margin="0px 0px 18px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
-							Fitur "Drag and Drop"{" "}
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						color="--greyD3"
-						font="--base"
-						lg-text-align="left"
-						flex="1 0 auto"
-					>
-						Dengan menggunakan model kanban view, update progress social media dapat dilakukan semudah{" "}
-						<Em>
-							drag and drop
-						</Em>
-					</Text>
-				</Box>
-				<Box
-					padding="45px 45px"
-					lg-padding="45px 30px"
-					md-padding="45px 45px"
-					background="#FFFFFF"
-					border-radius="24px"
-					justify-content="flex-start"
-					flex-direction="column"
-					display="flex"
-				>
-					<Icon
-						category="fa"
-						icon={FaReact}
-						margin="0px 0px 30px 0px"
-						color="--dark"
-						size="48px"
-					/>
-					<Text
-						margin="0px 0px 18px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-					>
-						<Strong
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
 							Mobile Friendly
 						</Strong>
 					</Text>
@@ -1619,6 +1699,7 @@ export default (() => {
 						font="--base"
 						lg-text-align="left"
 						flex="1 0 auto"
+						sm-font="--lead"
 					>
 						Dengan menggunakan aplikasi notion di smartphone, kita bisa melakukan manajemen social media dari mana saja tanpa tergantung dengan komputer
 					</Text>
@@ -1728,9 +1809,21 @@ export default (() => {
 					margin="0px 0px 0 0px"
 				>
 					<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-sansTrebuchet" color="--darkL1" text-align="center">
-						<Strong>
-							Social Media Organizer Template
-						</Strong>
+						<Span
+							sm-font="--lead"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							<Strong>
+								Social Media Organizer Template
+							</Strong>
+						</Span>
 					</Text>
 					<Text
 						margin="0px 0px 5px 0px"
@@ -1830,7 +1923,7 @@ export default (() => {
 					sm-margin="15px 0px 25px 0"
 					sm-text-align="left"
 					sm-width="225px"
-					sm-font="--base"
+					sm-font="--lead"
 					sm-color="--dark"
 					md-width="50%"
 					lg-width="60%"
@@ -1839,7 +1932,9 @@ export default (() => {
 				>
 					- Akses selamanya
 					<br />
-					- Template SMOT
+					- Audit social media
+					<br />
+					- Lifetime free update
 				</Text>
 			</Box>
 		</Section>
@@ -1881,7 +1976,7 @@ export default (() => {
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
 				>
-					Pertanyaan yang Sering Ditanyakan
+					Berbagai pertanyaan tentu muncul, ini adalah jawabannya
 				</Text>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -1892,7 +1987,7 @@ export default (() => {
 					sm-align-self="flex-start"
 					sm-margin="0px 0px 50px 0px"
 				>
-					What the pre-user usually ask to us
+					Beberapa pertanyaan yang sering ditanyakan tentang Social Media Organizer Template
 				</Text>
 			</Box>
 			<Text
@@ -1969,7 +2064,7 @@ export default (() => {
 						font="--lead"
 						margin="0 0 20px 0"
 						color="--dark"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						No, you don't have to download Notion to start using this file. But it will be more convenient to use Notion app while access the file.
 					</Text>
@@ -2010,7 +2105,7 @@ export default (() => {
 						font="--lead"
 						margin="0 0 20px 0"
 						color="--dark"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						Yes, this template has been create as simple as possible so you can start using it start from day 1.
 					</Text>
@@ -2051,7 +2146,7 @@ export default (() => {
 						font="--lead"
 						margin="0 0 20px 0"
 						color="--dark"
-						sm-font="--base"
+						sm-font="--lead"
 					>
 						Yes, this template has been create as simple as possible so you can start using it start from day 1.
 					</Text>
