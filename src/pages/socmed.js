@@ -169,12 +169,13 @@ export default (() => {
 					object-position="0 0"
 					lg-height="300px"
 					md-height="200px"
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10:05:18.824Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template.png?v=2023-07-02T13:24:59.261Z"
 					sm-background="--color-light"
-					sm-width="600px"
+					sm-width="500px"
 					sm-align-self="center"
 					width="1500px"
 					align-self="center"
+					sm-margin="0px 0px 0px 50px"
 				/>
 			</Box>
 		</Section>
