@@ -1789,7 +1789,7 @@ export default (() => {
 				sm-padding="30px 15px 30px 15px"
 				justify-content="center"
 				lg-border-radius="25px"
-				background="#f1f1f5"
+				background="#ffffff"
 				width="40%"
 				border-radius="25px"
 				lg-order="-1"
@@ -1801,6 +1801,8 @@ export default (() => {
 				sm-background="--color-light"
 				sm-border-width="2px"
 				sm-border-style="solid"
+				border-width="2px"
+				border-style="solid"
 			>
 				<Box
 					min-width="100px"
@@ -1945,9 +1947,20 @@ export default (() => {
 			color="--dark"
 			quarkly-title="FAQ"
 			sm-margin="50px 0 0 0"
+			width="100%"
+			align-items="center"
+			justify-content="center"
+			align-content="center"
 		>
-			<Box
+			<Override
+				slot="SectionContent"
+				align-items="center"
+				justify-content="center"
+				align-self="center"
 				width="100%"
+			/>
+			<Box
+				width="1000px"
 				display="flex"
 				flex-direction="column"
 				md-width="100%"
@@ -1956,6 +1969,9 @@ export default (() => {
 				md-text-align="center"
 				lg-width="100%"
 				align-items="center"
+				justify-content="center"
+				align-self="center"
+				text-align="center"
 			>
 				<Text
 					margin="0px 0px 0px 0px"
@@ -2028,7 +2044,13 @@ export default (() => {
 					/>
 				</Span>
 			</Text>
-			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap" sm-margin="-16px -0 -16px 0">
+			<Box
+				margin="-16px -16px -16px -16px"
+				display="flex"
+				flex-wrap="wrap"
+				sm-margin="-16px -0 -16px 0"
+				width="1000px"
+			>
 				<Box display="flex" flex-direction="column">
 					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
 						<Span
@@ -2054,9 +2076,21 @@ export default (() => {
 								font="--headline3"
 								sm-font="--lead"
 							>
-								<Strong>
-									Apakah saya harus mendownload Notion untuk menggunakanannya?
-								</Strong>
+								<Span
+									font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong>
+										Apakah saya harus mendownload Notion untuk menggunakanannya?
+									</Strong>
+								</Span>
 							</Span>
 						</Span>
 					</Text>
@@ -2095,9 +2129,21 @@ export default (() => {
 								font="--headline3"
 								sm-font="--lead"
 							>
-								<Strong>
-									Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
-								</Strong>
+								<Span
+									font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong>
+										Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+									</Strong>
+								</Span>
 							</Span>
 						</Span>
 					</Text>
@@ -2136,9 +2182,21 @@ export default (() => {
 								font="--headline3"
 								sm-font="--lead"
 							>
-								<Strong>
-									Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
-								</Strong>
+								<Span
+									font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong>
+										Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+									</Strong>
+								</Span>
 							</Span>
 						</Span>
 					</Text>
