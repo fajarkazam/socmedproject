@@ -128,7 +128,7 @@ export default (() => {
 						sm-align-self="stretch"
 					>
 						<Link
-							href="#"
+							href="https://invoice.xendit.co/od/socmedtemplate"
 							color="--light"
 							sm-width="100%"
 							sm-text-align="center"
@@ -1951,7 +1951,7 @@ export default (() => {
 					</Text>
 				</Box>
 				<Link
-					href="#"
+					href="https://invoice.xendit.co/od/socmedtemplate"
 					color="--light"
 					sm-width="100%"
 					sm-text-align="center"
