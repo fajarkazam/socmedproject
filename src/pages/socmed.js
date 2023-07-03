@@ -1175,7 +1175,7 @@ export default (() => {
 				</Text>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
-				url="https://xyz.us10.list-manage.com/subscribe/post?u=f222146704895e2f741ade3e6&amp;id=a09dc3f0d4"
+				url="https://gmail.us14.list-manage.com/subscribe/post?u=b00a056c56ee9e8574a02be70&amp;id=bf923082d8"
 				align-self="center"
 				sm-display="block"
 				sm-width="375px"
