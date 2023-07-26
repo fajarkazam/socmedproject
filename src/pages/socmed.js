@@ -6,7 +6,6 @@ import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 import { BsCheckBox, BsFillReplyAllFill, BsPhone } from "react-icons/bs";
-import { FaTwitterSquare, FaGithub, FaYoutube } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"socmed"} />
@@ -83,7 +82,7 @@ export default (() => {
 						width="1000px"
 						sm-width="100%"
 					>
-						Membuat dan Merencanakan Konten Social Media di Satu Tempat
+						Rahasia Sukses Sebagai Social Media Specialist
 					</Text>
 					<Text
 						margin="0px 0px 50px 0px"
@@ -116,7 +115,7 @@ export default (() => {
 							sm-width="100%"
 							sm-font="--lead"
 						>
-							Social Media Organizer Template akan membantumu dalam mempercepat pembuatan dan perencanaan konten berkualitas
+							Social Media Organizer Template akan membantumu yang akan berkarir sebagai social media specialist dalam mempercepat pembuatan dan perencanaan konten berkualitas
 						</Span>
 					</Text>
 					<Box
@@ -230,7 +229,7 @@ export default (() => {
 					width="1000px"
 					text-align="center"
 				>
-					Organizer yang membantu banyak orang mengembangkan performa social media
+					Organizer yang telah membantu banyak orang mengembangkan performa social media
 				</Text>
 				<Text
 					margin="0px 0px 70px 0px"
@@ -1108,7 +1107,7 @@ export default (() => {
 					lg-align-self="center"
 				>
 					<Text margin="0px 0px 0px 0px">
-						Daily cook planner
+						Daily life planner
 					</Text>
 					<Text margin="0px 0px 0px 0px">
 						Student organizer
@@ -1153,25 +1152,9 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						Ultimate
+						Ultimate Daily Life Organizer Template
 					</Strong>
-					{" "}
-					<Span
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-						sm-font="--lead"
-					>
-						<Strong>
-							Daily Life Organizer Template
-						</Strong>
-					</Span>
-					{" "}akan segera dikirimkan ke emailmu.
+					{" "}akan segera dikirimkan ke emailmu.
 				</Text>
 			</Box>
 			<Components.QuarklycommunityKitMailChimp
@@ -2145,7 +2128,7 @@ export default (() => {
 						color="--dark"
 						sm-font="--base"
 					>
-						No, you don't have to download Notion to start using this file. But it will be more convenient to use Notion app while access the file.
+						Tidak, kamu tidak harus mendownload Notion untuk mulai menggunakannya. Tapi akan lebih mudah dan nyaman ketika menggunakan Notion saat mengaksesnya.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
@@ -2210,7 +2193,7 @@ export default (() => {
 						color="--dark"
 						sm-font="--base"
 					>
-						Yes, this template has been create as simple as possible so you can start using it start from day 1.
+						Yes, this template has been create as simple as possible so you can start using it start from day 1. Ya! template ini dibuat sesederhana mungkin agar kamu bisa menggunakannya sejak hari pertama pembelian.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
@@ -2280,6 +2263,31 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section padding="50px 0 50px 0" quarkly-title="Footer-2">
+			<Box display="flex" justify-content="space-between" sm-flex-direction="column">
+				<Text
+					margin="0px 0px 0px 0px"
+					font="--base"
+					color="#5a5d64"
+					sm-margin="0px 0px 15px 0px"
+					sm-text-align="center"
+				>
+					© 2023 Company, Inc. All rights reserved.
+				</Text>
+				<Box
+					display="grid"
+					grid-template-columns="repeat(5, 1fr)"
+					grid-gap="16px 24px"
+					sm-align-self="center"
+					sm-justify-items="center"
+					sm-align-content="center"
+					sm-justify-content="center"
+					sm-text-align="center"
+					sm-width="50%"
+					sm-grid-template-columns="max-content"
+				/>
+			</Box>
+		</Section>
 		<Section background="--color-light" padding="50px 0 50px 0" quarkly-title="Footer-22" sm-background="--color-lightD2">
 			<Box
 				display="flex"
@@ -2334,38 +2342,6 @@ export default (() => {
 							</Link>
 						</Box>
 					</Box>
-				</Box>
-				<Box display="flex" grid-template-columns="repeat(5, 1fr)" grid-gap="16px 24px">
-					<LinkBox href="/">
-						<Icon
-							category="fa"
-							icon={FaTwitterSquare}
-							size="24px"
-							color="--darkL2"
-							hover-color="#6d32ec"
-							transition="background-color 1s ease 0s"
-						/>
-					</LinkBox>
-					<LinkBox href="/">
-						<Icon
-							category="fa"
-							icon={FaGithub}
-							size="24px"
-							color="--darkL2"
-							hover-color="#6d32ec"
-							transition="background-color 1s ease 0s"
-						/>
-					</LinkBox>
-					<LinkBox href="/">
-						<Icon
-							category="fa"
-							icon={FaYoutube}
-							size="24px"
-							color="--darkL2"
-							hover-color="#6d32ec"
-							transition="background-color 1s ease 0s"
-						/>
-					</LinkBox>
 				</Box>
 			</Box>
 		</Section>
