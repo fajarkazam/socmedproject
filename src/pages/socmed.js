@@ -81,6 +81,7 @@ export default (() => {
 						sm-margin="0px 0px 40px 0px"
 						width="1000px"
 						sm-width="100%"
+						md-width="100%"
 					>
 						Rahasia Sukses Memulai Karir Social Media Specialist
 					</Text>
@@ -98,6 +99,8 @@ export default (() => {
 						sm-color="--dark"
 						width="800px"
 						sm-width="100%"
+						md-width="100%"
+						md-font="--headline3"
 					>
 						<Span
 							sm-color="#606469"
@@ -170,7 +173,7 @@ export default (() => {
 					height="600px"
 					object-position="0 0"
 					lg-height="300px"
-					md-height="200px"
+					md-height="400px"
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03:08:31.768Z"
 					sm-background="--color-light"
 					sm-width="750px"
@@ -229,6 +232,7 @@ export default (() => {
 					align-self="center"
 					width="1000px"
 					text-align="center"
+					md-width="100%"
 				>
 					Organizer yang telah membantu banyak orang mengembangkan performa social media
 				</Text>
@@ -243,6 +247,7 @@ export default (() => {
 					sm-color="--dark"
 					width="800px"
 					sm-width="100%"
+					md-width="100%"
 				>
 					Mulai dari Social Media Specialist hingga Online Shop Owner telah mencoba dan membuktikan berbagai manfaat dan fitur terbaik di dalamnya
 				</Text>
@@ -279,10 +284,24 @@ export default (() => {
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px" sm-font="--lead">
-								Andika S. Bimantara
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Andika S. Bimantara
+								</Strong>
 							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px" sm-font="--lead">
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
 								Social Media Specialist
 							</Text>
 						</Box>
@@ -313,10 +332,24 @@ export default (() => {
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px" sm-font="--lead">
-								Tika
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Tika
+								</Strong>
 							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px" sm-font="--lead">
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
 								Content Creator
 							</Text>
 						</Box>
@@ -347,10 +380,24 @@ export default (() => {
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px" sm-font="--lead">
-								Adriana
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Adriana
+								</Strong>
 							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px" sm-font="--lead">
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
 								Online Shop Owner
 							</Text>
 						</Box>
@@ -381,10 +428,24 @@ export default (() => {
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px" sm-font="--lead">
-								Karina
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Karina
+								</Strong>
 							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px" sm-font="--lead">
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
 								Content Creator
 							</Text>
 						</Box>
@@ -415,10 +476,24 @@ export default (() => {
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px" sm-font="--lead">
-								Mario K.
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Mario K.
+								</Strong>
 							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px" sm-font="--lead">
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
 								Social Media Specialist
 							</Text>
 						</Box>
@@ -449,10 +524,24 @@ export default (() => {
 					</Text>
 					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
 						<Box>
-							<Text color="--dark" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 2px 0px" sm-font="--lead">
-								Bima A.
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Bima A.
+								</Strong>
 							</Text>
-							<Text color="--greyD1" font="--base" margin="0px 0px 0px 0px" sm-font="--lead">
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
 								Social Media Specialist
 							</Text>
 						</Box>
@@ -522,6 +611,7 @@ export default (() => {
 					text-align="center"
 					width="1000px"
 					sm-width="100%"
+					md-width="100%"
 				>
 					Template yang mudah digunakan untuk mempercepat produksi konten social media
 				</Text>
@@ -535,6 +625,7 @@ export default (() => {
 					sm-font="--lead"
 					width="1000px"
 					sm-width="100%"
+					md-width="80%"
 				>
 					Apakah kamu berpengalaman ataupun baru di bidang social media, template ini akan memudahkan dalam meningkatkan performa social mediamu
 				</Text>
@@ -563,6 +654,7 @@ export default (() => {
 				sm-display="inline-block"
 				width="100%"
 				sm-width="90%"
+				md-display="block"
 			>
 				<Box
 					display="flex"
@@ -589,6 +681,7 @@ export default (() => {
 					width="40%"
 					text-align="left"
 					margin="0px 0px 0px 40px"
+					md-padding="16px 0 16px 0"
 				>
 					<Text
 						margin="0px 0px 10px 0px"
@@ -601,6 +694,7 @@ export default (() => {
 						sm-margin="0px 0px 0 0"
 						sm-width="100%"
 						sm-display="inline-block"
+						md-align-self="center"
 					>
 						<Span
 							sm-font="--lead"
@@ -637,7 +731,13 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									<Strong>
+									<Strong
+										md-display="block"
+										md-flex-direction="column"
+										md-align-items="center"
+										md-align-content="center"
+										md-justify-content="center"
+									>
 										Tampilan dashboard yang sederhana
 									</Strong>
 								</Span>
@@ -653,6 +753,8 @@ export default (() => {
 						sm-margin="0px 0px 20px 0"
 						sm-font="--lead"
 						align-self="flex-start"
+						md-align-self="center"
+						md-width="80%"
 					>
 						Merencanakan dan menampilkan jadwal konten dari semua platform secara cepat dan mudah
 					</Text>
@@ -672,6 +774,9 @@ export default (() => {
 					sm-position="static"
 					sm-min-height="300px"
 					sm-width="100%"
+					md-display="inline"
+					md-align-self="center"
+					md-width="100%"
 				/>
 			</Box>
 			<Box
@@ -700,6 +805,7 @@ export default (() => {
 				sm-flex="0 1 auto"
 				sm-position="static"
 				sm-width="90%"
+				md-display="block"
 			>
 				<Box
 					display="flex"
@@ -728,6 +834,7 @@ export default (() => {
 					sm-position="static"
 					text-align="left"
 					margin="0px 0px 0px 40px"
+					md-padding="16px 0 16px 0"
 				>
 					<Text
 						margin="0px 0px 10px 0px"
@@ -740,6 +847,7 @@ export default (() => {
 						sm-margin="0px 0px 0 0"
 						sm-display="inline"
 						sm-width="80%"
+						md-align-self="center"
 					>
 						<Span
 							overflow-wrap="normal"
@@ -797,7 +905,7 @@ export default (() => {
 											user-select="auto"
 											pointer-events="auto"
 										>
-											<Strong>
+											<Strong md-display="flex" md-justify-content="center" md-align-items="center" md-align-content="center">
 												Manajemen konten yang cepat dan lengkap
 											</Strong>
 										</Span>
@@ -816,6 +924,8 @@ export default (() => {
 						sm-text-align="left"
 						sm-font="--lead"
 						sm-display="inline-block"
+						md-align-self="center"
+						md-width="80%"
 					>
 						Mengatur dan mengelompokkan konten berdasar channel, topik dan kampanye yang sedang berjalan
 					</Text>
@@ -835,6 +945,8 @@ export default (() => {
 					min-height="400px"
 					align-self="flex-start"
 					sm-width="100%"
+					md-width="100%"
+					md-align-self="center"
 				/>
 			</Box>
 			<Box
@@ -861,6 +973,7 @@ export default (() => {
 				sm-display="inline-block"
 				width="100%"
 				sm-width="90%"
+				md-display="block"
 			>
 				<Box
 					display="flex"
@@ -886,6 +999,7 @@ export default (() => {
 					sm-display="block"
 					width="40%"
 					margin="0px 0px 0px 40px"
+					md-padding="16px 0 16px 0"
 				>
 					<Text
 						margin="0px 0px 10px 0px"
@@ -950,6 +1064,8 @@ export default (() => {
 						align-self="flex-start"
 						sm-display="block"
 						sm-padding="0px 0px 0 0px"
+						md-width="80%"
+						md-align-self="center"
 					>
 						Mengatur kalendar konten sesuai keinginan dan kebutuhan pengguna
 					</Text>
@@ -968,6 +1084,9 @@ export default (() => {
 					flex="1 1 0%"
 					min-height="400px"
 					sm-width="100%"
+					md-display="flex"
+					md-justify-content="center"
+					md-width="100%"
 				/>
 			</Box>
 		</Section>
@@ -1291,6 +1410,7 @@ export default (() => {
 					width="1000px"
 					text-align="center"
 					sm-width="100%"
+					md-width="90%"
 				>
 					Siapapun dapat menggunakannya tanpa perlu adaptasi lama
 				</Text>
@@ -1304,6 +1424,7 @@ export default (() => {
 					sm-font="--lead"
 					width="1000px"
 					sm-width="100%"
+					md-width="80%"
 				>
 					Meningkatkan performa untuk beberapa pekerjaan yang membutuhkan manajemen social media
 				</Text>
@@ -1357,6 +1478,7 @@ export default (() => {
 						lg-width="250px"
 						sm-align-self="flex-start"
 						sm-text-align="left"
+						md-align-self="center"
 					>
 						<Strong
 							sm-display="flex"
@@ -1453,6 +1575,9 @@ export default (() => {
 						sm-text-align="left"
 						sm-order="-1"
 						sm-display="inline"
+						md-align-self="center"
+						md-text-align="center"
+						md-width="100%"
 					>
 						<Strong
 							sm-font="--lead"
@@ -1494,8 +1619,20 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									<Strong>
-										Online Shop Owner
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+										md-display="inline"
+									>
+										Online Shop
+										<br />
+										Owner
 									</Strong>
 								</Span>
 							</Strong>
@@ -1510,6 +1647,7 @@ export default (() => {
 						flex="1 0 auto"
 						sm-text-align="left"
 						sm-font="--lead"
+						md-text-align="left"
 					>
 						Meningkatkan pengunjung website dengan social media secara mudah dan lengkap
 					</Text>
@@ -1604,6 +1742,8 @@ export default (() => {
 						sm-text-align="left"
 						sm-font="--lead"
 						sm-align-self="flex-start"
+						md-text-align="left"
+						md-width="100%"
 					>
 						Mengatur jadwal konten para content creator secara mudah dan terstruktur
 					</Text>
@@ -1662,6 +1802,7 @@ export default (() => {
 					width="1000px"
 					sm-width="100%"
 					sm-font="--lead"
+					md-width="80%"
 				>
 					Berbagai fitur ditambahkan untuk memudahkan dan mempercepat dalam pembuatan konten social media yang berkualitas oleh siapapun
 				</Text>
@@ -1711,6 +1852,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 						sm-font="--lead"
+						md-font="--lead"
 					>
 						Fitur yang memungkinkan kita melihat perkembangan social media dari waktu ke waktu untuk analisa lebih lanjut
 					</Text>
@@ -1759,6 +1901,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 						sm-font="--lead"
+						md-font="--lead"
 					>
 						Dengan menggunakan model kanban view, update progress social media dapat dilakukan semudah{" "}
 						<Em>
@@ -1810,6 +1953,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 						sm-font="--lead"
+						md-font="--lead"
 					>
 						Dengan menggunakan aplikasi notion di smartphone, kita bisa melakukan manajemen social media dari mana saja tanpa tergantung dengan komputer
 					</Text>
@@ -1856,6 +2000,7 @@ export default (() => {
 					align-self="center"
 					text-align="center"
 					sm-width="100%"
+					md-width="80%"
 				>
 					Produk yang akan menjadi pembelian terbaikmu tahun ini
 				</Text>
@@ -1869,6 +2014,7 @@ export default (() => {
 					text-align="center"
 					sm-width="100%"
 					sm-font="--lead"
+					md-width="80%"
 				>
 					Hanya dengan mengeluarkan sedikit modal, performa social mediamu akan berkembang dengan pesat
 				</Text>
@@ -2062,6 +2208,7 @@ export default (() => {
 			align-items="center"
 			justify-content="center"
 			align-content="center"
+			md-width="100%"
 		>
 			<Override
 				slot="SectionContent"
@@ -2075,7 +2222,7 @@ export default (() => {
 				width="1000px"
 				display="flex"
 				flex-direction="column"
-				md-width="100%"
+				md-width="80%"
 				md-align-items="center"
 				md-justify-content="center"
 				md-text-align="center"
@@ -2128,6 +2275,7 @@ export default (() => {
 				sm-margin="-16px -0 -16px 0"
 				width="850px"
 				sm-width="100%"
+				md-width="90%"
 			>
 				<Box display="flex" flex-direction="column">
 					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
@@ -2326,8 +2474,15 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="50px 0 50px 0" quarkly-title="Footer-2">
-			<Box display="flex" justify-content="space-between" sm-flex-direction="column">
+		<Section padding="50px 0 50px 0" quarkly-title="Footer-2" md-align-items="center">
+			<Box
+				display="flex"
+				justify-content="space-between"
+				sm-flex-direction="column"
+				md-flex-direction="column"
+				md-align-self="center"
+				md-font="--lead"
+			>
 				<Text
 					margin="0px 0px 0px 0px"
 					font="--base"
@@ -2388,6 +2543,7 @@ export default (() => {
 						align-items="center"
 						grid-gap="24px"
 						sm-font="--lead"
+						md-font="--lead"
 					>
 						<Box display="flex" grid-gap="8px" />
 						<Box display="flex" grid-gap="8px">
