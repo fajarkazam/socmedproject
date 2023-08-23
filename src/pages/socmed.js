@@ -38,7 +38,7 @@ export default (() => {
 				sm-display="flex"
 			>
 				<Image
-					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-07-01T14:45:25.395Z"
+					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08:00:43.925Z"
 					display="inline"
 					width="75px"
 					height="75px"
@@ -193,7 +193,7 @@ export default (() => {
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			background="#fafaf9"
+			background="#ffffff"
 			display="flex"
 			quarkly-title="Advantages/Features-28"
 		>
@@ -203,6 +203,9 @@ export default (() => {
 				flex-wrap="wrap"
 				grid-gap="5%"
 				sm-min-width="280px"
+				flex="0 1 auto"
+				order="-1"
+				display="flex"
 			/>
 			<Box
 				display="flex"
@@ -220,7 +223,14 @@ export default (() => {
 				lg-flex-wrap="wrap"
 				sm-width="100%"
 			>
-				<Text as="p" font="--base" color="#4f46e5" margin="0px 0px 8px 0px">
+				<Text
+					as="p"
+					font="--base"
+					color="#4f46e5"
+					margin="0px 0px 8px 0px"
+					align-self="center"
+					width="100%"
+				>
 					Challenges
 				</Text>
 				<Text
@@ -231,8 +241,8 @@ export default (() => {
 					sm-font="normal 700 30px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
-					text-align="center"
-					width="1000px"
+					text-align="left"
+					width="100%"
 					sm-width="100%"
 					md-width="100%"
 				>
@@ -295,7 +305,16 @@ export default (() => {
 								color="--darkL2"
 								sm-font="--lead"
 							>
-								<Strong>
+								<Strong
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
 									Clouds
 								</Strong>
 								.{" "}
@@ -416,7 +435,7 @@ export default (() => {
 			</Box>
 			<Box
 				display="flex"
-				width="50%"
+				width="45%"
 				justify-content="flex-end"
 				lg-justify-content="center"
 				overflow-y="hidden"
@@ -427,7 +446,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 				font="20px sans-serif"
 			>
-				<Image src="https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200" display="block" border-radius="32px" />
+				<Image src="https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200" display="flex" border-radius="32px" flex-direction="row" />
 			</Box>
 		</Section>
 		<Section
@@ -520,7 +539,7 @@ export default (() => {
 				lg-margin="0px 0px 0px 0px"
 				sm-margin="0px 0px 0px 0px"
 				sm-padding="0px 0px 0px 0px"
-				padding="16px 0 16px 0"
+				padding="16px 0 16px 16px"
 				justify-content="center"
 				lg-order="1"
 				flex-wrap="no-wrap"
@@ -643,7 +662,7 @@ export default (() => {
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10:05:18.818Z"
 					object-fit="cover"
-					width="80%"
+					width="90%"
 					height="100%"
 					border-radius="24px"
 					transform="translateY(0px)"
@@ -1467,7 +1486,6 @@ export default (() => {
 							sm-font="--lead"
 							sm-margin="0px 0px 15px 0px"
 							display="flex"
-							width="260px"
 							sm-align-items="flex-start"
 							sm-justify-content="center"
 							overflow-wrap="normal"
@@ -1480,6 +1498,7 @@ export default (() => {
 							pointer-events="auto"
 							sm-text-align="left"
 							sm-flex-direction="column"
+							width="300px"
 						>
 							<Strong
 								sm-font="--lead"
@@ -1513,10 +1532,9 @@ export default (() => {
 										user-select="auto"
 										pointer-events="auto"
 										md-display="inline"
+										width="100%"
 									>
-										Online Shop
-										<br />
-										Owner
+										Online Shop Owner
 									</Strong>
 								</Span>
 							</Strong>
@@ -1732,7 +1750,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--greyD3"
-						font="--base"
+						font="--lead"
 						lg-text-align="left"
 						flex="1 0 auto"
 						sm-font="--lead"
@@ -1781,7 +1799,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--greyD3"
-						font="--base"
+						font="--lead"
 						lg-text-align="left"
 						flex="1 0 auto"
 						sm-font="--lead"
@@ -1833,7 +1851,7 @@ export default (() => {
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--greyD3"
-						font="--base"
+						font="--lead"
 						lg-text-align="left"
 						flex="1 0 auto"
 						sm-font="--lead"
@@ -2739,10 +2757,11 @@ export default (() => {
 					align-items="center"
 					lg-margin="0px 0px 25px 0px"
 					md-flex-direction="column"
+					width="100%"
 				>
 					<LinkBox
 						display="flex"
-						margin="0px 70px 0px 0px"
+						margin="0px 0 0px 0px"
 						md-margin="0px 0 30px 0px"
 						flex-direction="row"
 						align-items="flex-end"
@@ -2755,14 +2774,17 @@ export default (() => {
 						display="flex"
 						md-margin="0px 0px 15px 0px"
 						sm-flex-direction="column"
-						justify-content="flex-start"
+						justify-content="flex-end"
 						align-items="center"
 						grid-gap="24px"
 						sm-font="--lead"
 						md-font="--lead"
+						text-align="right"
+						flex-direction="row"
+						align-self="flex-start"
+						flex="1 1 0%"
 					>
-						<Box display="flex" grid-gap="8px" />
-						<Box display="flex" grid-gap="8px">
+						<Box grid-gap="8px" justify-content="flex-end" display="flex" text-align="right">
 							<Text margin="0px 0px 0px 0px" font="--base" color="--darkL2" sm-font="--lead">
 								E-mail:
 							</Text>
@@ -2799,6 +2821,9 @@ export default (() => {
 					sm-margin="0px 0px 15px 0px"
 					sm-text-align="center"
 					sm-font="--lead"
+					display="inline"
+					width="100%"
+					text-align="center"
 				>
 					© 2023 Company, Inc. All rights reserved.
 				</Text>
