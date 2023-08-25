@@ -7,9 +7,9 @@ export default {
 			"children": [
 				"6461957b820441001fb09af5",
 				"6474df74588b2d00195721ab",
-				"647f0c8a8bd7e60018589221",
 				"647f0c8f477c3a0019b29f9d",
-				"6461957b820441001fb09af2"
+				"6461957b820441001fb09af2",
+				"64e81a82098f0700199abf25"
 			]
 		},
 		"6461957b820441001fb09af2": {
@@ -38,20 +38,20 @@ export default {
 				"title": "Social Media Notion Template"
 			}
 		},
-		"647f0c8a8bd7e60018589221": {
-			"pageUrl": "seo",
-			"id": "647f0c8a8bd7e60018589221",
-			"name": "SEO",
-			"customCode": {},
-			"seo": {
-				"title": "SEO Notion Template",
-				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM."
-			}
-		},
 		"647f0c8f477c3a0019b29f9d": {
 			"pageUrl": "socmed11",
 			"id": "647f0c8f477c3a0019b29f9d",
 			"name": "CRM"
+		},
+		"64e81a82098f0700199abf25": {
+			"pageUrl": "socmed1",
+			"customCode": {},
+			"seo": {
+				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM.",
+				"title": "Social Media Notion Template"
+			},
+			"id": "64e81a82098f0700199abf25",
+			"name": "Social Media 2"
 		}
 	},
 	"mode": "production",
