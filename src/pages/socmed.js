@@ -49,6 +49,8 @@ export default (() => {
 					sm-height="50px"
 					loading="lazy"
 					pointer-events="auto"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-23T08%3A00%3A43.925Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 		</Section>
@@ -185,6 +187,8 @@ export default (() => {
 					align-self="center"
 					sm-margin="0px 0 0px 0"
 					sm-height="400px"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 		</Section>
@@ -446,7 +450,14 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 				font="20px sans-serif"
 			>
-				<Image src="https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200" display="flex" border-radius="32px" flex-direction="row" />
+				<Image
+					src="https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200"
+					display="flex"
+					border-radius="32px"
+					flex-direction="row"
+					srcSet="https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=500 500w,https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=800 800w,https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=1080 1080w,https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=1600 1600w,https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=2000 2000w,https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=2600 2600w,https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
 			</Box>
 		</Section>
 		<Section
@@ -677,6 +688,8 @@ export default (() => {
 					md-display="inline"
 					md-align-self="center"
 					md-width="100%"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 			<Box
@@ -847,6 +860,8 @@ export default (() => {
 					sm-width="100%"
 					md-width="100%"
 					md-align-self="center"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 			<Box
@@ -987,6 +1002,8 @@ export default (() => {
 					md-display="flex"
 					md-justify-content="center"
 					md-width="100%"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 		</Section>
@@ -1087,6 +1104,8 @@ export default (() => {
 					justify-content="center"
 					flex-direction="column"
 					align-content="center"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 				<Text
 					font="--lead"
@@ -1947,7 +1966,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
@@ -1995,7 +2014,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
@@ -2043,7 +2062,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
@@ -2091,7 +2110,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
@@ -2139,7 +2158,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"
@@ -2187,7 +2206,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" />
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text
 						margin="0px 0px 35px 0px"
 						color="--dark"

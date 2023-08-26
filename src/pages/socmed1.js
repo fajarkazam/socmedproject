@@ -22,9 +22,17 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6461957b820441001fb09aed/images/Logo_FB_Ads_Mastery__3_-removebg-preview.png?v=2023-05-16T17:17:02.308Z"} />
 		</Helmet>
 		<Section>
-			<Override slot="SectionContent" sm-align-self="center" sm-display="block" />
-			<Box
+			<Override
+				slot="SectionContent"
+				sm-align-self="center"
+				sm-display="block"
+				order="-1"
+				align-self="flex-end"
+				flex="0 1 auto"
 				display="block"
+			/>
+			<Box
+				display="flex"
 				padding="12px 0"
 				justify-content="space-between"
 				align-items="center"
@@ -33,10 +41,11 @@ export default (() => {
 				align-self="stretch"
 				flex="1 1 0%"
 				sm-display="flex"
+				width="350px"
 			>
 				<Image
 					src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03:14:44.296Z"
-					display="inline"
+					display="flex"
 					width="300px"
 					height="150px"
 					align-self="flex-start"
@@ -46,6 +55,14 @@ export default (() => {
 					sm-height="50px"
 					loading="lazy"
 					pointer-events="auto"
+					align-items="center"
+					align-content="center"
+					justify-content="center"
+					flex-wrap="wrap"
+					position="static"
+					flex-direction="row"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03%3A14%3A44.296Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 		</Section>
@@ -73,7 +90,7 @@ export default (() => {
 				>
 					<Text
 						margin="0px 0px 50px 0px"
-						font="normal 900 60px/1.2 --fontFamily-sans"
+						font="--headline1"
 						sm-font="normal 700 36px/1.2 --fontFamily-sans"
 						padding="0px 250px 0px 250px"
 						text-align="left"
@@ -86,7 +103,7 @@ export default (() => {
 						md-width="100%"
 						align-self="center"
 					>
-						Rahasia Sukses Berbisnis di Social Media
+						Solusi Praktis Merencanakan Konten Social Media
 					</Text>
 					<Text
 						margin="0px 0px 50px 0px"
@@ -168,8 +185,19 @@ export default (() => {
 								display="flex"
 								justify-content="flex-start"
 							>
-								<Strong display="flex" justify-content="flex-start">
-									Dapatkan Template Sekarang
+								<Strong
+									display="flex"
+									justify-content="flex-start"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									Dapatkan Social Media Journal Sekarang
 								</Strong>
 							</Span>
 						</Link>
@@ -193,371 +221,9 @@ export default (() => {
 				align-self="flex-start"
 				sm-margin="0px 0 0px 0"
 				sm-height="400px"
+				srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/Notion%20Social%20Media%20Calendar%20Template%20%281%29.png?v=2023-07-03T03%3A08%3A31.768Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
-		</Section>
-		<Section
-			padding="80px 0 80px 0"
-			quarkly-title="Reviews"
-			sm-padding="25px 0 25px 0"
-			sm-flex-direction="row"
-			sm-justify-content="flex-start"
-			sm-margin="50px 0 0 0"
-		>
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				width="100%"
-				display="flex"
-				flex-direction="column"
-				md-width="100%"
-				md-align-items="center"
-				md-justify-content="center"
-				md-text-align="center"
-				lg-width="100%"
-				align-items="center"
-				align-content="center"
-			>
-				<Text
-					margin="0px 0px 0 0px"
-					font="--lead"
-					color="--dark"
-					md-text-align="center"
-					sm-font="--base"
-					sm-width="100%"
-					sm-align-self="flex-start"
-					sm-text-align="left"
-					sm-margin="0px 0px 0 0px"
-				>
-					Review
-				</Text>
-				<Text
-					margin="0px 0px 16px 0px"
-					font="--headline2"
-					color="--dark"
-					md-text-align="center"
-					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					sm-width="100%"
-					sm-align-self="flex-start"
-					sm-text-align="left"
-					sm-margin="0px 0px 15px 0px"
-					align-self="center"
-					width="1000px"
-					text-align="center"
-					md-width="100%"
-				>
-					MEMBANTU BANYAK ORANG SUKSES DI SOCIAL MEDIA
-				</Text>
-				<Text
-					margin="0px 0px 70px 0px"
-					text-align="center"
-					font="--lead"
-					color="--dark"
-					sm-margin="0px 0px 50px 0px"
-					sm-text-align="left"
-					sm-font="--lead"
-					sm-color="--dark"
-					width="800px"
-					sm-width="100%"
-					md-width="100%"
-				>
-					Mulai dari Social Media Specialist hingga Online Shop Owner telah mencoba dan membuktikan berbagai manfaat dan fitur terbaik di dalamnya
-				</Text>
-			</Box>
-			<Box
-				display="grid"
-				grid-template-columns="repeat(3, 1fr)"
-				grid-gap="16px"
-				lg-grid-template-columns="repeat(2, 1fr)"
-				md-grid-template-columns="1fr"
-			>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--lead"
-					>
-						"Benar-benar sederhana sih, cuma butuh waktu 1 hari untuk mulai memaksimalkan dan mengatur sesuai pekerjaan saya"
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text
-								color="--dark"
-								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-								margin="0px 0px 2px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								<Strong>
-									Andika S. Bimantara
-								</Strong>
-							</Text>
-							<Text
-								color="--greyD1"
-								font="--base"
-								margin="0px 0px 0px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								Social Media Specialist
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--lead"
-					>
-						"Sekarang sudah lebih mudah sih untuk mengatur pekerjaan yang datang ke saya khususnya jadwal endorse yang sering menumpuk. Boleh dong sombong ya hahaha"
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text
-								color="--dark"
-								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-								margin="0px 0px 2px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								<Strong>
-									Tika
-								</Strong>
-							</Text>
-							<Text
-								color="--greyD1"
-								font="--base"
-								margin="0px 0px 0px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								Content Creator
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--lead"
-					>
-						"Ternyata mengatur jadwal posting di social media bisa semudah itu ya. Ga perlu lagi bingung catat jadwal dan isi posting di social media lagi setiap minggunya. The best lah!"
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text
-								color="--dark"
-								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-								margin="0px 0px 2px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								<Strong>
-									Adriana
-								</Strong>
-							</Text>
-							<Text
-								color="--greyD1"
-								font="--base"
-								margin="0px 0px 0px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								Online Shop Owner
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--lead"
-					>
-						"Kemarin beli masih 99 ribu sekarang turun ternyata harganya. Sediihh :( Tapi worth it banget sih buat handle jadwal posting di social media. Fitur Content Pipeline sih oke beneran buat isi konten kita. Thankss yaa"
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text
-								color="--dark"
-								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-								margin="0px 0px 2px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								<Strong>
-									Karina
-								</Strong>
-							</Text>
-							<Text
-								color="--greyD1"
-								font="--base"
-								margin="0px 0px 0px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								Content Creator
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--lead"
-					>
-						"Organizer yang wajib dimiliki sih buat yang kerjaan sehari-harinya di dunia social media. Udah coba aja dulu. TOP!"
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text
-								color="--dark"
-								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-								margin="0px 0px 2px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								<Strong>
-									Mario K.
-								</Strong>
-							</Text>
-							<Text
-								color="--greyD1"
-								font="--base"
-								margin="0px 0px 0px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								Social Media Specialist
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 50px 55px"
-					sm-padding="55px 40px 50px 55px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-				>
-					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" />
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 30px 0px"
-						flex="1 0 auto"
-						sm-font="--lead"
-					>
-						"Udah pernah coba sih social media organizer di tempat lainnya. Cuma ga tau kenapa ini udah paling cocok aja sih buat dipake. Kalo organizer lainnya keluar juga kabarin ya :):)"
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box>
-							<Text
-								color="--dark"
-								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-								margin="0px 0px 2px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								<Strong>
-									Bima A.
-								</Strong>
-							</Text>
-							<Text
-								color="--greyD1"
-								font="--base"
-								margin="0px 0px 0px 0px"
-								sm-font="--lead"
-								md-font="--lead"
-							>
-								Social Media Specialist
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-			</Box>
 		</Section>
 		<Section
 			padding="80px 0"
@@ -617,7 +283,7 @@ export default (() => {
 					sm-width="100%"
 					md-width="100%"
 				>
-					TANTANGAN MEMBANGUN SOCIAL MEDIA YANG SUKSES
+					Tantangan Membangun Social Media Yang Sukses
 				</Text>
 				<Text
 					as="p"
@@ -632,7 +298,7 @@ export default (() => {
 					md-padding="0px 0px 0px 0px"
 					sm-font="--lead"
 				>
-					Memulai karir sebagai social media specialist tidak hanya posting dan membalas komentar. Apa saja yang mungkin membuatmu kesulitan sebagai social media specialist?
+					Sukses mengembangan konten di social media tidak hanya sebatas posting dan membalas komentar. Apa saja yang mungkin membuatmu kesulitan sebagai social media specialist?
 				</Text>
 				<List
 					margin="40px 0px 0px 0px"
@@ -656,38 +322,15 @@ export default (() => {
 					>
 						<Text
 							padding="0"
-							margin="0"
+							margin="0 0 -15px 0"
 							color="--greyD2"
 							font="--lead"
 							sm-font="--lead"
 							width="80%"
 						>
-							<Span
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-								font="--headline3"
-								color="--darkL2"
-								sm-font="--lead"
-								width="100%"
-							>
-								<Strong
-									overflow-wrap="normal"
-									word-break="normal"
-									white-space="normal"
-									text-indent="0"
-									text-overflow="clip"
-									hyphens="manual"
-									user-select="auto"
-									pointer-events="auto"
-									width="100%"
-								>
-									Tidak punya pengalaman
+							<Span font-size="28px">
+								<Strong color="#000000">
+									Tidak konsisten membuat konten
 								</Strong>
 							</Span>
 						</Text>
@@ -716,7 +359,7 @@ export default (() => {
 					>
 						<Text
 							padding="0"
-							margin="0"
+							margin="0 0 -15px 0"
 							color="--greyD2"
 							font="--lead"
 							sm-font="--lead"
@@ -746,8 +389,9 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 									width="100%"
+									margin="0px 0px -20px 0px"
 								>
-									Tidak punya pengalaman
+									Lupa posting konten sesuai jadwal
 								</Strong>
 							</Span>
 						</Text>
@@ -764,7 +408,7 @@ export default (() => {
 							md-padding="0px 0px 0px 0px"
 							sm-font="--lead"
 						>
-							Memulai karir sebagai social media specialist tidak hanya posting dan membalas komentar. Apa saja yang mungkin membuatmu kesulitan sebagai social media specialist?
+							Sudah membuat konten tapi lupa untuk diposting, sehingga momen penting sering terlewat
 						</Text>
 					</Box>
 					<Box
@@ -776,7 +420,7 @@ export default (() => {
 					>
 						<Text
 							padding="0"
-							margin="0"
+							margin="0 0 -15px 0"
 							color="--greyD2"
 							font="--lead"
 							sm-font="--lead"
@@ -807,7 +451,7 @@ export default (() => {
 									pointer-events="auto"
 									width="100%"
 								>
-									Tidak punya pengalaman
+									Perencanaan konten social media yang berantakan
 								</Strong>
 							</Span>
 						</Text>
@@ -824,10 +468,37 @@ export default (() => {
 							md-padding="0px 0px 0px 0px"
 							sm-font="--lead"
 						>
-							Memulai karir sebagai social media specialist tidak hanya posting dan membalas komentar. Apa saja yang mungkin membuatmu kesulitan sebagai social media specialist?
+							Pembuatan konten yang tidak terhubung satu sama lain dan tidak terjadwal dengan baik
 						</Text>
 					</Box>
 				</List>
+				<Text
+					as="p"
+					margin="40px 0 0 0"
+					font="--lead"
+					font-size="20px"
+					font-weight="300"
+					color="--darkL2"
+					width="100%"
+					md-width="100%"
+					md-margin="0px 0px 0px 0px"
+					md-padding="0px 0px 0px 0px"
+					sm-font="--lead"
+				>
+					Tapi bagaimana caranya untuk memproduksi konten social media agar terjadwal dengan baik dan memiliki isi konten yang baik? Untuk itulah dibutuhkan{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Social Media Organizer Journal
+					</Strong>
+				</Text>
 			</Box>
 			<Box
 				display="flex"
@@ -842,7 +513,1135 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 				font="20px sans-serif"
 			>
-				<Image src="https://images.unsplash.com/photo-1634476229749-a2e480a919d0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=1200" display="flex" border-radius="32px" flex-direction="row" />
+				<Image
+					src="https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+					display="flex"
+					border-radius="32px"
+					flex-direction="row"
+					srcSet="https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1559854036-2409f22a918a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0 80px 0"
+			quarkly-title="Reviews"
+			sm-padding="25px 0 25px 0"
+			sm-flex-direction="row"
+			sm-justify-content="flex-start"
+			sm-margin="50px 0 0 0"
+		>
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				width="100%"
+				display="flex"
+				flex-direction="column"
+				md-width="100%"
+				md-align-items="center"
+				md-justify-content="center"
+				md-text-align="center"
+				lg-width="100%"
+				align-items="center"
+				align-content="center"
+			>
+				<Text
+					margin="0px 0px 0 0px"
+					font="--lead"
+					color="--dark"
+					md-text-align="center"
+					sm-font="--base"
+					sm-width="100%"
+					sm-align-self="flex-start"
+					sm-text-align="left"
+					sm-margin="0px 0px 0 0px"
+				>
+					Review
+				</Text>
+				<Text
+					margin="0px 0px 16px 0px"
+					font="--headline2"
+					color="--dark"
+					md-text-align="center"
+					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-width="100%"
+					sm-align-self="flex-start"
+					sm-text-align="left"
+					sm-margin="0px 0px 15px 0px"
+					align-self="center"
+					width="850px"
+					text-align="center"
+					md-width="100%"
+				>
+					Membantu Banyak Orang Sukses di Social Media
+				</Text>
+				<Text
+					margin="0px 0px 70px 0px"
+					text-align="center"
+					font="--lead"
+					color="--dark"
+					sm-margin="0px 0px 50px 0px"
+					sm-text-align="left"
+					sm-font="--lead"
+					sm-color="--dark"
+					width="800px"
+					sm-width="100%"
+					md-width="100%"
+				>
+					Mulai dari Social Media Specialist hingga Online Shop Owner telah mencoba dan membuktikan berbagai manfaat dan fitur terbaik di dalamnya
+				</Text>
+			</Box>
+			<Box
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="16px"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Benar-benar sederhana sih, cuma butuh waktu 1 hari untuk mulai memaksimalkan dan mengatur sesuai pekerjaan saya"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Andika S. Bimantara
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Sekarang sudah lebih mudah sih untuk mengatur pekerjaan yang datang ke saya khususnya jadwal endorse yang sering menumpuk. Boleh dong sombong ya hahaha"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Tika
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Content Creator
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Ternyata mengatur jadwal posting di social media bisa semudah itu ya. Ga perlu lagi bingung catat jadwal dan isi posting di social media lagi setiap minggunya. The best lah!"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Adriana
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Online Shop Owner
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Kemarin beli masih 99 ribu sekarang turun ternyata harganya. Sediihh :( Tapi worth it banget sih buat handle jadwal posting di social media. Fitur Content Pipeline sih oke beneran buat isi konten kita. Thankss yaa"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Karina
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Content Creator
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Organizer yang wajib dimiliki sih buat yang kerjaan sehari-harinya di dunia social media. Udah coba aja dulu. TOP!"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Mario K.
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Udah pernah coba sih social media organizer di tempat lainnya. Cuma ga tau kenapa ini udah paling cocok aja sih buat dipake. Kalo organizer lainnya keluar juga kabarin ya :):)"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Bima A.
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0 50px 0"
+			sm-padding="0 0 0 0"
+			quarkly-title="Target"
+			lg-align-items="center"
+			lg-justify-content="center"
+			sm-flex-direction="column"
+			sm-align-content="center"
+			sm-height="1100px"
+			sm-margin="0 0 0 0"
+		>
+			<Override
+				slot="SectionContent"
+				lg-margin="0px 20px 0px 20px"
+				lg-justify-content="center"
+				lg-text-align="center"
+				lg-align-items="center"
+				sm-align-content="center"
+			/>
+			<Box
+				width="100%"
+				display="flex"
+				flex-direction="column"
+				md-width="100%"
+				md-align-items="center"
+				md-justify-content="center"
+				md-text-align="center"
+				lg-width="100%"
+				sm-display="block"
+				sm-padding="0px 0 0px 0"
+				align-items="center"
+				sm-margin="0px 0px 15px 0px"
+			>
+				<Text
+					margin="0px 0px 0 0px"
+					font="--lead"
+					color="--dark"
+					md-text-align="center"
+					sm-font="--base"
+					sm-text-align="left"
+					sm-margin="0px 0px 0 0px"
+				>
+					Users
+				</Text>
+				<Text
+					margin="0px 0px 16px 0px"
+					font="--headline2"
+					color="--dark"
+					md-text-align="center"
+					sm-font="normal 700 30px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-text-align="left"
+					sm-margin="0px 0px 15px 0px"
+					width="1000px"
+					text-align="center"
+					sm-width="100%"
+					md-width="90%"
+				>
+					Siapapun Dapat Menggunakannya Tanpa Adaptasi Yang Lama
+				</Text>
+				<Text
+					margin="0px 0px 70px 0px"
+					text-align="center"
+					font="--lead"
+					color="--dark"
+					sm-margin="0px 0px 25px 0px"
+					sm-text-align="left"
+					sm-font="--lead"
+					width="850px"
+					sm-width="100%"
+					md-width="80%"
+				>
+					Meningkatkan performa dan menyelesaikan berbagai masalah untuk beberapa pekerjaan yang membutuhkan manajemen social media{" "}
+				</Text>
+			</Box>
+			<Box
+				min-height="100px"
+				width="100%"
+				display="flex"
+				justify-content="center"
+				sm-display="grid"
+				lg-align-self="center"
+				sm-justify-items="center"
+				sm-align-content="center"
+				sm-margin="15px 0px 0px 0px"
+			>
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="20px 40px 20px 40px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					sm-margin="20px 0px 20px 0px"
+					width="30%"
+					align-self="center"
+					margin="0px 5px 20px 0px"
+					sm-align-self="center"
+					sm-width="80%"
+					sm-flex-direction="column"
+					sm-justify-content="center"
+					sm-align-content="center"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					lg-text-align="left"
+					lg-width="30%"
+				>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="center"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						width="300px"
+						flex="0 1 auto"
+						order="-1"
+						display="inline"
+						lg-width="250px"
+						sm-align-self="flex-start"
+						sm-text-align="left"
+						md-align-self="center"
+					>
+						<Strong
+							sm-display="flex"
+							sm-justify-content="flex-start"
+							sm-font="--lead"
+							sm-margin="0px 0px 15px 0px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							sm-text-align="center"
+							sm-flex-direction="column"
+							sm-align-items="flex-start"
+							sm-align-content="flex-start"
+						>
+							<Strong
+								sm-text-align="left"
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Span
+									sm-font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
+										Sering kehabisan ide membuat konten
+									</Strong>
+								</Span>
+							</Strong>
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 15px 0px"
+						flex="1 0 auto"
+						sm-align-self="flex-start"
+						sm-text-align="left"
+						sm-font="--lead"
+					>
+						Mengatur semua pekerjaan social media di kantor secara efektif dan efisien apapun platformnya
+					</Text>
+				</Box>
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="20px 40px 20px 40px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					align-self="center"
+					width="30%"
+					sm-align-self="center"
+					margin="0px 5px 20px 5px"
+					sm-width="80%"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					sm-align-content="center"
+					sm-justify-content="center"
+					sm-display="flex"
+					sm-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						sm-align-self="flex-start"
+						sm-text-align="left"
+						sm-order="-1"
+						sm-display="inline"
+						md-align-self="center"
+						md-text-align="center"
+						md-width="100%"
+					>
+						<Strong
+							sm-font="--lead"
+							sm-margin="0px 0px 15px 0px"
+							display="flex"
+							sm-align-items="flex-start"
+							sm-justify-content="center"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							sm-text-align="left"
+							sm-flex-direction="column"
+							width="300px"
+						>
+							<Strong
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Span
+									sm-font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+										md-display="inline"
+										width="100%"
+									>
+										Follower social media sulit bertambah
+									</Strong>
+								</Span>
+							</Strong>
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 15px 0px"
+						flex="1 0 auto"
+						sm-text-align="left"
+						sm-font="--lead"
+						md-text-align="left"
+					>
+						Meningkatkan pengunjung website dengan social media secara mudah dan lengkap
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box />
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="20px 40px 20px 40px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					sm-margin="0px 0px 20px 0px"
+					margin="0px 5px 20px 5px"
+					width="30%"
+					align-self="center"
+					sm-align-self="center"
+					sm-width="80%"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					sm-align-content="center"
+					sm-justify-content="center"
+				>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						sm-text-align="left"
+						sm-align-self="flex-start"
+						width="300px"
+					>
+						<Strong
+							sm-display="block"
+							sm-justify-content="flex-start"
+							sm-font="--lead"
+							sm-margin="0px 0px 15px 0px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							display="flex"
+							width="300px"
+						>
+							<Span
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								width="300px"
+							>
+								<Span
+									sm-font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
+										Sering terlupa untuk posting konten
+									</Strong>
+								</Span>
+							</Span>
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 15px 0px"
+						flex="1 0 auto"
+						width="275px"
+						sm-text-align="left"
+						sm-font="--lead"
+						sm-align-self="flex-start"
+						md-text-align="left"
+						md-width="100%"
+					>
+						Mengatur jadwal konten para content creator secara mudah dan terstruktur
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box />
+					</Box>
+				</Box>
+			</Box>
+			<Box
+				min-height="100px"
+				width="100%"
+				display="flex"
+				justify-content="center"
+				sm-display="grid"
+				lg-align-self="center"
+				sm-justify-items="center"
+				sm-align-content="center"
+				sm-margin="15px 0px 0px 0px"
+			>
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="20px 40px 20px 40px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					sm-margin="20px 0px 20px 0px"
+					width="30%"
+					align-self="center"
+					margin="0px 5px 20px 0px"
+					sm-align-self="center"
+					sm-width="80%"
+					sm-flex-direction="column"
+					sm-justify-content="center"
+					sm-align-content="center"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					lg-text-align="left"
+					lg-width="30%"
+				>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="center"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						width="300px"
+						flex="0 1 auto"
+						order="-1"
+						display="inline"
+						lg-width="250px"
+						sm-align-self="flex-start"
+						sm-text-align="left"
+						md-align-self="center"
+					>
+						<Strong
+							sm-display="flex"
+							sm-justify-content="flex-start"
+							sm-font="--lead"
+							sm-margin="0px 0px 15px 0px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							sm-text-align="center"
+							sm-flex-direction="column"
+							sm-align-items="flex-start"
+							sm-align-content="flex-start"
+						>
+							<Strong
+								sm-text-align="left"
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Span
+									sm-font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
+										Ingin meningkatkan omzet dari social media
+									</Strong>
+								</Span>
+							</Strong>
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 15px 0px"
+						flex="1 0 auto"
+						sm-align-self="flex-start"
+						sm-text-align="left"
+						sm-font="--lead"
+					>
+						Mengatur semua pekerjaan social media di kantor secara efektif dan efisien apapun platformnya
+					</Text>
+				</Box>
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="20px 40px 20px 40px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					align-self="center"
+					width="30%"
+					sm-align-self="center"
+					margin="0px 5px 20px 5px"
+					sm-width="80%"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					sm-align-content="center"
+					sm-justify-content="center"
+					sm-display="flex"
+					sm-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						sm-align-self="flex-start"
+						sm-text-align="left"
+						sm-order="-1"
+						sm-display="inline"
+						md-align-self="center"
+						md-text-align="center"
+						md-width="100%"
+					>
+						<Strong
+							sm-font="--lead"
+							sm-margin="0px 0px 15px 0px"
+							display="flex"
+							sm-align-items="flex-start"
+							sm-justify-content="center"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							sm-text-align="left"
+							sm-flex-direction="column"
+							width="300px"
+						>
+							<Strong
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Span
+									sm-font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+										md-display="inline"
+										width="100%"
+									>
+										Menghemat waktu dalam pembuatan konten social media
+									</Strong>
+								</Span>
+							</Strong>
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 15px 0px"
+						flex="1 0 auto"
+						sm-text-align="left"
+						sm-font="--lead"
+						md-text-align="left"
+					>
+						Meningkatkan pengunjung website dengan social media secara mudah dan lengkap
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box />
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 35px 55px"
+					sm-padding="20px 40px 20px 40px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					sm-margin="0px 0px 20px 0px"
+					margin="0px 5px 20px 5px"
+					width="30%"
+					align-self="center"
+					sm-align-self="center"
+					sm-width="80%"
+					sm-align-items="center"
+					lg-padding="50px 15px 35px 15px"
+					sm-align-content="center"
+					sm-justify-content="center"
+				>
+					<Text
+						margin="0px 0px 11px 0px"
+						color="--darkL2"
+						font="--headline3"
+						lg-text-align="left"
+						sm-font="--lead"
+						sm-margin="0px 0px 0 0px"
+						sm-text-align="left"
+						sm-align-self="flex-start"
+					>
+						<Strong
+							sm-display="block"
+							sm-justify-content="flex-start"
+							sm-font="--lead"
+							sm-margin="0px 0px 15px 0px"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+							display="flex"
+							width="300px"
+						>
+							<Span
+								sm-font="--lead"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Span
+									sm-font="--lead"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									<Strong
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
+										Organizer yang dapat diakses semua anggota team
+									</Strong>
+								</Span>
+							</Span>
+						</Strong>
+					</Text>
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 15px 0px"
+						flex="1 0 auto"
+						width="275px"
+						sm-text-align="left"
+						sm-font="--lead"
+						sm-align-self="flex-start"
+						md-text-align="left"
+						md-width="100%"
+					>
+						Mengatur jadwal konten para content creator secara mudah dan terstruktur
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box />
+					</Box>
+				</Box>
 			</Box>
 		</Section>
 		<Section
@@ -909,7 +1708,7 @@ export default (() => {
 					sm-width="100%"
 					md-width="100%"
 				>
-					TEMPLATE TERBAIK UNTUK MEMPERCEPAT PRODUKSI KONTEN SOCIAL MEDIA
+					Template Terbaik Untuk Mempercepat Pembuatan Konten Social Media
 				</Text>
 				<Text
 					margin="0px 0px 70px 0px"
@@ -1073,6 +1872,8 @@ export default (() => {
 					md-display="inline"
 					md-align-self="center"
 					md-width="100%"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/5.webp?v=2023-06-08T10%3A05%3A18.818Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 			<Box
@@ -1243,6 +2044,8 @@ export default (() => {
 					sm-width="100%"
 					md-width="100%"
 					md-align-self="center"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/6.webp?v=2023-06-08T10%3A05%3A18.814Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
 			<Box
@@ -1383,404 +2186,9 @@ export default (() => {
 					md-display="flex"
 					md-justify-content="center"
 					md-width="100%"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10%3A05%3A18.824Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
-			</Box>
-		</Section>
-		<Section
-			padding="80px 0 50px 0"
-			sm-padding="0 0 0 0"
-			quarkly-title="Target"
-			lg-align-items="center"
-			lg-justify-content="center"
-			sm-flex-direction="column"
-			sm-align-content="center"
-			sm-height="1100px"
-			sm-margin="0 0 0 0"
-		>
-			<Override
-				slot="SectionContent"
-				lg-margin="0px 20px 0px 20px"
-				lg-justify-content="center"
-				lg-text-align="center"
-				lg-align-items="center"
-				sm-align-content="center"
-			/>
-			<Box
-				width="100%"
-				display="flex"
-				flex-direction="column"
-				md-width="100%"
-				md-align-items="center"
-				md-justify-content="center"
-				md-text-align="center"
-				lg-width="100%"
-				sm-display="block"
-				sm-padding="0px 0 0px 0"
-				align-items="center"
-				sm-margin="0px 0px 15px 0px"
-			>
-				<Text
-					margin="0px 0px 0 0px"
-					font="--lead"
-					color="--dark"
-					md-text-align="center"
-					sm-font="--base"
-					sm-text-align="left"
-					sm-margin="0px 0px 0 0px"
-				>
-					Users
-				</Text>
-				<Text
-					margin="0px 0px 16px 0px"
-					font="--headline2"
-					color="--dark"
-					md-text-align="center"
-					sm-font="normal 700 30px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					sm-text-align="left"
-					sm-margin="0px 0px 15px 0px"
-					width="1000px"
-					text-align="center"
-					sm-width="100%"
-					md-width="90%"
-				>
-					SIAPAPUN DAPAT MENGGUNAKANNYA TANPA ADAPTASI YANG LAMA
-				</Text>
-				<Text
-					margin="0px 0px 70px 0px"
-					text-align="center"
-					font="--lead"
-					color="--dark"
-					sm-margin="0px 0px 25px 0px"
-					sm-text-align="left"
-					sm-font="--lead"
-					width="1000px"
-					sm-width="100%"
-					md-width="80%"
-				>
-					Meningkatkan performa untuk beberapa pekerjaan yang membutuhkan manajemen social media
-				</Text>
-			</Box>
-			<Box
-				min-height="100px"
-				width="100%"
-				display="flex"
-				justify-content="center"
-				sm-display="grid"
-				lg-align-self="center"
-				sm-justify-items="center"
-				sm-align-content="center"
-				sm-margin="15px 0px 0px 0px"
-			>
-				<Box
-					padding="50px 55px 35px 55px"
-					sm-padding="20px 40px 20px 40px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					sm-margin="20px 0px 20px 0px"
-					width="30%"
-					align-self="center"
-					margin="0px 5px 20px 0px"
-					sm-align-self="center"
-					sm-width="80%"
-					sm-flex-direction="column"
-					sm-justify-content="center"
-					sm-align-content="center"
-					sm-align-items="center"
-					lg-padding="50px 15px 35px 15px"
-					lg-text-align="left"
-					lg-width="30%"
-				>
-					<Text
-						margin="0px 0px 11px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="center"
-						sm-font="--lead"
-						sm-margin="0px 0px 0 0px"
-						width="300px"
-						flex="0 1 auto"
-						order="-1"
-						display="inline"
-						lg-width="250px"
-						sm-align-self="flex-start"
-						sm-text-align="left"
-						md-align-self="center"
-					>
-						<Strong
-							sm-display="flex"
-							sm-justify-content="flex-start"
-							sm-font="--lead"
-							sm-margin="0px 0px 15px 0px"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-							sm-text-align="center"
-							sm-flex-direction="column"
-							sm-align-items="flex-start"
-							sm-align-content="flex-start"
-						>
-							<Strong
-								sm-text-align="left"
-								sm-font="--lead"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								<Span
-									sm-font="--lead"
-									overflow-wrap="normal"
-									word-break="normal"
-									white-space="normal"
-									text-indent="0"
-									text-overflow="clip"
-									hyphens="manual"
-									user-select="auto"
-									pointer-events="auto"
-								>
-									<Strong>
-										Social Media Specialist
-									</Strong>
-								</Span>
-							</Strong>
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 15px 0px"
-						flex="1 0 auto"
-						sm-align-self="flex-start"
-						sm-text-align="left"
-						sm-font="--lead"
-					>
-						Mengatur semua pekerjaan social media di kantor secara efektif dan efisien apapun platformnya
-					</Text>
-				</Box>
-				<Box
-					padding="50px 55px 35px 55px"
-					sm-padding="20px 40px 20px 40px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					align-self="center"
-					width="30%"
-					sm-align-self="center"
-					margin="0px 5px 20px 5px"
-					sm-width="80%"
-					sm-align-items="center"
-					lg-padding="50px 15px 35px 15px"
-					sm-align-content="center"
-					sm-justify-content="center"
-					sm-display="flex"
-					sm-flex-direction="column"
-				>
-					<Text
-						margin="0px 0px 11px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-						sm-margin="0px 0px 0 0px"
-						sm-align-self="flex-start"
-						sm-text-align="left"
-						sm-order="-1"
-						sm-display="inline"
-						md-align-self="center"
-						md-text-align="center"
-						md-width="100%"
-					>
-						<Strong
-							sm-font="--lead"
-							sm-margin="0px 0px 15px 0px"
-							display="flex"
-							sm-align-items="flex-start"
-							sm-justify-content="center"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-							sm-text-align="left"
-							sm-flex-direction="column"
-							width="300px"
-						>
-							<Strong
-								sm-font="--lead"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								<Span
-									sm-font="--lead"
-									overflow-wrap="normal"
-									word-break="normal"
-									white-space="normal"
-									text-indent="0"
-									text-overflow="clip"
-									hyphens="manual"
-									user-select="auto"
-									pointer-events="auto"
-								>
-									<Strong
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-										user-select="auto"
-										pointer-events="auto"
-										md-display="inline"
-										width="100%"
-									>
-										Online Shop Owner
-									</Strong>
-								</Span>
-							</Strong>
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 15px 0px"
-						flex="1 0 auto"
-						sm-text-align="left"
-						sm-font="--lead"
-						md-text-align="left"
-					>
-						Meningkatkan pengunjung website dengan social media secara mudah dan lengkap
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box />
-					</Box>
-				</Box>
-				<Box
-					padding="50px 55px 35px 55px"
-					sm-padding="20px 40px 20px 40px"
-					border-width="1px"
-					border-style="solid"
-					border-radius="24px"
-					border-color="--color-lightD2"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					sm-margin="0px 0px 20px 0px"
-					margin="0px 5px 20px 5px"
-					width="30%"
-					align-self="center"
-					sm-align-self="center"
-					sm-width="80%"
-					sm-align-items="center"
-					lg-padding="50px 15px 35px 15px"
-					sm-align-content="center"
-					sm-justify-content="center"
-				>
-					<Text
-						margin="0px 0px 11px 0px"
-						color="--darkL2"
-						font="--headline3"
-						lg-text-align="left"
-						sm-font="--lead"
-						sm-margin="0px 0px 0 0px"
-						sm-text-align="left"
-						sm-align-self="flex-start"
-					>
-						<Strong
-							sm-display="block"
-							sm-justify-content="flex-start"
-							sm-font="--lead"
-							sm-margin="0px 0px 15px 0px"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-							display="flex"
-							width="225px"
-						>
-							<Span
-								sm-font="--lead"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
-								<Span
-									sm-font="--lead"
-									overflow-wrap="normal"
-									word-break="normal"
-									white-space="normal"
-									text-indent="0"
-									text-overflow="clip"
-									hyphens="manual"
-									user-select="auto"
-									pointer-events="auto"
-								>
-									<Strong>
-										Content Creator
-									</Strong>
-								</Span>
-							</Span>
-						</Strong>
-					</Text>
-					<Text
-						margin="0px 0px 35px 0px"
-						color="--dark"
-						font="--lead"
-						lg-margin="0px 0px 50px 0px"
-						sm-margin="0px 0px 15px 0px"
-						flex="1 0 auto"
-						width="275px"
-						sm-text-align="left"
-						sm-font="--lead"
-						sm-align-self="flex-start"
-						md-text-align="left"
-						md-width="100%"
-					>
-						Mengatur jadwal konten para content creator secara mudah dan terstruktur
-					</Text>
-					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
-						<Box />
-					</Box>
-				</Box>
 			</Box>
 		</Section>
 		<Section
@@ -1880,6 +2288,8 @@ export default (() => {
 					justify-content="center"
 					flex-direction="column"
 					align-content="center"
+					srcSet="https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6461957b820441001fb09aed/images/ipad-pro-mockup__1_-removebg-preview.png?v=2023-06-11T16%3A35%3A14.888Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 				<Text
 					font="--lead"
