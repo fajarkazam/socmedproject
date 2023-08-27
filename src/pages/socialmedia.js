@@ -68,8 +68,14 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="100px 0 100px 0" background="#ffffff url() 50% 50% /cover repeat scroll padding-box" quarkly-title="Hero-17" transition="background-color 0.2s ease 0s">
-			<Override slot="SectionContent" flex-direction="row" sm-flex-direction="column" />
+		<Section
+			padding="100px 0 100px 0"
+			background="#ffffff url() 50% 50% /cover repeat scroll padding-box"
+			quarkly-title="Hero-17"
+			transition="background-color 0.2s ease 0s"
+			md-padding="100px 0 50px 0"
+		>
+			<Override slot="SectionContent" flex-direction="row" sm-flex-direction="column" md-flex-direction="column" />
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -80,6 +86,8 @@ export default (() => {
 				width="45%"
 				sm-width="100%"
 				sm-margin="0px 0px 15px 0px"
+				md-width="100%"
+				md-align-items="center"
 			>
 				<Box
 					lg-width="100%"
@@ -106,6 +114,7 @@ export default (() => {
 						sm-width="100%"
 						md-width="100%"
 						align-self="center"
+						md-text-align="center"
 					>
 						Solusi Praktis Merencanakan Konten Social Media
 					</Text>
@@ -125,6 +134,7 @@ export default (() => {
 						sm-width="100%"
 						md-width="100%"
 						md-font="--headline3"
+						md-text-align="center"
 					>
 						<Span
 							sm-color="#606469"
@@ -158,6 +168,10 @@ export default (() => {
 						sm-justify-content="center"
 						sm-text-align="center"
 						sm-align-content="center"
+						md-justify-content="center"
+						md-align-items="center"
+						md-flex-direction="column"
+						md-align-self="center"
 					>
 						<Link
 							href="https://invoice.xendit.co/od/socmedtemplate"
@@ -226,7 +240,6 @@ export default (() => {
 				height="340px"
 				object-position="0 0"
 				lg-height="300px"
-				md-height="400px"
 				src="https://uploads.quarkly.io/6461957b820441001fb09aed/images/4.webp?v=2023-06-08T10:05:18.824Z"
 				sm-background="--color-light"
 				sm-align-self="center"
@@ -238,6 +251,8 @@ export default (() => {
 				sm-position="static"
 				sm-max-width="fit-content"
 				sm-min-width="fit-content"
+				md-width="100%"
+				md-min-height="400px"
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
@@ -275,6 +290,7 @@ export default (() => {
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
 				sm-width="100%"
+				md-width="100%"
 			>
 				<Text
 					as="p"
@@ -290,7 +306,7 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--headline2"
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
@@ -343,6 +359,7 @@ export default (() => {
 							font="--lead"
 							sm-font="--lead"
 							width="80%"
+							md-min-width="100%"
 						>
 							<Span
 								font-size="28px"
@@ -367,7 +384,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									<Strong>
+									<Strong md-font="--headline3">
 										Tidak konsisten membuat konten
 									</Strong>
 								</Span>
@@ -403,6 +420,7 @@ export default (() => {
 							font="--lead"
 							sm-font="--lead"
 							width="80%"
+							md-min-width="100%"
 						>
 							<Span
 								overflow-wrap="normal"
@@ -431,7 +449,7 @@ export default (() => {
 									margin="0px 0px -20px 0px"
 									sm-font="--headline3"
 								>
-									<Strong>
+									<Strong md-font="--headline3" md-min-width="100%">
 										Lupa posting konten sesuai jadwal
 									</Strong>
 								</Span>
@@ -467,6 +485,7 @@ export default (() => {
 							font="--lead"
 							sm-font="--lead"
 							width="80%"
+							md-min-width="100%"
 						>
 							<Span
 								overflow-wrap="normal"
@@ -481,6 +500,7 @@ export default (() => {
 								color="--darkL2"
 								sm-font="--lead"
 								width="100%"
+								md-min-width="100%"
 							>
 								<Span
 									overflow-wrap="normal"
@@ -494,7 +514,7 @@ export default (() => {
 									width="100%"
 									sm-font="--headline3"
 								>
-									<Strong>
+									<Strong md-font="--headline3" md-min-width="100%">
 										Perencanaan konten social media yang berantakan
 									</Strong>
 								</Span>
@@ -593,12 +613,13 @@ export default (() => {
 					margin="0px 0px 0 0px"
 					font="--lead"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--base"
 					sm-width="100%"
 					sm-align-self="flex-start"
 					sm-text-align="left"
 					sm-margin="0px 0px 0 0px"
+					md-align-self="flex-start"
 				>
 					Review
 				</Text>
@@ -606,7 +627,7 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--headline2"
 					sm-width="100%"
 					sm-align-self="flex-start"
@@ -631,6 +652,8 @@ export default (() => {
 					width="800px"
 					sm-width="100%"
 					md-width="100%"
+					md-align-self="flex-start"
+					md-text-align="left"
 				>
 					Mulai dari Social Media Specialist hingga Online Shop Owner telah mencoba dan membuktikan berbagai manfaat dan fitur terbaik di dalamnya
 				</Text>
@@ -968,10 +991,11 @@ export default (() => {
 					margin="0px 0px 0 0px"
 					font="--lead"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--base"
 					sm-text-align="left"
 					sm-margin="0px 0px 0 0px"
+					md-align-self="flex-start"
 				>
 					Users
 				</Text>
@@ -979,7 +1003,7 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--headline2"
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
@@ -987,6 +1011,7 @@ export default (() => {
 					text-align="center"
 					sm-width="100%"
 					md-width="90%"
+					md-align-self="flex-start"
 				>
 					Siapapun Dapat Menggunakannya Tanpa Adaptasi Yang Lama
 				</Text>
@@ -1001,6 +1026,8 @@ export default (() => {
 					width="850px"
 					sm-width="100%"
 					md-width="80%"
+					md-align-self="flex-start"
+					md-text-align="left"
 				>
 					Meningkatkan performa dan menyelesaikan berbagai masalah untuk beberapa pekerjaan yang membutuhkan manajemen social media{" "}
 				</Text>
@@ -1016,6 +1043,7 @@ export default (() => {
 				sm-align-content="center"
 				sm-height="max-content"
 				sm-min-height="max-content"
+				md-flex-direction="column"
 			>
 				<Box
 					padding="50px 55px 35px 55px"
@@ -1040,6 +1068,7 @@ export default (() => {
 					lg-padding="50px 15px 35px 15px"
 					lg-text-align="left"
 					lg-width="30%"
+					md-width="80%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1055,8 +1084,10 @@ export default (() => {
 						lg-width="250px"
 						sm-align-self="flex-start"
 						sm-text-align="left"
-						md-align-self="center"
+						md-align-self="flex-start"
 						sm-width="100%"
+						md-text-align="left"
+						md-width="100%"
 					>
 						<Strong
 							sm-display="flex"
@@ -1114,6 +1145,7 @@ export default (() => {
 										pointer-events="auto"
 										sm-font="--headline3"
 										sm-min-width="100%"
+										md-text-align="left"
 									>
 										Sering kehabisan ide membuat konten
 									</Strong>
@@ -1131,6 +1163,7 @@ export default (() => {
 						sm-align-self="flex-start"
 						sm-text-align="left"
 						sm-font="--lead"
+						md-text-align="center"
 					>
 						Mengatur semua pekerjaan social media di kantor secara efektif dan efisien apapun platformnya
 					</Text>
@@ -1157,6 +1190,7 @@ export default (() => {
 					sm-display="flex"
 					sm-flex-direction="column"
 					sm-margin="0px 5px 20px 5px"
+					md-width="80%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1170,7 +1204,7 @@ export default (() => {
 						sm-order="-1"
 						sm-display="inline"
 						md-align-self="center"
-						md-text-align="center"
+						md-text-align="left"
 						md-width="100%"
 					>
 						<Strong
@@ -1191,6 +1225,7 @@ export default (() => {
 							sm-flex-direction="column"
 							width="300px"
 							sm-width="100%"
+							md-width="100%"
 						>
 							<Strong
 								sm-font="--lead"
@@ -1213,6 +1248,7 @@ export default (() => {
 									hyphens="manual"
 									user-select="auto"
 									pointer-events="auto"
+									md-width="100%"
 								>
 									<Strong
 										overflow-wrap="normal"
@@ -1226,6 +1262,7 @@ export default (() => {
 										md-display="inline"
 										width="100%"
 										sm-font="--headline3"
+										md-text-align="left"
 									>
 										Follower social media sulit bertambah
 									</Strong>
@@ -1267,6 +1304,7 @@ export default (() => {
 					lg-padding="50px 15px 35px 15px"
 					sm-align-content="center"
 					sm-justify-content="center"
+					md-width="80%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1280,6 +1318,8 @@ export default (() => {
 						width="300px"
 						sm-width="100%"
 						sm-min-width="100%"
+						md-align-self="flex-start"
+						md-width="100%"
 					>
 						<Strong
 							sm-display="block"
@@ -1297,6 +1337,7 @@ export default (() => {
 							display="flex"
 							width="300px"
 							sm-min-width="100%"
+							md-width="100%"
 						>
 							<Span
 								sm-font="--lead"
@@ -1310,6 +1351,7 @@ export default (() => {
 								pointer-events="auto"
 								width="300px"
 								sm-width="100%"
+								md-width="100%"
 							>
 								<Span
 									sm-font="--lead"
@@ -1371,6 +1413,7 @@ export default (() => {
 				lg-align-self="center"
 				sm-justify-items="center"
 				sm-align-content="center"
+				md-flex-direction="column"
 			>
 				<Box
 					padding="50px 55px 35px 55px"
@@ -1395,6 +1438,7 @@ export default (() => {
 					lg-padding="50px 15px 35px 15px"
 					lg-text-align="left"
 					lg-width="30%"
+					md-width="80%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1412,6 +1456,8 @@ export default (() => {
 						sm-text-align="left"
 						md-align-self="center"
 						sm-min-width="100%"
+						md-width="100%"
+						md-text-align="left"
 					>
 						<Strong
 							sm-display="flex"
@@ -1508,6 +1554,7 @@ export default (() => {
 					sm-justify-content="center"
 					sm-display="flex"
 					sm-flex-direction="column"
+					md-width="80%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1520,7 +1567,7 @@ export default (() => {
 						sm-text-align="left"
 						sm-order="-1"
 						sm-display="inline"
-						md-align-self="center"
+						md-align-self="flex-start"
 						md-text-align="center"
 						md-width="100%"
 						sm-min-width="100%"
@@ -1543,6 +1590,8 @@ export default (() => {
 							sm-flex-direction="column"
 							width="300px"
 							sm-min-width="100%"
+							md-width="100%"
+							md-text-align="left"
 						>
 							<Strong
 								sm-font="--lead"
@@ -1625,6 +1674,7 @@ export default (() => {
 					lg-padding="50px 15px 35px 15px"
 					sm-align-content="center"
 					sm-justify-content="center"
+					md-width="80%"
 				>
 					<Text
 						margin="0px 0px 11px 0px"
@@ -1636,6 +1686,7 @@ export default (() => {
 						sm-text-align="left"
 						sm-align-self="flex-start"
 						sm-min-width="100%"
+						md-width="100%"
 					>
 						<Strong
 							sm-display="block"
@@ -1653,6 +1704,7 @@ export default (() => {
 							display="flex"
 							width="300px"
 							sm-min-width="100%"
+							md-width="100%"
 						>
 							<Span
 								sm-font="--lead"
@@ -1664,6 +1716,7 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
+								md-width="100%"
 							>
 								<Span
 									sm-font="--lead"
@@ -1740,12 +1793,12 @@ export default (() => {
 				sm-align-self="flex-start"
 				sm-flex="0 0 auto"
 				sm-order="-1"
+				md-width="90%"
 			/>
 			<Box
 				width="100%"
 				display="flex"
 				flex-direction="column"
-				md-width="100%"
 				md-align-items="center"
 				md-justify-content="center"
 				md-text-align="center"
@@ -1759,10 +1812,12 @@ export default (() => {
 					margin="0px 0px 0 0px"
 					font="--lead"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--base"
 					sm-text-align="left"
 					sm-margin="0 0px 0 0px"
+					md-align-self="flex-start"
+					md-margin="0px 0px 0 10px"
 				>
 					Benefit
 				</Text>
@@ -1770,7 +1825,7 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--headline2"
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
@@ -1778,6 +1833,8 @@ export default (() => {
 					width="1000px"
 					sm-width="100%"
 					md-width="100%"
+					md-align-self="flex-start"
+					md-margin="0px 10px 16px 10px"
 				>
 					Template Terbaik Untuk Mempercepat Pembuatan Konten Social Media
 				</Text>
@@ -1791,7 +1848,8 @@ export default (() => {
 					sm-font="--lead"
 					width="1000px"
 					sm-width="100%"
-					md-width="80%"
+					md-width="100%"
+					md-text-align="left"
 				>
 					Apakah kamu berpengalaman ataupun baru di bidang social media, template ini akan memudahkan dalam meningkatkan performa social mediamu
 				</Text>
@@ -2349,6 +2407,7 @@ export default (() => {
 					width="100%"
 					text-align="center"
 					sm-width="100%"
+					md-font="--headline3"
 				>
 					Ultimate Daily Life Organizer
 				</Text>
@@ -2577,6 +2636,7 @@ export default (() => {
 					max-width="480px"
 					sm-text-align="left"
 					sm-align-self="flex-start"
+					md-align-self="flex-start"
 				>
 					Features
 				</Text>
@@ -2584,13 +2644,14 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--headline2"
 					text-align="center"
 					sm-align-self="flex-start"
 					sm-text-align="left"
 					width="1000px"
 					sm-width="100%"
+					md-width="100%"
 				>
 					Inilah Yang Akan Anda Dapatkan Dari Social Media Journey
 				</Text>
@@ -2598,13 +2659,14 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					font="--lead"
 					color="--greyD3"
-					md-text-align="center"
+					md-text-align="left"
 					text-align="center"
 					sm-text-align="left"
 					width="1000px"
 					sm-width="100%"
 					sm-font="--lead"
-					md-width="80%"
+					md-width="100%"
+					md-align-self="flex-start"
 				>
 					Berbagai fitur ditambahkan untuk memudahkan dan mempercepat dalam pembuatan konten social media yang berkualitas oleh siapapun
 				</Text>
@@ -2771,7 +2833,17 @@ export default (() => {
 			sm-height="850px"
 			lg-padding="30px 0 80px 0"
 		>
-			<Override slot="SectionContent" align-items="center" sm-display="inline-block" sm-height="750px" />
+			<Override
+				slot="SectionContent"
+				align-items="center"
+				sm-display="inline-block"
+				sm-height="750px"
+				md-flex-direction="column"
+				md-flex-wrap="no-wrap"
+				md-flex="0 1 auto"
+				md-align-self="flex-start"
+				md-display="block"
+			/>
 			<Text
 				margin="0px 0px 0px 0px"
 				font="--lead"
@@ -2863,6 +2935,8 @@ export default (() => {
 				sm-border-style="solid"
 				border-width="2px"
 				border-style="solid"
+				md-width="100%"
+				md-padding="30px 0 30px 0"
 			>
 				<Box
 					min-width="100px"
@@ -2883,7 +2957,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong sm-font="--headline3">
+							<Strong sm-font="--headline3" md-font="--headline3">
 								Social Media Organizer Template
 							</Strong>
 						</Span>
@@ -2928,7 +3002,14 @@ export default (() => {
 							</Strong>
 						</Span>
 					</Text>
-					<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-sansTrebuchet" color="#80868a" text-align="center">
+					<Text
+						margin="0px 0px 20px 0px"
+						font="normal 400 17px/1.5 --fontFamily-sansTrebuchet"
+						color="#80868a"
+						text-align="center"
+						md-font="--headline2"
+						md-color="#000000"
+					>
 						<Span
 							font="--headline2"
 							overflow-wrap="normal"
@@ -2975,6 +3056,7 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 						sm-font="--headline3"
+						md-font="--headline3"
 					>
 						Download Template
 					</Strong>
@@ -3022,15 +3104,16 @@ export default (() => {
 				align-self="center"
 				width="100%"
 				sm-margin="0px 20px 0px 20px"
+				md-width="90%"
 			/>
 			<Box
 				width="1000px"
 				display="flex"
 				flex-direction="column"
-				md-width="80%"
+				md-width="100%"
 				md-align-items="center"
 				md-justify-content="center"
-				md-text-align="center"
+				md-text-align="left"
 				lg-width="100%"
 				align-items="center"
 				justify-content="center"
@@ -3043,9 +3126,10 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					font="--lead"
 					color="--greyD3"
-					md-text-align="center"
+					md-text-align="left"
 					sm-text-align="left"
 					sm-align-self="flex-start"
+					md-align-self="flex-start"
 				>
 					Questions
 				</Text>
@@ -3053,11 +3137,12 @@ export default (() => {
 					margin="0px 0px 16px 0px"
 					font="--headline2"
 					color="--dark"
-					md-text-align="center"
+					md-text-align="left"
 					sm-font="--headline2"
 					sm-align-self="flex-start"
 					sm-text-align="left"
 					sm-margin="0px 0px 15px 0px"
+					md-align-self="flex-start"
 				>
 					Berbagai pertanyaan tentu muncul, ini adalah jawabannya
 				</Text>
@@ -3065,7 +3150,7 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					font="--lead"
 					color="--greyD3"
-					md-text-align="center"
+					md-text-align="left"
 					sm-text-align="left"
 					sm-align-self="flex-start"
 					sm-margin="0px 0px 50px 0px"
@@ -3081,7 +3166,7 @@ export default (() => {
 				sm-margin="-16px -0 -16px 0"
 				width="850px"
 				sm-width="100%"
-				md-width="90%"
+				md-width="100%"
 			>
 				<Box display="flex" flex-direction="column">
 					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
@@ -3130,7 +3215,7 @@ export default (() => {
 										user-select="auto"
 										pointer-events="auto"
 									>
-										<Strong sm-font="--headline3">
+										<Strong sm-font="--headline3" md-font="--headline3">
 											Apakah saya harus mendownload Notion untuk menggunakanannya?
 										</Strong>
 									</Span>
@@ -3149,7 +3234,13 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
+					<Text
+						as="h3"
+						font="--headline3"
+						margin="12px 0 0 0"
+						sm-font="--lead"
+						md-font="--headline3"
+					>
 						<Span
 							sm-font="--lead"
 							overflow-wrap="normal"
@@ -3160,6 +3251,7 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							md-font="--headline3"
 						>
 							<Span
 								overflow-wrap="normal"
@@ -3172,6 +3264,7 @@ export default (() => {
 								pointer-events="auto"
 								font="--headline3"
 								sm-font="--lead"
+								md-font="--headline3"
 							>
 								<Span
 									font="--lead"
@@ -3183,6 +3276,7 @@ export default (() => {
 									hyphens="manual"
 									user-select="auto"
 									pointer-events="auto"
+									md-font="--headline3"
 								>
 									<Span
 										sm-font="--lead"
@@ -3195,9 +3289,19 @@ export default (() => {
 										user-select="auto"
 										pointer-events="auto"
 									>
-										<Strong sm-font="--headline3">
+										<Span
+											sm-font="--headline3"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+											user-select="auto"
+											pointer-events="auto"
+										>
 											Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
-										</Strong>
+										</Span>
 									</Span>
 								</Span>
 							</Span>
@@ -3214,7 +3318,13 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column">
-					<Text as="h3" font="--headline3" margin="12px 0 0 0" sm-font="--lead">
+					<Text
+						as="h3"
+						font="--headline3"
+						margin="12px 0 0 0"
+						sm-font="--lead"
+						md-font="--headline3"
+					>
 						<Span
 							sm-font="--lead"
 							overflow-wrap="normal"
@@ -3225,6 +3335,7 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							md-font="--headline3"
 						>
 							<Span
 								overflow-wrap="normal"
@@ -3237,6 +3348,7 @@ export default (() => {
 								pointer-events="auto"
 								font="--headline3"
 								sm-font="--lead"
+								md-font="--headline3"
 							>
 								<Span
 									font="--lead"
@@ -3248,6 +3360,7 @@ export default (() => {
 									hyphens="manual"
 									user-select="auto"
 									pointer-events="auto"
+									md-font="--headline3"
 								>
 									<Span
 										sm-font="--lead"
@@ -3260,9 +3373,19 @@ export default (() => {
 										user-select="auto"
 										pointer-events="auto"
 									>
-										<Strong sm-font="--headline3">
+										<Span
+											sm-font="--headline3"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+											user-select="auto"
+											pointer-events="auto"
+										>
 											Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
-										</Strong>
+										</Span>
 									</Span>
 								</Span>
 							</Span>
@@ -3324,6 +3447,7 @@ export default (() => {
 						align-self="flex-start"
 						flex="1 1 0%"
 						sm-align-self="center"
+						md-align-self="center"
 					>
 						<Box grid-gap="8px" justify-content="flex-end" display="flex" text-align="right">
 							<Text margin="0px 0px 0px 0px" font="--base" color="--darkL2" sm-font="--lead">
