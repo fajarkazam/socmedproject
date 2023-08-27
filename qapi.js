@@ -44,11 +44,14 @@ export default {
 			"name": "CRM"
 		},
 		"64e81a82098f0700199abf25": {
-			"pageUrl": "socmed1",
+			"pageUrl": "socialmedia",
 			"customCode": {},
 			"seo": {
-				"description": "AB Digital Marketing menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM.",
-				"title": "Social Media Notion Template"
+				"description": "Digital Marketing Journey menyediakan berbagai template notion untuk digital marketing mulai dari social media, SEO, dan CRM.",
+				"title": "Social Media Notion Template",
+				"favicon_32px": "https://uploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03:14:44.296Z",
+				"favicon_apple_152px": "https://uploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03:14:44.296Z",
+				"favicon_win10_270px": "https://uploads.quarkly.io/6461957b820441001fb09aed/images/Screenshot%202023-08-23%20144500.png?v=2023-08-25T03:14:44.296Z"
 			},
 			"id": "64e81a82098f0700199abf25",
 			"name": "Social Media 2"

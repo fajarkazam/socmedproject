@@ -2,7 +2,7 @@ module.exports = [
 	"/index/",
 	"/socmed/",
 	"/socmed11/",
-	"/socmed1/",
+	"/socialmedia/",
 	"/404/",
 	"/",
 	"/404.html"

@@ -7,7 +7,7 @@ const pageStyles = {
     "index": {},
     "socmed": {},
     "socmed11": {},
-    "socmed1": {}
+    "socialmedia": {}
 };
 
 const PageStyles = createGlobalStyle`
