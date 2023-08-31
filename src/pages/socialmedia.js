@@ -251,8 +251,11 @@ export default (() => {
 				sm-position="static"
 				sm-max-width="fit-content"
 				sm-min-width="fit-content"
-				md-width="100%"
-				md-min-height="400px"
+				md-width="max-content"
+				md-min-height="600px"
+				md-display="block"
+				md-overflow-x="visible"
+				md-align-self="center"
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Section>
@@ -2610,6 +2613,373 @@ export default (() => {
 		</Section>
 		<Section
 			padding="80px 0 80px 0"
+			quarkly-title="Reviews 2"
+			sm-padding="25px 0 25px 0"
+			sm-flex-direction="row"
+			sm-justify-content="flex-start"
+			sm-margin="50px 0 0 0"
+		>
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				width="100%"
+				display="flex"
+				flex-direction="column"
+				md-width="100%"
+				md-align-items="center"
+				md-justify-content="center"
+				md-text-align="center"
+				lg-width="100%"
+				align-items="center"
+				align-content="center"
+			>
+				<Text
+					margin="0px 0px 0 0px"
+					font="--lead"
+					color="--dark"
+					md-text-align="left"
+					sm-font="--base"
+					sm-width="100%"
+					sm-align-self="flex-start"
+					sm-text-align="left"
+					sm-margin="0px 0px 0 0px"
+					md-align-self="flex-start"
+				>
+					Review
+				</Text>
+				<Text
+					margin="0px 0px 16px 0px"
+					font="--headline2"
+					color="--dark"
+					md-text-align="left"
+					sm-font="--headline2"
+					sm-width="100%"
+					sm-align-self="flex-start"
+					sm-text-align="left"
+					sm-margin="0px 0px 15px 0px"
+					align-self="center"
+					width="850px"
+					text-align="center"
+					md-width="100%"
+				>
+					Membantu Banyak Orang Sukses di Social Media
+				</Text>
+				<Text
+					margin="0px 0px 70px 0px"
+					text-align="center"
+					font="--lead"
+					color="--dark"
+					sm-margin="0px 0px 50px 0px"
+					sm-text-align="left"
+					sm-font="--lead"
+					sm-color="--dark"
+					width="800px"
+					sm-width="100%"
+					md-width="100%"
+					md-align-self="flex-start"
+					md-text-align="left"
+				>
+					Mulai dari Social Media Specialist hingga Online Shop Owner telah mencoba dan membuktikan berbagai manfaat dan fitur terbaik di dalamnya
+				</Text>
+			</Box>
+			<Box
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="16px"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Benar-benar sederhana sih, cuma butuh waktu 1 hari untuk mulai memaksimalkan dan mengatur sesuai pekerjaan saya"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Andika S. Bimantara
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Sekarang sudah lebih mudah sih untuk mengatur pekerjaan yang datang ke saya khususnya jadwal endorse yang sering menumpuk. Boleh dong sombong ya hahaha"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Tika
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Content Creator
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Ternyata mengatur jadwal posting di social media bisa semudah itu ya. Ga perlu lagi bingung catat jadwal dan isi posting di social media lagi setiap minggunya. The best lah!"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Adriana
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Online Shop Owner
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Kemarin beli masih 99 ribu sekarang turun ternyata harganya. Sediihh :( Tapi worth it banget sih buat handle jadwal posting di social media. Fitur Content Pipeline sih oke beneran buat isi konten kita. Thankss yaa"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Karina
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Content Creator
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20:05:47.446Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/favourite-31.png?v=2021-08-30T20%3A05%3A47.446Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Organizer yang wajib dimiliki sih buat yang kerjaan sehari-harinya di dunia social media. Udah coba aja dulu. TOP!"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Mario K.
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					padding="50px 55px 50px 55px"
+					sm-padding="55px 40px 50px 55px"
+					border-width="1px"
+					border-style="solid"
+					border-radius="24px"
+					border-color="--color-lightD2"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+				>
+					<Image src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20:09:22.144Z" margin="0px 0px 33px 0px" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/startfavorite.png?v=2021-08-30T20%3A09%3A22.144Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Text
+						margin="0px 0px 35px 0px"
+						color="--dark"
+						font="--lead"
+						lg-margin="0px 0px 50px 0px"
+						sm-margin="0px 0px 30px 0px"
+						flex="1 0 auto"
+						sm-font="--lead"
+					>
+						"Udah pernah coba sih social media organizer di tempat lainnya. Cuma ga tau kenapa ini udah paling cocok aja sih buat dipake. Kalo organizer lainnya keluar juga kabarin ya :):)"
+					</Text>
+					<Box display="flex" margin="0px 17px 0px 0px" align-items="flex-start" flex-direction="column">
+						<Box>
+							<Text
+								color="--dark"
+								font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+								margin="0px 0px 2px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								<Strong>
+									Bima A.
+								</Strong>
+							</Text>
+							<Text
+								color="--greyD1"
+								font="--base"
+								margin="0px 0px 0px 0px"
+								sm-font="--lead"
+								md-font="--lead"
+							>
+								Social Media Specialist
+							</Text>
+						</Box>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0 80px 0"
 			sm-padding="60px 0 60px 0"
 			sm-background="--color-light"
 			background="#ffffff"
@@ -2957,7 +3327,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong sm-font="--headline3" md-font="--headline3">
+							<Strong sm-font="--headline3" md-font="--headline3" font="--headline3">
 								Social Media Organizer Template
 							</Strong>
 						</Span>
@@ -2994,24 +3364,24 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
-								font="--headline3"
+								font="--headline2"
 								color="--red"
 								text-decoration-line="line-through"
 							>
-								Rp 99 ribu
+								Rp 219 ribu
 							</Strong>
 						</Span>
 					</Text>
 					<Text
 						margin="0px 0px 20px 0px"
-						font="normal 400 17px/1.5 --fontFamily-sansTrebuchet"
-						color="#80868a"
+						font="--headline3"
+						color="#000000"
 						text-align="center"
 						md-font="--headline2"
 						md-color="#000000"
 					>
 						<Span
-							font="--headline2"
+							font="--headline3"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -3022,7 +3392,7 @@ export default (() => {
 							pointer-events="auto"
 							color="--darkL1"
 						>
-							Rp 79
+							Rp 147{" "}
 						</Span>
 						ribu
 					</Text>
@@ -3057,8 +3427,9 @@ export default (() => {
 						pointer-events="auto"
 						sm-font="--headline3"
 						md-font="--headline3"
+						font="--headline3"
 					>
-						Download Template
+						Download Social Media Journal
 					</Strong>
 				</Link>
 				<Text
@@ -3300,7 +3671,9 @@ export default (() => {
 											user-select="auto"
 											pointer-events="auto"
 										>
-											Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+											<Strong>
+												Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+											</Strong>
 										</Span>
 									</Span>
 								</Span>
@@ -3384,7 +3757,9 @@ export default (() => {
 											user-select="auto"
 											pointer-events="auto"
 										>
-											Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+											<Strong>
+												Saya belum punya banyak pengalaman di social media, apakah saya bisa mengerti template ini?
+											</Strong>
 										</Span>
 									</Span>
 								</Span>
