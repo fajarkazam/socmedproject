@@ -540,33 +540,6 @@ export default (() => {
 						</Text>
 					</Box>
 				</List>
-				<Text
-					as="p"
-					margin="40px 0 0 0"
-					font="--lead"
-					font-size="20px"
-					font-weight="300"
-					color="--darkL2"
-					width="100%"
-					md-width="100%"
-					md-margin="0px 0px 0px 0px"
-					md-padding="0px 0px 0px 0px"
-					sm-font="--lead"
-				>
-					Tapi bagaimana caranya untuk memproduksi konten social media agar terjadwal dengan baik dan memiliki isi konten yang baik? Untuk itulah dibutuhkan{" "}
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Social Media Organizer Journal
-					</Strong>
-				</Text>
 			</Box>
 			<Box
 				display="flex"
@@ -590,6 +563,33 @@ export default (() => {
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
+			<Text
+				as="p"
+				margin="40px 0 0 0"
+				font="--lead"
+				font-size="20px"
+				font-weight="300"
+				color="--darkL2"
+				width="100%"
+				md-width="100%"
+				md-margin="0px 0px 0px 0px"
+				md-padding="0px 0px 0px 0px"
+				sm-font="--lead"
+			>
+				Tapi bagaimana caranya untuk memproduksi konten social media agar terjadwal dengan baik dan memiliki isi konten yang baik? Untuk itulah dibutuhkan{" "}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Social Media Organizer Journal
+				</Strong>
+			</Text>
 		</Section>
 		<Section
 			padding="80px 0 80px 0"
@@ -3353,7 +3353,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Strong
+							<Span
 								sm-font="700 20px/69px &quot;Segoe UI&quot;, Candara, &quot;Bitstream Vera Sans&quot;, &quot;DejaVu Sans&quot;, &quot;Trebuchet MS&quot;, Verdana, &quot;Verdana Ref&quot;, sans-serif"
 								sm-color="#ff0000"
 								overflow-wrap="normal"
@@ -3369,7 +3369,7 @@ export default (() => {
 								text-decoration-line="line-through"
 							>
 								Rp 219 ribu
-							</Strong>
+							</Span>
 						</Span>
 					</Text>
 					<Text
